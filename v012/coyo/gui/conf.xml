@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    EuroMedia-Service GmbH
+    Willi-Bleicher-Str. 35
+    52353 Dueren
+-->
+<!--
+-->
+
+<conf>
+
+    <!-- Colour states -->
+    <!-- 
+    	green: 00FF00
+    	yellow: FFFF00
+    	orange: CC00CC
+    	magenta: FF00FF
+    	red: FF0000
+    	dark red: 800000
+    	cyan: 00FFFF
+    -->
+    	
+    <state id="5" color="00FF00" /> <!-- clear, ok, not defined: green, default green -->
+    <state id="4" color="00FFFF" /> <!-- warning: yellow, default blue -->
+    <state id="3" color="FFFF00" /> <!-- minor: yellow, default yellow -->
+    <state id="2" color="FFA500" /> <!-- critical: red, default purple -->
+    <state id="1" color="FF0000" /> <!-- major: orange, default red -->
+    <state id="0" color="800000" /> <!-- not visible: dunkel rot, default: cyan -->
+
+	
+    <!-- main menu -->
+    <menu special="mainmenu">
+		<menu label="File" >
+			<item sys="other" label="Exit" action="exit" />
+			<item label="google.com" action="de.euromedia_service.coyonet.browse" arg.cmd="http://google.de" >
+				<access allow="english" />
+			</item>
+			<item label="google.de" action="de.euromedia_service.coyonet.browse" arg.cmd="http://google.de" >
+				<access allow="german" />
+			</item>			
+		</menu>
+		
+        <menu label="Maps" >
+           
+        </menu>
+        
+		<menu label="Messages">
+			<item label="All Messages"        action="de.euromedia_service.coyonet.openmsgviewer" />
+			<item label="All Active Messages" action="de.euromedia_service.coyonet.openmsgviewer" 
+                                              arg.msgPending="1" />
+		</menu>
+        <menu label="Help">  
+            <item sys="other" label="Info" action="about" />  
+        </menu>
+	</menu>
+	
+    <!-- tray menu -->
+    <menu special="traymenu">
+		<item label="Show" action="show" />
+		<item label="Exit" action="exit" />
+	</menu>
+	
+	<menu special="treemenu">
+        <item label="Expand all" action="expand" />
+        <item label="Collapse all" action="collapse" />
+        <separator />
+        <item label="Open Map Window" action="map" />
+    </menu>
+    
+    
+    <!--Client Plugins -->
+    <client-plugin name="Base" /> 
+    <client-plugin name="Signal" />
+    <client-plugin name="Path2"  />
+
+    
+    
+    <!--Event Listener     -->
+    <event-listener id="msgeventhandler" path="addon/msgeventhandler.jar" />
+	
+	<!-- Maps -->
+	<map name="teletrend_test" >
+		<access allow="admin" />
+		<access deny="user" />
+	</map>
+
+    
+    
+	
+    
+</conf>

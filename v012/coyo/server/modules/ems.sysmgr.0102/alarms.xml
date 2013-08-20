@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alarms >
+
+  <!--
+  Not pending events
+  -->
+
+
+  <!--
+  Discrete Property Alarms<
+  -->
+
+  <!--
+  Standard alarms
+  -->
+
+    <discret-alarm id="state" >
+        <unequal value="5" enabled="1" notification-id="1" clear-notification-id="2" debounce="0" clear-debounce="0" />
+    </discret-alarm>
+
+
+</alarms>

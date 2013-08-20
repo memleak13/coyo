@@ -1,0 +1,1485 @@
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+
+
+<xsl:include href="root.xsl" />
+
+<xsl:template match="start" mode="body">
+	<h2>Main Menu</h2>
+    <ul>
+        <li> <a href="/config/operator">Pending Entries</a> </li>
+        <li> <a href="/config/history">History</a> </li>
+        <li> <a href="/config/configuration">Configure Backup</a> </li>
+        <li> <a href="/config/sla">SLA Configuration</a> </li>
+	</ul>
+</xsl:template>
+
+
+<xsl:template match="operator-list" mode="body">
+    <h2>Backup Requests</h2>
+	<table>
+		<tr>
+			<th> ID </th>
+			<th> Date </th>
+			<th> Description </th>
+			<th> State </th>
+			<th />
+		</tr>
+		<xsl:for-each select="operator[@pending=1]">
+			<tr>
+				<td> <xsl:value-of select="@id" /> </td>
+				<td> <xsl:value-of select="@date" /> </td>
+				<td> <xsl:value-of select="@text" /> </td>
+				<td> 
+					<xsl:choose>
+						<xsl:when test="@state = 1">
+							critical
+						</xsl:when>
+						<xsl:when test="@state = 2">
+							major
+						</xsl:when>
+						<xsl:when test="@state = 3">
+							minor
+						</xsl:when>
+						<xsl:when test="@state = 4">
+							warning
+						</xsl:when>
+						<xsl:when test="@state = 5">
+							cleared
+						</xsl:when>
+						<xsl:when test="@state = 6">
+							information
+						</xsl:when>
+					</xsl:choose>
+				</td>
+				<td>
+					<form>
+						<input type="button" value="Accept" onclick="ajaxTrigger('/config/operator/{@id}/accept')" />
+						<input type="button" value="Decline" onclick="ajaxTrigger('/config/operator/{@id}/decline')" />
+					</form>						
+				</td>
+			</tr>
+		</xsl:for-each>
+		<xsl:if test="count(operator[@pending=1])=0">
+			<tr>
+				<td colspan="5"> <i> empty </i> </td>
+			</tr>
+		</xsl:if>
+	</table>
+	
+    <h2>Notifications</h2>
+	<table>
+		<tr>
+			<th> ID </th>
+			<th> Date </th>
+			<th> Description </th>
+			<th> State </th>
+			<th />
+		</tr>
+		<xsl:for-each select="operator[@pending=2]">
+			<tr>
+				<td> <xsl:value-of select="@id" /> </td>
+				<td> <xsl:value-of select="@date" /> </td>
+				<td> <xsl:value-of select="@text" /> </td>
+				<td> 
+					<xsl:choose>
+						<xsl:when test="@state = 1">
+							critical
+						</xsl:when>
+						<xsl:when test="@state = 2">
+							major
+						</xsl:when>
+						<xsl:when test="@state = 3">
+							minor
+						</xsl:when>
+						<xsl:when test="@state = 4">
+							warning
+						</xsl:when>
+						<xsl:when test="@state = 5">
+							cleared
+						</xsl:when>
+						<xsl:when test="@state = 6">
+							information
+						</xsl:when>
+					</xsl:choose>
+				</td>
+				<td>
+					<form>
+						<input type="button" value="Acknowledge" onclick="ajaxTrigger('/config/operator/{@id}/acknowledge')" />
+					</form>						
+				</td>
+			</tr>
+		</xsl:for-each>
+		<xsl:if test="count(operator[@pending=2])=0">
+			<tr>
+				<td colspan="5"> <i> empty </i> </td>
+			</tr>
+		</xsl:if>
+	</table>
+	<form>
+		<input type="button" value="  History  " onclick="window.location.href='/config/history'" />
+	</form>
+</xsl:template>
+
+<xsl:template match="history-list" mode="body">
+    <h2>History</h2>
+	<table>
+		<tr>
+			<th> ID </th>
+			<th> Date </th>
+			<th> Description </th>
+			<th> State </th>
+			<th />
+		</tr>
+		<xsl:for-each select="history[@pending=0]">
+			<tr>
+				<td> <xsl:value-of select="@id" /> </td>
+				<td> <xsl:value-of select="@date" /> </td>
+				<td> <xsl:value-of select="@text" /> </td>
+				<td> 
+					<xsl:choose>
+						<xsl:when test="@state = 1">
+							critical
+						</xsl:when>
+						<xsl:when test="@state = 2">
+							major
+						</xsl:when>
+						<xsl:when test="@state = 3">
+							minor
+						</xsl:when>
+						<xsl:when test="@state = 4">
+							warning
+						</xsl:when>
+						<xsl:when test="@state = 5">
+							cleared
+						</xsl:when>
+						<xsl:when test="@state = 6">
+							information
+						</xsl:when>
+					</xsl:choose>
+				</td>
+				<td>
+					<form>
+						<input type="button" value="Delete" onclick="ajaxDelete('/config/history/{@id}', 'id {@id}')" />
+					</form>						
+				</td>
+			</tr>
+		</xsl:for-each>
+		<xsl:if test="count(history)=0">
+			<tr>
+				<td colspan="5"> <i> empty </i> </td>
+			</tr>
+		</xsl:if>
+	</table>
+	
+	<form>
+		<input type="button" value="  Pending Entries  " onclick="window.location.href='/config/operator'" />
+		<input type="button" value="Clear History" onclick="ajaxDelete('/config/history', 'complete history')" />
+	</form>
+</xsl:template>
+
+<xsl:template match="configuration-list" mode="body">
+    <h2>Backup Configurations</h2>
+    <a href="javascript:history.go(-1);"> Back </a>
+	<table>
+		<tr>
+			<th colspan="4"> Input </th>
+			<th colspan="3"> Output </th>
+			<th colspan="2"> In Backup </th>
+			<th colspan="8"> Configuration </th>
+			<th colspan="2"> Raw Data </th>
+		</tr>
+		<tr>
+			<th> Chassis </th>
+			<th> Slot </th>
+			<th> Port </th>
+			<th> LBand </th>
+			<th> Slot </th>
+			<th> Port </th>
+			<th> Multicast </th>
+			<th> Input </th>
+			<th> Output </th>
+			<th colspan="2"> Priority </th>
+			<th colspan="2"> Backup Order </th>
+			<th colspan="2"> Fixed Input </th>
+			<th colspan="2"> Fixed Output </th>
+			<th colspan="2" />
+		</tr>
+		<xsl:for-each select="configuration">
+			<tr>
+				<td> <a href="/config/configuration/{@chassis}"><xsl:value-of select="@chassis" /></a> </td>
+				<td> <a href="/config/configuration/{@chassis}/{@slot}"><xsl:value-of select="@slot" /></a> </td>
+				<td> <a href="/config/configuration/{@chassis}/{@slot}/{@port}"><xsl:value-of select="@port" /></a> </td>
+				<td> 
+					<xsl:choose>
+						<xsl:when test="boolean(@lband)">
+							<xsl:value-of select="@lband" />
+						</xsl:when>
+						<xsl:otherwise>
+							IP or ASI Input
+						</xsl:otherwise>
+					</xsl:choose>
+				</td>
+				<td> <xsl:value-of select="@outslot" /> </td>
+				<td> <xsl:value-of select="@outport" /> </td>
+				<td> <xsl:value-of select="@multicast" />:<xsl:value-of select="@multicastport" /> </td>
+				
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@in_bu_chassis)">
+						Ch: <xsl:value-of select="@in_bu_chassis" /> - S: <xsl:value-of select="@in_bu_slot" /> - P: Ch: <xsl:value-of select="@in_bu_port" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@out_bu_chassis)">
+						Ch: <xsl:value-of select="@out_bu_chassis" /> - S: <xsl:value-of select="@out_bu_slot" /> - P: Ch: <xsl:value-of select="@out_bu_port" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td> <xsl:value-of select="@priority" /> </td>
+				<td>
+					<form>
+						<input type="button" value="Change" onclick="window.location.href='/config/priority/{@chassis}/{@slot}/{@port}/{@butype}/{@outslot}/{@outport}'" />
+					</form>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="@butype > 0">
+						<a href="/config/configuration/{@chassis}/{@slot}/{@port}/{@butype}"><xsl:value-of select="@butype" /></a>
+					</xsl:when>
+					<xsl:otherwise>
+						<a href="/config/configuration/{@chassis}/{@slot}/{@port}/{@butype}">not used</a>
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+					<form>
+						<input type="button" value="Configure" onclick="window.location.href='/config/backup/{@chassis}/{@slot}/{@port}/{@butype}/{@outslot}/{@outport}/configure'" />
+					</form>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@targetslot)">
+						Ch: <xsl:value-of select="@targetchassis" /> - S: <xsl:value-of select="@targetslot" /> - P: Ch: <xsl:value-of select="@targetport" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+					<form>
+						 <xsl:choose>
+							<xsl:when test="boolean(@targetslot)">
+								<input type="button" value="Delete" onclick="window.location.href='/config/target/{@chassis}/{@slot}/{@port}/{@butype}/delete'" />
+							</xsl:when>
+							<xsl:otherwise>
+								<input type="button" value="Add" onclick="window.location.href='/config/target/{@chassis}/{@slot}/{@port}/{@butype}/add'" />
+							</xsl:otherwise>
+						  </xsl:choose>
+					</form>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@targetoutslot)">
+						Ch: <xsl:value-of select="@targetchassis" /> - S: <xsl:value-of select="@targetoutslot" /> - P: Ch: <xsl:value-of select="@targetoutport" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+					<form>
+						 <xsl:choose>
+							<xsl:when test="boolean(@targetoutslot)">
+								<input type="button" value="Delete" onclick="window.location.href='/config/target/{@chassis}/{@slot}/{@port}/{@butype}/{@outslot}/{@outport}/delete'" />
+							</xsl:when>
+							<xsl:otherwise>
+								<input type="button" value="Add" onclick="window.location.href='/config/target/{@chassis}/{@slot}/{@port}/{@butype}/{@outslot}/{@outport}/add'" />
+							</xsl:otherwise>
+						  </xsl:choose>
+					</form>
+				</td>
+				<td>
+					<form>
+						<input type="button" value="  Edit  " onclick="window.location.href='/config/configuration/{@chassis}/{@slot}/{@port}/{@butype}/{@outslot}/{@outport}'" />
+					</form>
+				</td>
+				<td>
+					<xsl:if test="@butype > 1">
+						<form>
+							<input type="button" value="  Delete  " onclick="window.location.href='/config/backup/{@chassis}/{@slot}/{@port}/{@butype}/{@outslot}/{@outport}/delete'" />
+						</form>
+					</xsl:if>
+				</td>
+			</tr>
+		</xsl:for-each>
+		<xsl:if test="count(configuration)=0">
+			<tr>
+				<td colspan="19"> <i> empty </i> </td>
+			</tr>
+		</xsl:if>
+	</table>
+</xsl:template>
+
+<xsl:template match="configuration" mode="body">
+    <h2>TS <xsl:value-of select="@multicast" />:<xsl:value-of select="@multicastport" /></h2>
+	<form id="input">
+		<table>
+			<tr>
+				<th colspan="2" title="This is the Configuration used to execute a Backup."> Backup Configuration </th>
+				<th colspan="2" title="This is used to specify a fixed Position where the Backup will be created."> Fixed Target </th>
+			</tr>
+			<tr>
+				<th title="USIN002/S006_AppearTV_SC2000_??"> Chassis </th>
+				<td title="USIN002/S006_AppearTV_SC2000_??"> <xsl:value-of select="@chassis" /> </td>
+				<th title="USIN002/S006_AppearTV_SC2000_??"> Fixed Target Chassis </th>
+				<td title="USIN002/S006_AppearTV_SC2000_??"> <xsl:value-of select="@targetchassis" /> </td>
+			</tr>
+			<tr>
+				<th title="Valid: 1 - 16. See AppearTV Web Interface"> Input Slot </th>
+				<td title="Valid: 1 - 16. See AppearTV Web Interface"> <xsl:value-of select="@slot" /> </td>
+				<th title="Valid: 1 - 16. See AppearTV Web Interface"> Fixed Target Input Slot </th>
+				<td title="Valid: 1 - 16. See AppearTV Web Interface"> <xsl:value-of select="@targetslot" /> </td>
+			</tr>
+			<tr>
+				<th title="Valid: DVB-S: 0 - 3, ASI: 0 - 2, IP: 0 - 249"> Input Port </th>
+				<td title="Valid: DVB-S: 0 - 3, ASI: 0 - 2, IP: 0 - 249"> <xsl:value-of select="@port" /> </td>
+				<th title="Valid: DVB-S: 0 - 3, ASI: 0 - 2, IP: 0 - 249"> Fixed Target Input Port </th>
+				<td title="Valid: DVB-S: 0 - 3, ASI: 0 - 2, IP: 0 - 249"> <xsl:value-of select="@targetport" /> </td>
+			</tr>
+			<tr>
+				<th title="LBand Matrix Input saved for this Port"> LBand </th>
+				<td title="LBand Matrix Input saved for this Port"> 
+					<xsl:choose>
+						<xsl:when test="boolean(@lband)">
+							<xsl:value-of select="@lband" />
+						</xsl:when>
+						<xsl:otherwise>
+							IP or ASI Input
+						</xsl:otherwise>
+					</xsl:choose> 
+				</td>
+				<th></th>
+				<td></td>
+			</tr>
+			<tr>
+				<th title="0 for no Backup, 1 for Backup with same Input-Type (DVB-S --> DVB-S), 2,3,4... for alternative Backup Configurations"> Backup Order </th>
+				<td title="0 for no Backup, 1 for Backup with same Input-Type (DVB-S --> DVB-S), 2,3,4... for alternative Backup Configurations"> <xsl:value-of select="@butype" /> </td>
+				<th></th>
+				<td></td>
+			</tr>
+			<tr>
+				<th title="The Priority of the Backup. Valid: 1 - 9. If multiple Backups are to be created at once (Chassis Backup for example), the Creation will be sorted by Backup Priority"> Backup Priority </th>
+				<td title="The Priority of the Backup. Valid: 1 - 9. If multiple Backups are to be created at once (Chassis Backup for example), the Creation will be sorted by Backup Priority"> <xsl:value-of select="@priority" /> </td>
+				<th></th>
+				<td></td>
+			</tr>
+			<tr>
+				<th title="Valid: 0 or 17. See AppearTV Web Interface"> Output Slot </th>
+				<td title="Valid: 0 or 17. See AppearTV Web Interface"> <input type="text" name="outslot" value="{@outslot}" /> </td>
+				<th title="Valid: 0 or 17. See AppearTV Web Interface"> Fixed Target Output Slot </th>
+				<td title="Valid: 0 or 17. See AppearTV Web Interface"> <xsl:value-of select="@targetoutslot" /> </td>
+			</tr>
+			<tr>
+				<th title="Valid: 0-249 for physical Port A and 1000-1249 for physical Port B"> Output Port </th>
+				<td title="Valid: 0-249 for physical Port A and 1000-1249 for physical Port B"> <input type="text" name="outport" value="{@outport}" /> </td>
+				<th title="Valid: 0-249 for physical Port A and 1000-1249 for physical Port B"> Fixed Target Output Port </th>
+				<td title="Valid: 0-249 for physical Port A and 1000-1249 for physical Port B"> <xsl:value-of select="@targetoutport" /> </td>
+			</tr>
+			<tr>
+				<th title="Please confirm that you want to change the Output"> <input type="checkbox" name="moveoutputconfirm" value="yes" /> </th>
+				<td title="Please confirm that you want to change the Output" colspan="3"> Change the Output Location Configuration. </td>
+			</tr>
+			<tr>
+				<th title="See Header Mouseovers for Descriptions" colspan="4"> AppearTV Configuration. <b>Do not edit unless you know what you are doing!</b> </th>
+			</tr>
+			<tr>
+				<th title="Configuration XML for the Input"> Input Configuration </th>
+				<td title="Configuration XML for the Input" colspan="3"> <textarea name="input" title="Configuration XML for the Input" cols="99" rows="6"><xsl:value-of select="@input" /></textarea> </td>
+			</tr>
+			<tr>
+				<th title="Configuration XML for the Output Port"> Output Configuration </th>
+				<td title="Configuration XML for the Output Port" colspan="3"> <textarea name="output" title="Configuration XML for the Output Port" cols="99" rows="6"><xsl:value-of select="@output" /></textarea> </td>
+			</tr>
+			<tr>
+				<th title="Configuration XML for Mapping a Transport to the Output Port. This decides between transparent and SPTS"> Transport Configuration </th>
+				<td title="Configuration XML for Mapping a Transport to the Output Port. This decides between transparent and SPTS" colspan="3"> <textarea name="transport" title="Configuration XML for Mapping a Transport to the Output Port. This decides between transparent and SPTS" cols="99" rows="6"><xsl:value-of select="@transport" /></textarea> </td>
+			</tr>
+			<tr>
+				<th title="Configuration XML for Mapping a Service to the Transport and Output Port. This adds Services to the SPTS. Unused for transparent TS"> Service Configuration </th>
+				<td title="Configuration XML for Mapping a Service to the Transport and Output Port. This adds Services to the SPTS. Unused for transparent TS" colspan="3"> <textarea name="service" title="Configuration XML for Mapping a Service to the Transport and Output Port. This adds Services to the SPTS. Unused for transparent TS" cols="99" rows="6"><xsl:value-of select="@service" /></textarea> </td>
+			</tr>
+			<tr>
+				<th title="Please confirm that you know what you are doing"> <input type="checkbox" name="appeartvconfirm" value="yes" /> </th>
+				<td title="Please confirm that you know what you are doing" colspan="3"> I have changed the AppearTV Configuration and confirm that I know what I am doing. </td>
+			</tr>
+			<tr>
+				<td colspan="4">
+					<input id="ajaxUpdateButton" type="button" value="Apply" onclick="ajaxUpdate('/config/configuration/{@chassis}/{@slot}/{@port}/{@butype}/{@outslot}/{@outport}', 'input', '/config/configuration')" />
+					<input type="button" value="Cancel" onclick="window.location.href='/config/configuration'" />
+				</td>
+			</tr>
+		</table>
+	</form>
+	<p>
+		<span id="ajaxUpdateError" class="ajaxHidden"> cannot save </span>
+		<span id="ajaxUpdateSpinner" class="ajaxHidden"> saving&#x2026; please wait </span>
+	</p>
+</xsl:template>
+
+<xsl:template match="priority-list" mode="body">
+    <h2>Priority Configuration</h2>
+    <a href="javascript:history.go(-1);"> Back </a>
+    
+	<form id="input">
+		<table>
+			<tr>
+				<th> Priority </th>
+				<td> 
+					<select name="priority">
+						<xsl:choose><xsl:when test="priority[1]/@curprio = 1"><option value="1" selected="selected">1</option></xsl:when><xsl:otherwise><option value="1">1</option></xsl:otherwise></xsl:choose>
+						<xsl:choose><xsl:when test="priority[1]/@curprio = 2"><option value="2" selected="selected">2</option></xsl:when><xsl:otherwise><option value="2">2</option></xsl:otherwise></xsl:choose>
+						<xsl:choose><xsl:when test="priority[1]/@curprio = 3"><option value="3" selected="selected">3</option></xsl:when><xsl:otherwise><option value="3">3</option></xsl:otherwise></xsl:choose>
+						<xsl:choose><xsl:when test="priority[1]/@curprio = 4"><option value="4" selected="selected">4</option></xsl:when><xsl:otherwise><option value="4">4</option></xsl:otherwise></xsl:choose>
+						<xsl:choose><xsl:when test="priority[1]/@curprio = 5"><option value="5" selected="selected">5</option></xsl:when><xsl:otherwise><option value="5">5</option></xsl:otherwise></xsl:choose>
+						<xsl:choose><xsl:when test="priority[1]/@curprio = 6"><option value="6" selected="selected">6</option></xsl:when><xsl:otherwise><option value="6">6</option></xsl:otherwise></xsl:choose>
+						<xsl:choose><xsl:when test="priority[1]/@curprio = 7"><option value="7" selected="selected">7</option></xsl:when><xsl:otherwise><option value="7">7</option></xsl:otherwise></xsl:choose>
+						<xsl:choose><xsl:when test="priority[1]/@curprio = 8"><option value="8" selected="selected">8</option></xsl:when><xsl:otherwise><option value="8">8</option></xsl:otherwise></xsl:choose>
+						<xsl:choose><xsl:when test="priority[1]/@curprio = 9"><option value="9" selected="selected">9</option></xsl:when><xsl:otherwise><option value="9">9</option></xsl:otherwise></xsl:choose>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th> Update </th>
+				<td> <input type="checkbox" name="updateall" value="yes" /> Update all related Configurations as well </td>
+			</tr>
+			<tr>
+				<td colspan="4">
+					<input id="ajaxUpdateButton" type="button" value="Apply" onclick="ajaxUpdate('/config{@path}', 'input', '/config/configuration')" />
+					<input type="button" value="Cancel" onclick="window.location.href='/config/configuration'" />
+				</td>
+			</tr>
+		</table>
+	</form>
+
+    <h2>Related Configurations</h2>
+	<table>
+		<tr>
+			<th colspan="4"> Input </th>
+			<th colspan="3"> Output </th>
+			<th colspan="2"> In Backup </th>
+			<th colspan="4"> Configuration </th>
+		</tr>
+		<tr>
+			<th> Chassis </th>
+			<th> Slot </th>
+			<th> Port </th>
+			<th> LBand </th>
+			<th> Slot </th>
+			<th> Port </th>
+			<th> Multicast </th>
+			<th> Input </th>
+			<th> Output </th>
+			<th> Priority </th>
+			<th> Backup Order </th>
+			<th> Fixed Input </th>
+			<th> Fixed Output </th>
+		</tr>
+		<xsl:for-each select="priority">
+			<tr>
+				<td> <xsl:value-of select="@chassis" /> </td>
+				<td> <xsl:value-of select="@slot" /> </td>
+				<td> <xsl:value-of select="@port" /> </td>
+				<td> 
+					<xsl:choose>
+						<xsl:when test="boolean(@lband)">
+							<xsl:value-of select="@lband" />
+						</xsl:when>
+						<xsl:otherwise>
+							IP or ASI Input
+						</xsl:otherwise>
+					</xsl:choose>
+				</td>
+				<td> <xsl:value-of select="@outslot" /> </td>
+				<td> <xsl:value-of select="@outport" /> </td>
+				<td> <xsl:value-of select="@multicast" />:<xsl:value-of select="@multicastport" /> </td>
+				
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@in_bu_chassis)">
+						Ch: <xsl:value-of select="@in_bu_chassis" /> - S: <xsl:value-of select="@in_bu_slot" /> - P: Ch: <xsl:value-of select="@in_bu_port" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@out_bu_chassis)">
+						Ch: <xsl:value-of select="@out_bu_chassis" /> - S: <xsl:value-of select="@out_bu_slot" /> - P: Ch: <xsl:value-of select="@out_bu_port" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td> <xsl:value-of select="@priority" /> </td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="@butype > 0">
+						<xsl:value-of select="@butype" />
+					</xsl:when>
+					<xsl:otherwise>
+						not used
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@targetslot)">
+						Ch: <xsl:value-of select="@targetchassis" /> - S: <xsl:value-of select="@targetslot" /> - P: Ch: <xsl:value-of select="@targetport" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@targetoutslot)">
+						Ch: <xsl:value-of select="@targetchassis" /> - S: <xsl:value-of select="@targetoutslot" /> - P: Ch: <xsl:value-of select="@targetoutport" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+			</tr>
+		</xsl:for-each>
+		<xsl:if test="count(priority)=0">
+			<tr>
+				<td colspan="13"> <i> empty </i> </td>
+			</tr>
+		</xsl:if>
+	</table>
+	<p>
+		<span id="ajaxUpdateError" class="ajaxHidden"> cannot save </span>
+		<span id="ajaxUpdateSpinner" class="ajaxHidden"> saving&#x2026; please wait </span>
+	</p>
+</xsl:template>
+
+<xsl:template match="delete-list" mode="body">
+    <h2>Delete Additional Backup Configuration</h2>
+    <a href="javascript:history.go(-1);"> Back </a>
+    
+    <h2>Please confirm that you really want to delete the Backup Configuration</h2>
+	<form id="input">
+		<table>
+			<tr>
+				<th> Delete </th>
+				<td> <input type="checkbox" name="deleteall" value="yes" /> Delete all related Configurations as well </td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input id="ajaxUpdateButton" type="button" value="Apply" onclick="ajaxUpdate('/config{@path}', 'input', '/config/configuration')" />
+					<input type="button" value="Cancel" onclick="window.location.href='/config/configuration'" />
+				</td>
+			</tr>
+		</table>
+	</form>
+
+    <h2>Related Configurations</h2>
+	<table>
+		<tr>
+			<th colspan="4"> Input </th>
+			<th colspan="3"> Output </th>
+			<th colspan="2"> In Backup </th>
+			<th colspan="4"> Configuration </th>
+		</tr>
+		<tr>
+			<th> Chassis </th>
+			<th> Slot </th>
+			<th> Port </th>
+			<th> LBand </th>
+			<th> Slot </th>
+			<th> Port </th>
+			<th> Multicast </th>
+			<th> Input </th>
+			<th> Output </th>
+			<th> Priority </th>
+			<th> Backup Order </th>
+			<th> Fixed Input </th>
+			<th> Fixed Output </th>
+		</tr>
+		<xsl:for-each select="delete">
+			<tr>
+				<td> <xsl:value-of select="@chassis" /> </td>
+				<td> <xsl:value-of select="@slot" /> </td>
+				<td> <xsl:value-of select="@port" /> </td>
+				<td> 
+					<xsl:choose>
+						<xsl:when test="boolean(@lband)">
+							<xsl:value-of select="@lband" />
+						</xsl:when>
+						<xsl:otherwise>
+							IP or ASI Input
+						</xsl:otherwise>
+					</xsl:choose>
+				</td>
+				<td> <xsl:value-of select="@outslot" /> </td>
+				<td> <xsl:value-of select="@outport" /> </td>
+				<td> <xsl:value-of select="@multicast" />:<xsl:value-of select="@multicastport" /> </td>
+				
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@in_bu_chassis)">
+						Ch: <xsl:value-of select="@in_bu_chassis" /> - S: <xsl:value-of select="@in_bu_slot" /> - P: Ch: <xsl:value-of select="@in_bu_port" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@out_bu_chassis)">
+						Ch: <xsl:value-of select="@out_bu_chassis" /> - S: <xsl:value-of select="@out_bu_slot" /> - P: Ch: <xsl:value-of select="@out_bu_port" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td> <xsl:value-of select="@priority" /> </td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="@butype > 0">
+						<xsl:value-of select="@butype" />
+					</xsl:when>
+					<xsl:otherwise>
+						not used
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@targetslot)">
+						Ch: <xsl:value-of select="@targetchassis" /> - S: <xsl:value-of select="@targetslot" /> - P: Ch: <xsl:value-of select="@targetport" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@targetoutslot)">
+						Ch: <xsl:value-of select="@targetchassis" /> - S: <xsl:value-of select="@targetoutslot" /> - P: Ch: <xsl:value-of select="@targetoutport" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+			</tr>
+		</xsl:for-each>
+		<xsl:if test="count(delete)=0">
+			<tr>
+				<td colspan="13"> <i> empty </i> </td>
+			</tr>
+		</xsl:if>
+	</table>
+	<p>
+		<span id="ajaxUpdateError" class="ajaxHidden"> cannot save </span>
+		<span id="ajaxUpdateSpinner" class="ajaxHidden"> saving&#x2026; please wait </span>
+	</p>
+</xsl:template>
+
+<xsl:template match="inputtargetadd-list" mode="body">
+    <h2>Add Input Target Configuration</h2>
+    <a href="javascript:history.go(-1);"> Back </a>
+    
+	<form id="input">
+		<table>
+			<tr>
+				<th> Chassis </th>
+				<td> <input type="text" name="targetchassis" value="" /> </td>
+			</tr>
+			<tr>
+				<th> Slot </th>
+				<td> <input type="text" name="targetslot" value="" /> </td>
+			</tr>
+			<tr>
+				<th> Port </th>
+				<td> <input type="text" name="targetport" value="" /> </td>
+			</tr>
+			<tr>
+				<td>
+					<input id="ajaxUpdateButton" type="button" value="Apply" onclick="ajaxUpdate('/config{@path}', 'input', '/config/configuration')" />
+					<input type="button" value="Cancel" onclick="window.location.href='/config/configuration'" />
+				</td>
+			</tr>
+		</table>
+	</form>
+
+    <h2>This will affect the following related Configurations</h2>
+	<table>
+		<tr>
+			<th colspan="4"> Input </th>
+			<th colspan="3"> Output </th>
+			<th colspan="2"> In Backup </th>
+			<th colspan="4"> Configuration </th>
+		</tr>
+		<tr>
+			<th> Chassis </th>
+			<th> Slot </th>
+			<th> Port </th>
+			<th> LBand </th>
+			<th> Slot </th>
+			<th> Port </th>
+			<th> Multicast </th>
+			<th> Input </th>
+			<th> Output </th>
+			<th> Priority </th>
+			<th> Backup Order </th>
+			<th> Fixed Input </th>
+			<th> Fixed Output </th>
+		</tr>
+		<xsl:for-each select="inputtargetadd">
+			<tr>
+				<td> <xsl:value-of select="@chassis" /> </td>
+				<td> <xsl:value-of select="@slot" /> </td>
+				<td> <xsl:value-of select="@port" /> </td>
+				<td> 
+					<xsl:choose>
+						<xsl:when test="boolean(@lband)">
+							<xsl:value-of select="@lband" />
+						</xsl:when>
+						<xsl:otherwise>
+							IP or ASI Input
+						</xsl:otherwise>
+					</xsl:choose>
+				</td>
+				<td> <xsl:value-of select="@outslot" /> </td>
+				<td> <xsl:value-of select="@outport" /> </td>
+				<td> <xsl:value-of select="@multicast" />:<xsl:value-of select="@multicastport" /> </td>
+				
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@in_bu_chassis)">
+						Ch: <xsl:value-of select="@in_bu_chassis" /> - S: <xsl:value-of select="@in_bu_slot" /> - P: Ch: <xsl:value-of select="@in_bu_port" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@out_bu_chassis)">
+						Ch: <xsl:value-of select="@out_bu_chassis" /> - S: <xsl:value-of select="@out_bu_slot" /> - P: Ch: <xsl:value-of select="@out_bu_port" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td> <xsl:value-of select="@priority" /> </td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="@butype > 0">
+						<xsl:value-of select="@butype" />
+					</xsl:when>
+					<xsl:otherwise>
+						not used
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@targetslot)">
+						Ch: <xsl:value-of select="@targetchassis" /> - S: <xsl:value-of select="@targetslot" /> - P: Ch: <xsl:value-of select="@targetport" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@targetoutslot)">
+						Ch: <xsl:value-of select="@targetchassis" /> - S: <xsl:value-of select="@targetoutslot" /> - P: Ch: <xsl:value-of select="@targetoutport" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+			</tr>
+		</xsl:for-each>
+		<xsl:if test="count(inputtargetadd)=0">
+			<tr>
+				<td colspan="13"> <i> empty </i> </td>
+			</tr>
+		</xsl:if>
+	</table>
+	<p>
+		<span id="ajaxUpdateError" class="ajaxHidden"> cannot save </span>
+		<span id="ajaxUpdateSpinner" class="ajaxHidden"> saving&#x2026; please wait </span>
+	</p>
+</xsl:template>
+
+<xsl:template match="inputtargetdelete-list" mode="body">
+    <h2>Delete Input Target Configuration</h2>
+    <a href="javascript:history.go(-1);"> Back </a>
+    
+    <h2>Please confirm that you really want to delete the Input Target</h2>
+	<form id="input">
+		<table>
+			<tr>
+				<td>
+					<input id="ajaxUpdateButton" type="button" value="Apply" onclick="ajaxUpdate('/config{@path}', 'input', '/config/configuration')" />
+					<input type="button" value="Cancel" onclick="window.location.href='/config/configuration'" />
+				</td>
+			</tr>
+		</table>
+	</form>
+
+    <h2>Please delete all Output Targets in the following related Configurations as well</h2>
+	<table>
+		<tr>
+			<th colspan="4"> Input </th>
+			<th colspan="3"> Output </th>
+			<th colspan="2"> In Backup </th>
+			<th colspan="4"> Configuration </th>
+		</tr>
+		<tr>
+			<th> Chassis </th>
+			<th> Slot </th>
+			<th> Port </th>
+			<th> LBand </th>
+			<th> Slot </th>
+			<th> Port </th>
+			<th> Multicast </th>
+			<th> Input </th>
+			<th> Output </th>
+			<th> Priority </th>
+			<th> Backup Order </th>
+			<th> Fixed Input </th>
+			<th> Fixed Output </th>
+		</tr>
+		<xsl:for-each select="inputtargetdelete">
+			<tr>
+				<td> <xsl:value-of select="@chassis" /> </td>
+				<td> <xsl:value-of select="@slot" /> </td>
+				<td> <xsl:value-of select="@port" /> </td>
+				<td> 
+					<xsl:choose>
+						<xsl:when test="boolean(@lband)">
+							<xsl:value-of select="@lband" />
+						</xsl:when>
+						<xsl:otherwise>
+							IP or ASI Input
+						</xsl:otherwise>
+					</xsl:choose>
+				</td>
+				<td> <xsl:value-of select="@outslot" /> </td>
+				<td> <xsl:value-of select="@outport" /> </td>
+				<td> <xsl:value-of select="@multicast" />:<xsl:value-of select="@multicastport" /> </td>
+				
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@in_bu_chassis)">
+						Ch: <xsl:value-of select="@in_bu_chassis" /> - S: <xsl:value-of select="@in_bu_slot" /> - P: Ch: <xsl:value-of select="@in_bu_port" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@out_bu_chassis)">
+						Ch: <xsl:value-of select="@out_bu_chassis" /> - S: <xsl:value-of select="@out_bu_slot" /> - P: Ch: <xsl:value-of select="@out_bu_port" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td> <xsl:value-of select="@priority" /> </td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="@butype > 0">
+						<xsl:value-of select="@butype" />
+					</xsl:when>
+					<xsl:otherwise>
+						not used
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@targetslot)">
+						Ch: <xsl:value-of select="@targetchassis" /> - S: <xsl:value-of select="@targetslot" /> - P: Ch: <xsl:value-of select="@targetport" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@targetoutslot)">
+						Ch: <xsl:value-of select="@targetchassis" /> - S: <xsl:value-of select="@targetoutslot" /> - P: Ch: <xsl:value-of select="@targetoutport" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+			</tr>
+		</xsl:for-each>
+		<xsl:if test="count(inputtargetdelete)=0">
+			<tr>
+				<td colspan="13"> <i> empty </i> </td>
+			</tr>
+		</xsl:if>
+	</table>
+	<p>
+		<span id="ajaxUpdateError" class="ajaxHidden"> cannot save </span>
+		<span id="ajaxUpdateSpinner" class="ajaxHidden"> saving&#x2026; please wait </span>
+	</p>
+</xsl:template>
+
+<xsl:template match="outputtargetadd-list" mode="body">
+    <h2>Add Output Target Configuration</h2>
+    <a href="javascript:history.go(-1);"> Back </a>
+    
+	<form id="input">
+		<table>
+			<tr>
+				<th> Chassis </th>
+				<td> <input type="text" name="targetchassis" value="{outputtargetadd[1]/@targetchassis}" readonly="readonly" /> </td>
+			</tr>
+			<tr>
+				<th> Slot </th>
+				<td> <input type="text" name="targetslot" value="" /> </td>
+			</tr>
+			<tr>
+				<th> Port </th>
+				<td> <input type="text" name="targetport" value="" /> </td>
+			</tr>
+			<tr>
+				<td>
+					<input id="ajaxUpdateButton" type="button" value="Apply" onclick="ajaxUpdate('/config{@path}', 'input', '/config/configuration')" />
+					<input type="button" value="Cancel" onclick="window.location.href='/config/configuration'" />
+				</td>
+			</tr>
+		</table>
+	</form>
+
+    <h2>The following related Configurations should be configured as well</h2>
+	<table>
+		<tr>
+			<th colspan="4"> Input </th>
+			<th colspan="3"> Output </th>
+			<th colspan="2"> In Backup </th>
+			<th colspan="4"> Configuration </th>
+		</tr>
+		<tr>
+			<th> Chassis </th>
+			<th> Slot </th>
+			<th> Port </th>
+			<th> LBand </th>
+			<th> Slot </th>
+			<th> Port </th>
+			<th> Multicast </th>
+			<th> Input </th>
+			<th> Output </th>
+			<th> Priority </th>
+			<th> Backup Order </th>
+			<th> Fixed Input </th>
+			<th> Fixed Output </th>
+		</tr>
+		<xsl:for-each select="outputtargetadd">
+			<tr>
+				<td> <xsl:value-of select="@chassis" /> </td>
+				<td> <xsl:value-of select="@slot" /> </td>
+				<td> <xsl:value-of select="@port" /> </td>
+				<td> 
+					<xsl:choose>
+						<xsl:when test="boolean(@lband)">
+							<xsl:value-of select="@lband" />
+						</xsl:when>
+						<xsl:otherwise>
+							IP or ASI Input
+						</xsl:otherwise>
+					</xsl:choose>
+				</td>
+				<td> <xsl:value-of select="@outslot" /> </td>
+				<td> <xsl:value-of select="@outport" /> </td>
+				<td> <xsl:value-of select="@multicast" />:<xsl:value-of select="@multicastport" /> </td>
+				
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@in_bu_chassis)">
+						Ch: <xsl:value-of select="@in_bu_chassis" /> - S: <xsl:value-of select="@in_bu_slot" /> - P: Ch: <xsl:value-of select="@in_bu_port" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@out_bu_chassis)">
+						Ch: <xsl:value-of select="@out_bu_chassis" /> - S: <xsl:value-of select="@out_bu_slot" /> - P: Ch: <xsl:value-of select="@out_bu_port" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td> <xsl:value-of select="@priority" /> </td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="@butype > 0">
+						<xsl:value-of select="@butype" />
+					</xsl:when>
+					<xsl:otherwise>
+						not used
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@targetslot)">
+						Ch: <xsl:value-of select="@targetchassis" /> - S: <xsl:value-of select="@targetslot" /> - P: Ch: <xsl:value-of select="@targetport" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@targetoutslot)">
+						Ch: <xsl:value-of select="@targetchassis" /> - S: <xsl:value-of select="@targetoutslot" /> - P: Ch: <xsl:value-of select="@targetoutport" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+			</tr>
+		</xsl:for-each>
+		<xsl:if test="count(outputtargetadd)=0">
+			<tr>
+				<td colspan="13"> <i> empty </i> </td>
+			</tr>
+		</xsl:if>
+	</table>
+	<p>
+		<span id="ajaxUpdateError" class="ajaxHidden"> cannot save </span>
+		<span id="ajaxUpdateSpinner" class="ajaxHidden"> saving&#x2026; please wait </span>
+	</p>
+</xsl:template>
+
+<xsl:template match="outputtargetdelete-list" mode="body">
+    <h2>Delete Output Target Configuration</h2>
+    <a href="javascript:history.go(-1);"> Back </a>
+    
+    <h2>Please confirm that you really want to delete the Input Target</h2>
+	<form id="input">
+		<table>
+			<tr>
+				<td>
+					<input id="ajaxUpdateButton" type="button" value="Apply" onclick="ajaxUpdate('/config{@path}', 'input', '/config/configuration')" />
+					<input type="button" value="Cancel" onclick="window.location.href='/config/configuration'" />
+				</td>
+			</tr>
+		</table>
+	</form>
+
+    <h2>The following related Configurations should be configured as well</h2>
+	<table>
+		<tr>
+			<th colspan="4"> Input </th>
+			<th colspan="3"> Output </th>
+			<th colspan="2"> In Backup </th>
+			<th colspan="4"> Configuration </th>
+		</tr>
+		<tr>
+			<th> Chassis </th>
+			<th> Slot </th>
+			<th> Port </th>
+			<th> LBand </th>
+			<th> Slot </th>
+			<th> Port </th>
+			<th> Multicast </th>
+			<th> Input </th>
+			<th> Output </th>
+			<th> Priority </th>
+			<th> Backup Order </th>
+			<th> Fixed Input </th>
+			<th> Fixed Output </th>
+		</tr>
+		<xsl:for-each select="outputtargetdelete">
+			<tr>
+				<td> <xsl:value-of select="@chassis" /> </td>
+				<td> <xsl:value-of select="@slot" /> </td>
+				<td> <xsl:value-of select="@port" /> </td>
+				<td> 
+					<xsl:choose>
+						<xsl:when test="boolean(@lband)">
+							<xsl:value-of select="@lband" />
+						</xsl:when>
+						<xsl:otherwise>
+							IP or ASI Input
+						</xsl:otherwise>
+					</xsl:choose>
+				</td>
+				<td> <xsl:value-of select="@outslot" /> </td>
+				<td> <xsl:value-of select="@outport" /> </td>
+				<td> <xsl:value-of select="@multicast" />:<xsl:value-of select="@multicastport" /> </td>
+				
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@in_bu_chassis)">
+						Ch: <xsl:value-of select="@in_bu_chassis" /> - S: <xsl:value-of select="@in_bu_slot" /> - P: Ch: <xsl:value-of select="@in_bu_port" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@out_bu_chassis)">
+						Ch: <xsl:value-of select="@out_bu_chassis" /> - S: <xsl:value-of select="@out_bu_slot" /> - P: Ch: <xsl:value-of select="@out_bu_port" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td> <xsl:value-of select="@priority" /> </td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="@butype > 0">
+						<xsl:value-of select="@butype" />
+					</xsl:when>
+					<xsl:otherwise>
+						not used
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@targetslot)">
+						Ch: <xsl:value-of select="@targetchassis" /> - S: <xsl:value-of select="@targetslot" /> - P: Ch: <xsl:value-of select="@targetport" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+				<td>
+				 <xsl:choose>
+					<xsl:when test="boolean(@targetoutslot)">
+						Ch: <xsl:value-of select="@targetchassis" /> - S: <xsl:value-of select="@targetoutslot" /> - P: Ch: <xsl:value-of select="@targetoutport" />
+					</xsl:when>
+					<xsl:otherwise>
+						no
+					</xsl:otherwise>
+				  </xsl:choose>
+				</td>
+			</tr>
+		</xsl:for-each>
+		<xsl:if test="count(outputtargetdelete)=0">
+			<tr>
+				<td colspan="13"> <i> empty </i> </td>
+			</tr>
+		</xsl:if>
+	</table>
+	<p>
+		<span id="ajaxUpdateError" class="ajaxHidden"> cannot save </span>
+		<span id="ajaxUpdateSpinner" class="ajaxHidden"> saving&#x2026; please wait </span>
+	</p>
+</xsl:template>
+
+<xsl:template match="backup-list" mode="body">
+    <h2>Change Backup Configuration</h2>
+    <a href="javascript:history.go(-1);"> Back </a>
+    
+	<form id="input">
+		<table>
+			<xsl:choose>
+				<xsl:when test="substring-before(substring-after(substring-after(substring-after(substring-after(substring-after(@path, '/'), '/'), '/'), '/'), '/'), '/') = '0'">
+					<tr>
+						<th colspan="2"> Activate Configuration for Backup </th>
+					</tr>
+					<tr>
+						<th> Activate Backup </th>
+						<td> <input type="checkbox" name="activate" value="yes" /> Allow the Backup System to use this configuration for a Backup </td>
+					</tr>
+				</xsl:when>
+				<xsl:when test="substring-before(substring-after(substring-after(substring-after(substring-after(substring-after(@path, '/'), '/'), '/'), '/'), '/'), '/') = '1'">
+					<tr>
+						<th colspan="2"> Deactivate Configuration for Backup </th>
+					</tr>
+					<tr>
+						<th> Deactivate Backup </th>
+						<td> <input type="checkbox" name="deactivate" value="yes" /> Deny the Backup System to use this configuration for a Backup </td>
+					</tr>
+				</xsl:when>
+			</xsl:choose>
+			<tr>
+				<th colspan="2"> Add alternative Backup </th>
+			</tr>
+			<tr>
+				<th> Chassis </th>
+				<td> <input type="text" name="chassis" value="" /> </td>
+			</tr>
+			<tr>
+				<th> Slot </th>
+				<td> <input type="text" name="slot" value="" /> </td>
+			</tr>
+			<tr>
+				<th> Port </th>
+				<td> <input type="text" name="port" value="" /> </td>
+			</tr>
+			<tr>
+				<th> Backup Order </th>
+				<td> <input type="text" name="butype" value="" /> </td>
+			</tr>
+			<tr>
+				<th> Add alternative Backup </th>
+				<td> <input type="checkbox" name="addbackup" value="yes" /> Add a alternative Backup Configuration </td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input id="ajaxUpdateButton" type="button" value="Apply" onclick="ajaxUpdate('/config{@path}', 'input', '/config/configuration')" />
+					<input type="button" value="Cancel" onclick="window.location.href='/config/configuration'" />
+				</td>
+			</tr>
+		</table>
+
+	    <h2>Available Backup Configurations</h2>
+		<table>
+			<tr>
+				<th colspan="4"> Input </th>
+				<th colspan="3"> Output </th>
+				<th colspan="2"> In Backup </th>
+				<th colspan="4"> Configuration </th>
+				<th />
+			</tr>
+			<tr>
+				<th> Chassis </th>
+				<th> Slot </th>
+				<th> Port </th>
+				<th> LBand </th>
+				<th> Slot </th>
+				<th> Port </th>
+				<th> Multicast </th>
+				<th> Input </th>
+				<th> Output </th>
+				<th> Priority </th>
+				<th> Backup Order </th>
+				<th> Fixed Input </th>
+				<th> Fixed Output </th>
+				<th/>
+			</tr>
+
+			<xsl:for-each select="backup">
+				<tr>
+					<td> <xsl:value-of select="@chassis" /> </td>
+					<td> <xsl:value-of select="@slot" /> </td>
+					<td> <xsl:value-of select="@port" /> </td>
+					<td> 
+						<xsl:choose>
+							<xsl:when test="boolean(@lband)">
+								<xsl:value-of select="@lband" />
+							</xsl:when>
+							<xsl:otherwise>
+								IP or ASI Input
+							</xsl:otherwise>
+						</xsl:choose>
+					</td>
+					<td> <xsl:value-of select="@outslot" /> </td>
+					<td> <xsl:value-of select="@outport" /> </td>
+					<td> <xsl:value-of select="@multicast" />:<xsl:value-of select="@multicastport" /> </td>
+					
+					<td>
+					 <xsl:choose>
+						<xsl:when test="boolean(@in_bu_chassis)">
+							Ch: <xsl:value-of select="@in_bu_chassis" /> - S: <xsl:value-of select="@in_bu_slot" /> - P: Ch: <xsl:value-of select="@in_bu_port" />
+						</xsl:when>
+						<xsl:otherwise>
+							no
+						</xsl:otherwise>
+					  </xsl:choose>
+					</td>
+					<td>
+					 <xsl:choose>
+						<xsl:when test="boolean(@out_bu_chassis)">
+							Ch: <xsl:value-of select="@out_bu_chassis" /> - S: <xsl:value-of select="@out_bu_slot" /> - P: Ch: <xsl:value-of select="@out_bu_port" />
+						</xsl:when>
+						<xsl:otherwise>
+							no
+						</xsl:otherwise>
+					  </xsl:choose>
+					</td>
+					<td> <xsl:value-of select="@priority" /> </td>
+					<td>
+					 <xsl:choose>
+						<xsl:when test="@butype > 0">
+							<xsl:value-of select="@butype" />
+						</xsl:when>
+						<xsl:otherwise>
+							not used
+						</xsl:otherwise>
+					  </xsl:choose>
+					</td>
+					<td>
+					 <xsl:choose>
+						<xsl:when test="boolean(@targetslot)">
+							Ch: <xsl:value-of select="@targetchassis" /> - S: <xsl:value-of select="@targetslot" /> - P: Ch: <xsl:value-of select="@targetport" />
+						</xsl:when>
+						<xsl:otherwise>
+							no
+						</xsl:otherwise>
+					  </xsl:choose>
+					</td>
+					<td>
+					 <xsl:choose>
+						<xsl:when test="boolean(@targetoutslot)">
+							Ch: <xsl:value-of select="@targetchassis" /> - S: <xsl:value-of select="@targetoutslot" /> - P: Ch: <xsl:value-of select="@targetoutport" />
+						</xsl:when>
+						<xsl:otherwise>
+							no
+						</xsl:otherwise>
+					  </xsl:choose>
+					</td>
+					<td>
+						<input type="button" value="Select Input" onclick="populateLocationFields('{@chassis}','{@slot}','{@port}','{@butype}');" />
+					</td>
+				</tr>
+			</xsl:for-each>
+			<xsl:if test="count(backup)=0">
+				<tr>
+					<td colspan="14"> <i> empty </i> </td>
+				</tr>
+			</xsl:if>
+		</table>
+	</form>
+	<p>
+		<span id="ajaxUpdateError" class="ajaxHidden"> cannot save </span>
+		<span id="ajaxUpdateSpinner" class="ajaxHidden"> saving&#x2026; please wait </span>
+	</p>
+</xsl:template>
+
+<xsl:template match="sla-list" mode="body">
+	<h2>SLA</h2>
+    <table>
+		<tr>
+			<th> Multicast </th>
+			<th> Port </th>
+			<th> Service ID </th>
+			<th> Service Name </th>
+			<th> SLA </th>
+			<th colspan="2" />
+		</tr>
+		<xsl:for-each select="sla">
+			<tr>
+				<td align="center"> <xsl:value-of select="@multicast" /> </td>
+				<td align="center"> <xsl:value-of select="@multicastport" /> </td>
+				<td align="center"> <xsl:value-of select="@service" /> </td>
+				<td align="center"> <xsl:value-of select="@name" /> </td>
+				<td align="center"> <xsl:value-of select="@sla" /> </td>
+				<td>
+					<xsl:choose>
+						<xsl:when test="@sla &gt; -1">
+							<form id="input{@multicast}{@service}1">
+								<input type="hidden" name="multicast"     value="{@multicast}" />
+								<input type="hidden" name="multicastport" value="{@multicastport}" />
+								<input type="hidden" name="service"       value="{@service}" />
+								<input type="text"   name="slatext"       value="{@sla}" class="slafield" onkeyup="this.value=this.value.replace(/[^\d]/,'')" />
+								<input id="ajaxUpdateButton" type="button" value="Edit" onclick="ajaxUpdate('/config/sla/{@multicast}/{@multicastport}/{@service}', 'input{@multicast}{@service}1', '/config/sla')" />
+							</form>	
+						</xsl:when>
+						<xsl:otherwise>
+							<form id="input{@multicast}{@service}2">
+								<input type="hidden" name="multicast"     value="{@multicast}" />
+								<input type="hidden" name="multicastport" value="{@multicastport}" />
+								<input type="hidden" name="service"       value="{@service}" />
+								<input type="text"   name="slatext"       value="{@sla}" class="slafield" onkeyup="this.value=this.value.replace(/[^\d]/,'')" />
+								<input id="ajaxUpdateButton" type="button" value="Add" onclick="ajaxUpdate('/config/sla', 'input{@multicast}{@service}2', '/config/sla')" />
+							</form>							
+						</xsl:otherwise>
+					</xsl:choose>
+				</td>
+				<td>
+					<xsl:choose>
+						<xsl:when test="@sla &gt; -1">
+							<form>
+								<input type="button" value="Delete" onclick="ajaxDelete('/config/sla/{@multicast}/{@multicastport}/{@service}','sla entry {@sla}')" />
+							</form>						
+						</xsl:when>
+						<xsl:otherwise>
+						
+						</xsl:otherwise>
+					</xsl:choose>
+				</td>
+			</tr>
+		</xsl:for-each>
+		<xsl:if test="count(sla)=0">
+			<tr>
+				<td colspan="7"> <i> empty </i> </td>
+			</tr>
+		</xsl:if>
+	</table>
+	<p>
+		<span id="ajaxCreateError" class="ajaxHidden"> cannot create </span>
+		<span id="ajaxCreateSpinner" class="ajaxHidden"> creating&#x2026; please wait </span>
+	</p>
+	<p>
+		<span id="ajaxUpdateError" class="ajaxHidden"> cannot save </span>
+		<span id="ajaxUpdateSpinner" class="ajaxHidden"> saving&#x2026; please wait </span>
+	</p>
+	<p>
+		<span id="ajaxDeleteError" class="ajaxHidden"> cannot delete </span>
+		<span id="ajaxDeleteSpinner" class="ajaxHidden"> deleting&#x2026; please wait </span>
+	</p>
+</xsl:template>
+
+<xsl:template match="*" mode="body">
+	<p> cannot handle document "<xsl:value-of select="name()" />" </p>
+</xsl:template>
+
+<xsl:template name="linewrap" >
+    <xsl:param name="textValue" />
+    <xsl:variable name="limit" select="36" />
+    <xsl:value-of select="substring($textValue,1,$limit)" />
+    <xsl:variable name="rest" select="substring($textValue,$limit+1)" />
+    <xsl:if test="string-length($rest) &gt; 0" >
+        <br/>
+        <xsl:call-template name="linewrap" >
+            <xsl:with-param name="textValue" select="$rest" />
+        </xsl:call-template>
+    </xsl:if>
+</xsl:template>
+
+</xsl:stylesheet>

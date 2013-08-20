@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-commands>
+    <client-cmd type="backup.dcm.1" >
+  
+    <!-- cisco dcm main -->
+	    <!-- cisco catalyst main -->
+	    	<catalyst-vlan engine="eth-switch-p" slot="1" port="39" vlan="985" />     
+	    	<catalyst-vlan engine="eth-switch-p" slot="5" port="5" vlan="985" />
+  	
+	    <!-- cisco catalyst bu -->	
+	    	<catalyst-vlan engine="eth-switch-s" slot="1" port="39" vlan="985" />     
+	    	<catalyst-vlan engine="eth-switch-s" slot="5" port="5" vlan="985" />
+    
+    <!-- cisco dcm bu -->
+	    <!-- cisco catalyst main -->
+	    	<catalyst-vlan engine="eth-switch-p" slot="1" port="40" vlan="989" />     
+	    	<catalyst-vlan engine="eth-switch-p" slot="5" port="6" vlan="989" />
+    	
+	    <!-- cisco catalyst bu -->	
+	    	<catalyst-vlan engine="eth-switch-s" slot="1" port="40" vlan="989" />     
+	    	<catalyst-vlan engine="eth-switch-s" slot="5" port="6" vlan="989" />
+	        	
+    </client-cmd>
+    
+    
+
+    <client-cmd type="backup.dcm.2" >
+     
+	  <!-- cisco dcm bu -->
+		    <!-- cisco catalyst main -->
+		    	<catalyst-vlan engine="eth-switch-p" slot="1" port="40" vlan="985" />     
+		    	<catalyst-vlan engine="eth-switch-p" slot="5" port="6" vlan="985" />
+	    	
+		    <!-- cisco catalyst bu -->	
+		    	<catalyst-vlan engine="eth-switch-s" slot="1" port="40" vlan="985" />     
+		    	<catalyst-vlan engine="eth-switch-s" slot="5" port="6" vlan="985" />
+	            
+	  
+	    <!-- cisco dcm main -->
+		    <!-- cisco catalyst main -->
+		    	<catalyst-vlan engine="eth-switch-p" slot="1" port="39" vlan="989" />     
+		    	<catalyst-vlan engine="eth-switch-p" slot="5" port="5" vlan="989" />
+	  	
+		    <!-- cisco catalyst bu -->	
+		    	<catalyst-vlan engine="eth-switch-s" slot="1" port="39" vlan="989" />     
+		    	<catalyst-vlan engine="eth-switch-s" slot="5" port="5" vlan="989" />    
+		        	
+    </client-cmd>             
+</client-commands>

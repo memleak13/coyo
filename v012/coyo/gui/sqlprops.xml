@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="driver.url">file:plugins/mysql-connector-java-5.0.8-bin.jar</entry>
+	<entry key="driver.class">com.mysql.jdbc.Driver</entry>
+    <!-- virtuelle IP-Adresse des aktiven Servers verwenden!-->
+	<entry key="url">jdbc:mysql://172.25.154.108:3306/coyonet</entry>
+	<entry key="user">coyonet</entry>
+	<entry key="password">euromedia</entry>
+</properties>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notification-conf
+	language="eng"
+	server-id="1"
+	msg.sql.enable="true"
+	msg.snmp.enable="true"
+	msg.backup.enable="true"
+	sqlgateway-url="http://127.0.0.1:8082/sqlmessage" 
+	sqlgateway-user="coyonet"
+	sqlgateway-password="euromedia" />

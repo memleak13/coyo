@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+<context >
+	<queue>
+		<q>
+			<routeToDesination xlsns="http://euromedia-service/coyonet/matrix/" >
+				<set output="4" onput="3" />
+			</routeToDesination>
+		</q>
+		<q>
+			<stop-task task_name="flv_ww" xlsns="http://euromedia-service/coyonet/gl/encoder" />
+		</q>
+		<q>
+			<start-task task_name="flv_ww" xlsns="http://euromedia-service/coyonet/gl/encoder" />
+		</q>		
+	</queue>
+</context>
+ -->
+ 
+<context>
+	<queue>
+		<q id="das erste teil">
+			<msg b="25" a="0" id="das erste teil" />
+		</q>
+		<q>
+			<msg b="25" a="0" id="das zweite teil"/>
+			<msg d="4" s="3" />
+		</q>
+		<q>
+			<msg b="25" a="0" id="das 3. teil"/>
+			<msg d="4" s="3" />
+		</q>
+	</queue>
+</context>

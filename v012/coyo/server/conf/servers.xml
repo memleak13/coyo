@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servers>
+    <server id="1" name="mbipmhcn1" ip.mgmt="192.168.234.70" ip.ilo="192.168.234.73" />
+    <server id="2" name="mbipmhcn2" ip.mgmt="192.168.234.71" ip.ilo="192.168.234.74" />
+</servers>

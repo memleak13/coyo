@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map label="Cupertino">
+	<element
+		id="infinite_loop_1"
+		type="de.euromedia_service.coyonet.plugin.Base"
+		x="0"
+		y="400"
+		width="200"
+		height="150"
+		tree.folder="cmts_01"
+		tree.label="Infinite Loop 1"
+		conf.style="StateBorderRectangleRounded"
+		conf.label="Vector VIG"
+		conf.label2="Infinite Loop 1"
+		input.state="systemmgr.state"
+		input.ipaddress="device_1.ipaddress"
+	>
+	</element>
+</map>

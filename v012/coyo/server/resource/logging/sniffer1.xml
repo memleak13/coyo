@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2011-07-15T13:23:12</date>
+  <millis>1310728992562</millis>
+  <sequence>0</sequence>
+  <logger>ems.sniffer</logger>
+  <level>CONFIG</level>
+  <class>ems.sniffer.Main</class>
+  <method>start</method>
+  <thread>10</thread>
+  <message>HTTP listenening on [/0.0.0.0] port [8080</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:12</date>
+  <millis>1310728992734</millis>
+  <sequence>1</sequence>
+  <logger>ems.sniffer.Discover</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Discover$1</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>check: start</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:12</date>
+  <millis>1310728992796</millis>
+  <sequence>2</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>start</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:12</date>
+  <millis>1310728992843</millis>
+  <sequence>3</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>run</method>
+  <thread>13</thread>
+  <message>thread started</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:12</date>
+  <millis>1310728992921</millis>
+  <sequence>4</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh$RefreshJob</class>
+  <method>run</method>
+  <thread>14</thread>
+  <message>refresh0 started</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:12</date>
+  <millis>1310728992937</millis>
+  <sequence>5</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture$Snmp2SQL</class>
+  <method>run</method>
+  <thread>15</thread>
+  <message>capture.sql0 thread started</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:13</date>
+  <millis>1310728993031</millis>
+  <sequence>6</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture$Snmp2SQL</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>capture.sql1 thread started</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:13</date>
+  <millis>1310728993062</millis>
+  <sequence>7</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh$RefreshJob</class>
+  <method>run</method>
+  <thread>17</thread>
+  <message>refresh1 started</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:13</date>
+  <millis>1310728993078</millis>
+  <sequence>8</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture$Snmp2SQL</class>
+  <method>run</method>
+  <thread>18</thread>
+  <message>capture.sql2 thread started</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:13</date>
+  <millis>1310728993078</millis>
+  <sequence>10</sequence>
+  <logger>ems.sniffer.Discover</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Discover</class>
+  <method>run</method>
+  <thread>19</thread>
+  <message>gateway [192.168.2.1] thread started</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:13</date>
+  <millis>1310728993078</millis>
+  <sequence>9</sequence>
+  <logger>ems.sniffer.Discover</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Discover</class>
+  <method>check</method>
+  <thread>11</thread>
+  <message>gateway [192.168.2.1] created</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:13</date>
+  <millis>1310728993171</millis>
+  <sequence>11</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture$Snmp2SQL</class>
+  <method>run</method>
+  <thread>20</thread>
+  <message>capture.sql3 thread started</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:13</date>
+  <millis>1310728993203</millis>
+  <sequence>12</sequence>
+  <logger>ems.sniffer.Discover</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Discover</class>
+  <method>check</method>
+  <thread>11</thread>
+  <message>gateway [2] created</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:13</date>
+  <millis>1310728993203</millis>
+  <sequence>13</sequence>
+  <logger>ems.sniffer.Discover</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Discover</class>
+  <method>run</method>
+  <thread>21</thread>
+  <message>gateway [2] thread started</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:13</date>
+  <millis>1310728993218</millis>
+  <sequence>14</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:13</date>
+  <millis>1310728993218</millis>
+  <sequence>15</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture$Snmp2SQL</class>
+  <method>run</method>
+  <thread>22</thread>
+  <message>capture.sql4 thread started</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:13</date>
+  <millis>1310728993265</millis>
+  <sequence>16</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture$Snmp2SQL</class>
+  <method>run</method>
+  <thread>23</thread>
+  <message>capture.sql5 thread started</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:13</date>
+  <millis>1310728993296</millis>
+  <sequence>17</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture$Snmp2SQL</class>
+  <method>run</method>
+  <thread>24</thread>
+  <message>capture.sql6 thread started</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:13</date>
+  <millis>1310728993343</millis>
+  <sequence>18</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture$Snmp2SQL</class>
+  <method>run</method>
+  <thread>25</thread>
+  <message>capture.sql7 thread started</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:13</date>
+  <millis>1310728993375</millis>
+  <sequence>19</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture$Snmp2SQL</class>
+  <method>run</method>
+  <thread>26</thread>
+  <message>capture.sql8 thread started</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:13</date>
+  <millis>1310728993406</millis>
+  <sequence>20</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture$Snmp2SQL</class>
+  <method>run</method>
+  <thread>27</thread>
+  <message>capture.sql9 thread started</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:20</date>
+  <millis>1310729000359</millis>
+  <sequence>21</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:27</date>
+  <millis>1310729007500</millis>
+  <sequence>22</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:34</date>
+  <millis>1310729014656</millis>
+  <sequence>23</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:41</date>
+  <millis>1310729021828</millis>
+  <sequence>24</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:49</date>
+  <millis>1310729029000</millis>
+  <sequence>25</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:23:56</date>
+  <millis>1310729036156</millis>
+  <sequence>26</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:24:03</date>
+  <millis>1310729043390</millis>
+  <sequence>27</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:24:10</date>
+  <millis>1310729050578</millis>
+  <sequence>28</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:24:17</date>
+  <millis>1310729057765</millis>
+  <sequence>29</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:24:24</date>
+  <millis>1310729064953</millis>
+  <sequence>30</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:24:32</date>
+  <millis>1310729072109</millis>
+  <sequence>31</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:24:39</date>
+  <millis>1310729079281</millis>
+  <sequence>32</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:24:46</date>
+  <millis>1310729086328</millis>
+  <sequence>33</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:24:49</date>
+  <millis>1310729089281</millis>
+  <sequence>34</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>WARNING</level>
+  <class>ems.sniffer.Capture$SelfCheck</class>
+  <method>send</method>
+  <thread>28</thread>
+  <message>Selftest: Send SNMP request to addr[192.168.2.11]</message>
+</record>
+<record>
+  <date>2011-07-15T13:24:49</date>
+  <millis>1310729089453</millis>
+  <sequence>35</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture</class>
+  <method>error</method>
+  <thread>29</thread>
+  <message>process message: Capturing on Broadcom NetXtreme Gigabit Ethernet Driver (Microsoft's Packet Scheduler) </message>
+</record>
+<record>
+  <date>2011-07-15T13:24:49</date>
+  <millis>1310729089453</millis>
+  <sequence>36</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture</class>
+  <method>error</method>
+  <thread>29</thread>
+  <message>process message: </message>
+</record>
+<record>
+  <date>2011-07-15T13:24:50</date>
+  <millis>1310729090203</millis>
+  <sequence>37</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture</class>
+  <method>error</method>
+  <thread>29</thread>
+  <message>process message: 1 </message>
+</record>
+<record>
+  <date>2011-07-15T13:24:53</date>
+  <millis>1310729093468</millis>
+  <sequence>38</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:25:00</date>
+  <millis>1310729100703</millis>
+  <sequence>39</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture</class>
+  <method>error</method>
+  <thread>29</thread>
+  <message>process message: 2 </message>
+</record>
+<record>
+  <date>2011-07-15T13:25:00</date>
+  <millis>1310729100890</millis>
+  <sequence>40</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:25:07</date>
+  <millis>1310729107453</millis>
+  <sequence>41</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture</class>
+  <method>error</method>
+  <thread>29</thread>
+  <message>process message: 5 </message>
+</record>
+<record>
+  <date>2011-07-15T13:25:08</date>
+  <millis>1310729108031</millis>
+  <sequence>42</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:25:13</date>
+  <millis>1310729113453</millis>
+  <sequence>43</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture</class>
+  <method>error</method>
+  <thread>29</thread>
+  <message>process message: 6 </message>
+</record>
+<record>
+  <date>2011-07-15T13:25:15</date>
+  <millis>1310729115218</millis>
+  <sequence>44</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:25:19</date>
+  <millis>1310729119453</millis>
+  <sequence>45</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture</class>
+  <method>error</method>
+  <thread>29</thread>
+  <message>process message: 7 </message>
+</record>
+<record>
+  <date>2011-07-15T13:25:22</date>
+  <millis>1310729122359</millis>
+  <sequence>46</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:25:29</date>
+  <millis>1310729129500</millis>
+  <sequence>47</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:25:36</date>
+  <millis>1310729136640</millis>
+  <sequence>48</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:25:43</date>
+  <millis>1310729143781</millis>
+  <sequence>49</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:25:50</date>
+  <millis>1310729150906</millis>
+  <sequence>50</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:25:58</date>
+  <millis>1310729158046</millis>
+  <sequence>51</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:26:05</date>
+  <millis>1310729165203</millis>
+  <sequence>52</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:26:07</date>
+  <millis>1310729167968</millis>
+  <sequence>53</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture</class>
+  <method>error</method>
+  <thread>29</thread>
+  <message>process message: 8 </message>
+</record>
+<record>
+  <date>2011-07-15T13:26:12</date>
+  <millis>1310729172359</millis>
+  <sequence>54</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:26:19</date>
+  <millis>1310729179406</millis>
+  <sequence>55</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:26:26</date>
+  <millis>1310729186546</millis>
+  <sequence>56</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:26:33</date>
+  <millis>1310729193687</millis>
+  <sequence>57</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:26:40</date>
+  <millis>1310729200828</millis>
+  <sequence>58</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:26:47</date>
+  <millis>1310729207953</millis>
+  <sequence>59</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:26:55</date>
+  <millis>1310729215093</millis>
+  <sequence>60</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:27:02</date>
+  <millis>1310729222250</millis>
+  <sequence>61</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:27:09</date>
+  <millis>1310729229390</millis>
+  <sequence>62</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:27:16</date>
+  <millis>1310729236515</millis>
+  <sequence>63</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:27:23</date>
+  <millis>1310729243656</millis>
+  <sequence>64</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:27:30</date>
+  <millis>1310729250796</millis>
+  <sequence>65</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:27:37</date>
+  <millis>1310729257937</millis>
+  <sequence>66</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:27:45</date>
+  <millis>1310729265093</millis>
+  <sequence>67</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:27:52</date>
+  <millis>1310729272234</millis>
+  <sequence>68</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:27:59</date>
+  <millis>1310729279375</millis>
+  <sequence>69</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:28:06</date>
+  <millis>1310729286531</millis>
+  <sequence>70</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:28:13</date>
+  <millis>1310729293609</millis>
+  <sequence>71</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>WARNING</level>
+  <class>ems.sniffer.Capture$SelfCheck</class>
+  <method>send</method>
+  <thread>28</thread>
+  <message>Selftest: Send SNMP request to addr[192.168.2.11]</message>
+</record>
+<record>
+  <date>2011-07-15T13:28:13</date>
+  <millis>1310729293734</millis>
+  <sequence>72</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:28:13</date>
+  <millis>1310729293984</millis>
+  <sequence>73</sequence>
+  <logger>ems.sniffer.Capture</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Capture</class>
+  <method>error</method>
+  <thread>29</thread>
+  <message>process message: 10 </message>
+</record>
+<record>
+  <date>2011-07-15T13:28:20</date>
+  <millis>1310729300859</millis>
+  <sequence>74</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:28:28</date>
+  <millis>1310729308000</millis>
+  <sequence>75</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:28:35</date>
+  <millis>1310729315140</millis>
+  <sequence>76</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:28:42</date>
+  <millis>1310729322281</millis>
+  <sequence>77</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:28:49</date>
+  <millis>1310729329328</millis>
+  <sequence>78</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>
+<record>
+  <date>2011-07-15T13:28:56</date>
+  <millis>1310729336453</millis>
+  <sequence>79</sequence>
+  <logger>ems.sniffer.Refresh</logger>
+  <level>INFO</level>
+  <class>ems.sniffer.Refresh</class>
+  <method>refresh</method>
+  <thread>13</thread>
+  <message>No values to poll.</message>
+</record>

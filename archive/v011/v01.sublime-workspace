@@ -1,0 +1,350 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mac",
+				"macversion"
+			],
+			[
+				"run",
+				"run_state"
+			],
+			[
+				"exit",
+				"exit_marker"
+			],
+			[
+				"thread",
+				"thread_id"
+			],
+			[
+				"try",
+				"try	Try/Except/Else/Finally"
+			],
+			[
+				"cm",
+				"cm_online"
+			],
+			[
+				"cm_count",
+				"cm_count"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"return",
+				"return"
+			],
+			[
+				"thre",
+				"thread_id"
+			],
+			[
+				"Deb",
+				"DEBUG"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "gui/maps/cham.xml",
+			"settings":
+			{
+				"buffer_size": 1814,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server/modules/tlt.client_preset.0101/commands.xml",
+			"settings":
+			{
+				"buffer_size": 367,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server/modules/tlt.client_preset.0101/main.xsl",
+			"settings":
+			{
+				"buffer_size": 3769,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/business/Wuala/04_Projects/pr_coyonet/coyonet/server/modules/teletrend.client-presets.0101/main.xsl",
+		"/Users/business/Desktop/Git/coyo/gui/init.xml",
+		"/Users/business/Desktop/Git/coyo/gui/maps/cham.xml",
+		"/Users/business/Desktop/Git/coyo/server/modules/tlt.client_preset.0101/commands.xml",
+		"/Users/business/Desktop/Git/coyo/gui/conf.xml",
+		"/Users/business/Desktop/Git/coyo/server/init.xml",
+		"/Users/business/Wuala/04_Projects/pr_coyonet/coyonet/scripts/dir.txt",
+		"/Users/business/Wuala/04_Projects/pr_coyonet/coyonet/server/modules/teletrend.client-presets.0101/commands_demo.xml",
+		"/Users/business/Desktop/Git/coyo/gui/maps/cupertino.xml",
+		"/Users/business/Wuala/04_Projects/pr_coyonet/coyonet/server/modules/teletrend.demo.0201/main.xsl",
+		"/Users/business/Wuala/04_Projects/pr_coyonet/coyonet/gui/maps/teletrend_test.xml",
+		"/Users/business/Wuala/04_Projects/pr_coyonet/coyonet/gui/init.xml",
+		"/Users/business/Wuala/04_Projects/pr_coyonet/coyonet/gui/conf.xml",
+		"/Users/business/Desktop/Git/coyo/gui/maps/vig_demo.xml",
+		"/Users/business/Desktop/Git/coyo/maps/vig_demo.xml",
+		"/Users/business/Wuala/04_Projects/pr_coyonet/coyonet/gui/sqlprops.xml",
+		"/Users/business/Wuala/04_Projects/support/Change_Improware_Routing_Adjustment",
+		"/Users/business/Desktop/Git/dscript/dscript.py",
+		"/Users/business/Desktop/Git/dscript/table.py",
+		"/Users/business/Desktop/Git/dscript/control.py",
+		"/Users/business/Desktop/control.py",
+		"/Users/business/Desktop/queues.py",
+		"/Users/business/Wuala/04_Projects/PR_150/Note_DocsisCommands.txt",
+		"/Users/business/Desktop/PR_150/C6:1/6:1:2 & 6:1:3.txt",
+		"/Users/business/Desktop/PR_150/C6:1/6:1:4.txt",
+		"/Users/business/Desktop/PR_150/C6:1/6:1:1.txt",
+		"/Users/business/Desktop/ubr01SHR#sh log",
+		"/Users/business/Desktop/cable monitor log file",
+		"/Users/business/Desktop/todo",
+		"/Users/business/Desktop/Git/dscript/WriteTr.py",
+		"/Users/business/Desktop/Change_Improware_Routing_Adjustment"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"id",
+			"client-commands_demo",
+			"demo",
+			"xmlnsdemo",
+			"client-cmd",
+			"http://euromedia-service.de/coyoNET/",
+			"commands_demo",
+			"commands.demo",
+			"demo_message",
+			"command_demo_1",
+			"commands_demo",
+			"1",
+			"demo",
+			"script",
+			"os.",
+			"os",
+			"date",
+			"time",
+			"object",
+			"writeState",
+			"lock",
+			"5/0/2",
+			"tsid",
+			"writestate",
+			"writeState",
+			"index",
+			"ROOT",
+			"create_html_header()",
+			"root",
+			"ROOT",
+			"CM_ONLINE",
+			"CM_COUNT",
+			"CM_TOTAL",
+			"STATUS",
+			"ROOT",
+			"split",
+			"tn",
+			"date",
+			"lock"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "gui/maps/cham.xml",
+					"settings":
+					{
+						"buffer_size": 1814,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								951,
+								931
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "server/modules/tlt.client_preset.0101/commands.xml",
+					"settings":
+					{
+						"buffer_size": 367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								367,
+								367
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "server/modules/tlt.client_preset.0101/main.xsl",
+					"settings":
+					{
+						"buffer_size": 3769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								468,
+								468
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XSL.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true
+}

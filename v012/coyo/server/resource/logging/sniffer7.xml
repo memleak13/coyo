@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2011-06-27T12:25:01</date>
+  <millis>1309170301250</millis>
+  <sequence>0</sequence>
+  <logger>ems.sniffer</logger>
+  <level>CONFIG</level>
+  <class>ems.sniffer.Main</class>
+  <method>start</method>
+  <thread>10</thread>
+  <message>HTTP listenening on [/0.0.0.0] port [8080</message>
+</record>
+<record>
+  <date>2011-06-27T12:28:22</date>
+  <millis>1309170502312</millis>
+  <sequence>1</sequence>
+  <logger>com.itchigo.tools.HttpTool</logger>
+  <level>INFO</level>
+  <class>com.itchigo.tools.HttpTool</class>
+  <method>log</method>
+  <thread>11</thread>
+  <message>request [GET] path [/element] response [200] content [&lt;element-list&gt;]</message>
+</record>
+<record>
+  <date>2011-06-27T12:28:22</date>
+  <millis>1309170502421</millis>
+  <sequence>2</sequence>
+  <logger>com.itchigo.tools.HttpTool</logger>
+  <level>INFO</level>
+  <class>com.itchigo.tools.HttpTool</class>
+  <method>log</method>
+  <thread>12</thread>
+  <message>request [GET] path [/resource/stylesheet.xsl] response [200] content [text/xml]</message>
+</record>
+<record>
+  <date>2011-06-27T12:28:22</date>
+  <millis>1309170502468</millis>
+  <sequence>3</sequence>
+  <logger>com.itchigo.tools.HttpTool</logger>
+  <level>INFO</level>
+  <class>com.itchigo.tools.HttpTool</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>request [GET] path [/resource/root.xsl] response [200] content [text/xml]</message>
+</record>
+<record>
+  <date>2011-06-27T12:28:22</date>
+  <millis>1309170502531</millis>
+  <sequence>4</sequence>
+  <logger>com.itchigo.tools.HttpTool</logger>
+  <level>INFO</level>
+  <class>com.itchigo.tools.HttpTool</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>request [GET] path [/resource/stylesheet.css] response [200] content [text/css]</message>
+</record>
+<record>
+  <date>2011-06-27T12:28:22</date>
+  <millis>1309170502531</millis>
+  <sequence>5</sequence>
+  <logger>com.itchigo.tools.HttpTool</logger>
+  <level>INFO</level>
+  <class>com.itchigo.tools.HttpTool</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>request [GET] path [/resource/ajax.js] response [200] content [text/javascript]</message>
+</record>
+<record>
+  <date>2011-06-27T12:28:22</date>
+  <millis>1309170502546</millis>
+  <sequence>6</sequence>
+  <logger>com.itchigo.tools.HttpTool</logger>
+  <level>INFO</level>
+  <class>com.itchigo.tools.HttpTool</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>request [GET] path [/resource/md5.js] response [200] content [text/javascript]</message>
+</record>
+<record>
+  <date>2011-06-27T12:28:22</date>
+  <millis>1309170502562</millis>
+  <sequence>7</sequence>
+  <logger>com.itchigo.tools.HttpTool</logger>
+  <level>INFO</level>
+  <class>com.itchigo.tools.HttpTool</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>request [GET] path [/resource/logo_kabeldeutschland_NEC_MON.png] response [200] content [image/png]</message>
+</record>
+<record>
+  <date>2011-06-27T12:28:22</date>
+  <millis>1309170502906</millis>
+  <sequence>8</sequence>
+  <logger>com.itchigo.tools.HttpTool</logger>
+  <level>INFO</level>
+  <class>com.itchigo.tools.HttpTool</class>
+  <method>log</method>
+  <thread>18</thread>
+  <message>request [GET] path [/gateway] response [200] content [&lt;gateway-list&gt;]</message>
+</record>
+<record>
+  <date>2011-06-27T12:28:22</date>
+  <millis>1309170502921</millis>
+  <sequence>9</sequence>
+  <logger>com.itchigo.tools.HttpTool</logger>
+  <level>INFO</level>
+  <class>com.itchigo.tools.HttpTool</class>
+  <method>log</method>
+  <thread>19</thread>
+  <message>request [GET] path [/class] response [200] content [&lt;class-list&gt;]</message>
+</record>

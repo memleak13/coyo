@@ -1,0 +1,4 @@
+<!-- <init/> -->
+
+<timer delay="1" id="send_message" />
+

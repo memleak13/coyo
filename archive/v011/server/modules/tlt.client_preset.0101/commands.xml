@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-commands>
+    <client-cmd type="command_db0" >
+    	<writetofile file="dump/command_log">Command has been received</writetofile>
+    	<writetofile file="dump/command_log">=========================</writetofile>
+    	<startscript>/opt/coyonet/scripts/db0.py</startscript>	
+    </client-cmd>
+          
+</client-commands>

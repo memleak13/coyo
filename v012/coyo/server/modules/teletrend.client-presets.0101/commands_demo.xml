@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-commands>
+    <client-cmd type="command_demo_1" >
+    	<writetofile file="dump/demo.txt">command_demo_1, 1. Eintrag testtext</writetofile>
+    	<writetofile file="dump/demo.txt">command_demo_1, 2. Eintrag testtext</writetofile>
+    	<writetofile file="dump/demo.txt">====================================</writetofile>
+    	
+    	<startscript>D:\EMS_Eclipse_Workspace\Teletrend\coyonet\scripts\demo.cmd</startscript>
+    	
+    </client-cmd>
+          
+</client-commands>

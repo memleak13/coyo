@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map label="Cham">
+	<element
+		id="alte_steinhauserstrasse_3"
+		type="de.euromedia_service.coyonet.plugin.Base"
+		x="0"
+		y="0"
+		width="200"
+		height="150"
+		tree.folder="cmts_01"
+		tree.label="Alte Steinhauserstrasse 3"
+		conf.style="StateBorderRectangleRounded"
+		conf.label="Vector VIG"
+		conf.label2="Alte Steinhauserstrasse 3"
+		input.state="systemmgr.state"
+		input.ipaddress="device_1.ipaddress"
+	>
+		<!--
+		<menu-item
+			label="Info"
+			action="de.euromedia_service.coyonet.sendcmd"
+			arg.id="command_db0"
+			arg.question="Dies setzt den Node auf 0 db" >				
+		</menu-item>
+		<menu-item
+			label="Zufahrt"
+			action="de.euromedia_service.coyonet.sendcmd"
+			arg.id="command_demo_1"
+			arg.question="Do you really want to execute demo 1 ?" >				
+		</menu-item>
+		
+		<menu-separator />
+		-->
+		<menu-item
+			label="Auf 0 db setzen"
+			action="de.euromedia_service.coyonet.sendcmd"
+			arg.id="command_db0"
+			arg.question="Dies setzt den Node auf 0 db">				
+		</menu-item>
+
+		<!--
+		<menu-item
+			label="Auf -6 db setzen"
+			action="de.euromedia_service.coyonet.sendcmd"
+			arg.id="command_demo_1"
+			arg.question="Do you really want to execute demo 1 ?" >				
+		</menu-item>
+		<menu-item
+			label="Auf -&#8734; db setzen"
+			action="de.euromedia_service.coyonet.sendcmd"
+			arg.id="command_demo_1"
+			arg.question="Do you really want to execute demo 1 ?" >				
+		</menu-item>
+		-->
+	</element>
+
+	<element
+		id="loretohoehe_3"
+		type="de.euromedia_service.coyonet.plugin.Base"
+		x="0"
+		y="200"
+		width="200"
+		height="150"
+		tree.folder="cmts_01"
+		tree.label="Loretohoehe 3"
+		conf.style="StateBorderRectangleRounded"
+		conf.label="Vector VIG"
+		conf.label2="Loretohoehe 3"
+		input.state="systemmgr.state"
+		input.ipaddress="device_1.ipaddress"
+	>
+	</element>
+</map>

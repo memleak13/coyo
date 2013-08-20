@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<traps sms.enable="false" sql.disable="false" email.enable="false" trap.disable="false" backup.enable="false" backup.auto="false" backup.type="none" alarmlamp.enable="false" debounce="2" clear-debounce="0" alarmtext="" traptext="" slatext="" severity="*">
+
+	<trap sql.disable="false" severity="*">
+		<severity equal="6"/>
+	</trap>
+
+	<!-- Hiltron Antenne -->
+
+	<trap sql.disable="false" trap.disable="false" severity="5">
+		<buinfo1 equal="Hiltron"/>
+		<severity equal="5"/>
+	</trap>	
+	
+	<trap sql.disable="false" trap.disable="false" severity="1">
+		<buinfo1 equal="Hiltron"/>
+		<text contains="emergency stop"/>
+	</trap>	
+	
+	<trap sql.disable="false" trap.disable="false" severity="3">
+		<buinfo1 equal="Hiltron"/>
+		<text contains="Drive TimeOut"/>
+	</trap>	
+
+	<trap sql.disable="false" trap.disable="false" severity="2">
+		<buinfo1 equal="Hiltron"/>
+		<text contains="Drive Communication"/>
+	</trap>		
+
+	<trap sql.disable="false" trap.disable="false" severity="2">
+		<buinfo1 equal="Hiltron"/>
+		<text contains="hACU Communication"/>
+	</trap>		
+
+	<!-- LBand Matrix -->
+	
+	<trap sql.disable="false" trap.disable="false" backup.enable="true" backup.type="dish" backup.auto="true" severity="*" debounce="2" clear-debounce="5">
+		<buinfo1 equal="LBand"/>
+		<text contains="LNB Threshold Error"/>
+	</trap>	
+
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="LBand"/>
+		<text contains="PSU"/>
+	</trap>	
+	
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="LBand"/>
+		<text contains="Unit Status"/>
+	</trap>	
+
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="LBand"/>
+		<text contains="Threshold"/>
+	</trap>	
+
+	<!-- BridgeTech -->
+	
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETH"/>
+		<text contains="No Signal"/>
+	</trap>
+	
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="FSM"/>
+		<text contains="Full Service monitoring"/>
+	</trap>	
+	
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETR"/>
+		<text contains="TS Sync"/>
+	</trap>	
+
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETR"/>
+		<text contains="Sync byte"/>
+	</trap>	
+	
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETR"/>
+		<text contains="PAT"/>
+		<text contains="Program Association Table error"/>
+	</trap>		
+
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETR"/>
+		<text contains="Continuity"/>
+	</trap>	
+
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETR"/>
+		<text contains="PMT"/>
+		<text contains="Program Map Table error"/>
+	</trap>
+	
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETR"/>
+		<text contains="Missing PID"/>
+		<text contains="PID is missing"/>
+	</trap>
+
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETR"/>
+		<text contains="Transport"/>
+	</trap>	
+
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETR"/>
+		<text contains="CRC"/>
+		<text contains="Table checksum error"/>
+	</trap>	
+
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETR"/>
+		<text contains="Program Clock Reference error"/>
+		<text contains="PCR"/>
+	</trap>	
+
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETR"/>
+		<text contains="Program Clock Reference accuracy error"/>
+		<text contains="PCR accur"/>
+	</trap>
+
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETR"/>
+		<text contains="PTS"/>
+		<text contains="Presentation Time Stamp error"/>
+	</trap>		
+	
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETR"/>
+		<text contains="CAT"/>
+		<text contains="Conditional Access Table error"/>
+	</trap>	
+	
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETR"/>
+		<text contains="NIT"/>
+		<text contains="Network Information Table error"/>
+	</trap>	
+	
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETR"/>
+		<text contains="SDT"/>
+		<text contains="Service Description Table error"/>
+	</trap>	
+	
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETR"/>
+		<text contains="EIT"/>
+		<text contains="Event Information Table error"/>
+	</trap>		
+	
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETR"/>
+		<text contains="TDT"/>
+		<text contains="Time Date Table error"/>
+	</trap>	
+	
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETR"/>
+		<text contains="Signal strength"/>
+	</trap>	
+
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="ETR"/>
+		<text contains="Interface overflow"/>
+	</trap>
+
+	<trap sql.disable="false" severity="*">
+		<buinfo1 equal="SYS"/>
+	</trap>
+
+	<!-- AppearTV -->
+	
+	<trap sql.disable="false" trap.disable="false" backup.enable="true" backup.type="ts" backup.auto="true" severity="*">
+		<buinfo2 equal="1048580"/> <!-- No bitrate -->
+	</trap>
+	
+	<trap sql.disable="false" severity="*">
+		<buinfo2 equal="1048581"/> <!-- Half duplex link -->
+	</trap>
+
+	<trap sql.disable="false" severity="*">
+		<buinfo2 equal="1048583"/> <!-- IP dejitter buffer &gt; 95 -->
+	</trap>
+
+	<trap sql.disable="false" debounce="5" clear-debounce="5" severity="*">
+		<buinfo2 equal="1048584"/> <!-- Input buffer overflow. Packet dropped-->
+	</trap>
+
+	<trap sql.disable="false" trap.disable="false" debounce="5" clear-debounce="5" severity="*">
+		<buinfo2 equal="1048588"/> <!-- Output buffer overflow-->
+	</trap>
+
+	<trap sql.disable="false" trap.disable="false" backup.enable="true" backup.type="ts" backup.auto="true" severity="*">
+		<buinfo2 equal="1048589"/> <!-- No signal -->
+	</trap>
+
+	<trap sql.disable="false" trap.disable="false" severity="*">
+		<buinfo2 equal="1048601"/> <!-- Pid Missing -->
+	</trap>
+
+	<trap sql.disable="false" severity="*">
+		<buinfo2 equal="1048605"/> <!-- Reduced dataport link speed -->
+	</trap>
+
+	<trap sql.disable="false" trap.disable="false" backup.enable="true" backup.type="card" backup.auto="true" severity="*">
+		<buinfo2 equal="1048612"/> <!-- Link down -->
+	</trap>
+
+	<trap sql.disable="false" trap.disable="false" backup.enable="true" backup.auto="true" backup.type="card" severity="*">
+		<buinfo2 equal="2621490"/> <!-- Card missing -->
+	</trap>
+
+	<trap sql.disable="false" trap.disable="false" severity="*">
+		<buinfo2 equal="2621491"/> <!-- Card mismatch -->
+	</trap>
+
+	<trap sql.disable="false" severity="*">
+		<buinfo2 equal="3407981"/> <!-- Unknown error state-->
+	</trap>
+
+	<trap sql.disable="false" trap.disable="false" severity="3">
+		<buinfo2 equal="3932162"/> <!-- Power adapter error -->
+	</trap>
+
+	<trap sql.disable="false" severity="*">
+		<buinfo2 equal="3932163"/> <!-- Unit Fan Error -->
+	</trap>
+
+	<trap sql.disable="false" trap.disable="false" backup.enable="true" backup.auto="true" backup.type="card" severity="*">
+		<buinfo2 equal="4653057"/> <!-- Card Overheated -->
+	</trap>
+
+	<trap sql.disable="false" severity="*">
+		<buinfo2 equal="4653058"/> <!-- Card Tempearture High-->
+	</trap>
+
+	<trap sql.disable="false" severity="*">
+		<buinfo2 equal="2228271"/> <!-- BER &gt; 2x10-4 -->
+	</trap>
+
+	<trap sql.disable="false" severity="*">
+		<buinfo2 equal="2228272"/> <!-- I2C ERROR -->
+	</trap>
+
+	<trap sql.disable="false" trap.disable="false" backup.enable="true" backup.auto="true" backup.type="ts" debounce="5" severity="*">
+		<buinfo2 equal="2228269"/> <!-- No Lock -->
+	</trap>
+
+	<trap sql.disable="false" severity="*">
+		<buinfo2 equal="2228273"/> <!-- Startup Error -->
+	</trap>
+
+	<trap sql.disable="false" severity="*">
+		<buinfo2 equal="2883585"/> <!-- PMT missing -->
+	</trap>
+
+	<trap sql.disable="false" trap.disable="false" severity="*">
+		<buinfo2 equal="2883584"/> <!-- PAT missing -->
+	</trap>
+
+	<trap sql.disable="false" debounce="5" clear-debounce="5" severity="*">
+		<buinfo2 equal="1048584"/> <!-- Input buffer overflow. Packet dropped -->
+	</trap>
+
+	<trap sql.disable="false" debounce="5" clear-debounce="5" severity="*">
+		<buinfo2 equal="1048587"/> <!-- Output buffer overflow. Packet dropped -->
+	</trap>
+
+	<trap sql.disable="false" severity="*">
+		<buinfo2 equal="1048609"/> <!-- Recommended output maximum bitrate exceeded -->
+	</trap>
+
+	<trap sql.disable="false" severity="*">
+		<buinfo2 equal="1048597"/> <!-- TS packet sync byte error -->
+	</trap>
+
+	<trap sql.disable="false" severity="*">
+		<buinfo2 equal="1048596"/> <!-- IP fragmentation detected - format not supported -->
+	</trap>
+
+	<trap sql.disable="false" severity="*">
+		<buinfo2 equal="1048595"/> <!-- Frame length error -->
+	</trap>
+
+	<trap sql.disable="false" trap.disable="false" severity="*">
+		<buinfo2 equal="1048594"/> <!-- Multiple input sources, input temporarily disabled -->
+	</trap>
+
+	<trap sql.disable="false" severity="*">
+		<buinfo2 equal="1048583"/> <!-- IP dejitter buffer &gt; 95 -->
+	</trap>
+
+	<trap sql.disable="false" trap.disable="false" backup.enable="true" backup.auto="true" backup.type="ts" severity="*">
+		<buinfo2 equal="1048611"/> <!-- Link down -->
+	</trap>
+
+	<trap sql.disable="false" trap.disable="false" backup.enable="true" backup.auto="true" backup.type="ts" debounce="5" severity="*">
+		<buinfo2 equal="1966080"/> <!-- No Sync -->
+	</trap>
+</traps>
+

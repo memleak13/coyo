@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+#Message Level
+##
+Critical        1
+Major           2
+Minor           3
+Warning         4
+Clear           5
+Information     6
+##
+
+#Behaviour
+##
+Cleared                     0
+Not-Pending                 1
+Pending-ClearedByUser       2
+Pending-ClearedBySystem     3
+##
+
+#Pending
+##
+Pending     1
+Cleared     0
+##
+
+ -->
+
+<notification-def module="SRG Systemmanager" version="1.0">
+    <language name="eng">
+        <notification id="1" alarm.id="1" text="Alarm" subject="" severity="1" behaviour="3" pending="1" />
+        <notification id="2" alarm.id="1" text="Alarm" subject="" severity="5" behaviour="3" pending="0" />
+        <notification id="3" alarm.id="1" text="Alive" subject="" severity="6" behaviour="1" pending="0" />
+   
+    </language> 
+</notification-def> 

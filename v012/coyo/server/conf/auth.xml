@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auth>
+    <user id="administrator" password="admin" >
+        <group id="operator" />
+    </user>
+    <user id="operator" password="password" >
+        <group id="operator" />
+    </user>
+    <user id="coyonet" password="euromedia-service">
+        <group id="sys.admin" />
+        <group id="administrator" />
+    </user>
+    <user id="cn" password="ems">
+        <group id="sys.admin" />
+        <group id="administrator" />
+    </user>    
+</auth>

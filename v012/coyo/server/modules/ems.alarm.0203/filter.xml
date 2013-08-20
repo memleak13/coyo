@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    global settings for alarmEngine
+    
+    <traps 
+            sms.enable="false"			# leave empty to use value of internal trap
+            sql.disable="false"			# leave empty to use value of internal trap
+            email.enable="false"		# leave empty to use value of internal trap
+            trap.disable="false"		# leave empty to use value of internal trap
+            backup.enable="false"		# leave empty to use value of internal trap
+			backup.auto="false"			# leave empty to use value of internal trap
+			backup.type="chassis"		# leave empty to use value of internal trap
+			alarmlamp.enable="false"	# leave empty to use value of internal trap
+			debounce="0"				# leave empty to use value of internal trap
+			clear-debounce="0"			# leave empty to use value of internal trap
+			alarmtext=""				# leave empty to use value of internal trap
+			traptext=""					# leave empty to use value of internal trap
+			severity="5"				# * to use severity of internal trap or leave empty to use value of internal trap
+    >
+    
+    </traps>
+    
+    rules for traps for alarmEngine    
+    
+    Example:
+ 
+	<trap 
+        sms.enable="false"			# leave empty to use global value
+        sql.disable="false"			# leave empty to use global value
+        email.enable="true"			# leave empty to use global value
+        trap.disable="false"		# leave empty to use global value
+		backup.enable="false"		# leave empty to use global value
+		backup.auto="false"			# leave empty to use global value
+		backup.type="chassis"		# leave empty to use global value
+		alarmlamp.enable="false"	# leave empty to use global value
+		debounce="0"				# leave empty to use global value
+		clear-debounce="0"			# leave empty to use global value
+		alarmtext=""				# leave empty to use global value
+		traptext=""					# leave empty to use global value
+		severity="5"				# * to use severity of internal trap or leave empty to use global value
+    >
+    
+            <severity equal="2"/>   	#severity must be equal to "2"
+            <severity lower="5"/>   	#severity must be lower than "5"
+            <severity greater="5"/> 	#severity must be greater than"5"
+        
+            #It is possible to define multiple severity rules in on trap-node 
+
+            <text equal="test"/>   		#text must be equal to "test"
+			<text unequal="test"/>  	#text must not be "test"
+            <text contains="test"/> 	#text must contain "test"
+			<text without="test"/> 		#text must not contain "test"
+            
+            #It is possible to define multiple text rules in on trap-node 
+        
+            <subject equal="test"/>   	#subject must be equal to "test"
+            <subject contains="test"/> 	#subject must contain "test"
+
+            #It is possible to define multiple subject rules in on trap-node 
+
+            <engineId equal="test"/>   	#engineID must be equal to "test"
+            <engineId contains="test"/> #engineID must contain "test"
+			
+			<buinfo1 equal="1234"/> 	#buinfo1 must be equal to "1234"
+            <buinfo1 contains="123"/> 	#buinfo1 must contain "123"
+			
+            <buinfo2 equal="test"/>   	#buinfo2 must be equal to "test"
+            <buinfo2 contains="test"/> 	#buinfo2 must contain "test"
+			
+            <buinfo3 equal="test"/>   	#buinfo3 must be equal to "test"
+            <buinfo3 contains="test"/> 	#buinfo3 must contain "test"
+
+            <buinfo4 equal="test"/>   	#buinfo4 must be equal to "test"
+            <buinfo4 contains="test"/> 	#buinfo4 must contain "test"			
+			
+            <service equal="1234"/>   	#service must be equal to "1234"
+			
+	</trap> 
+
+-->
+
+<traps sms.enable="false" sql.disable="true" email.enable="false" trap.disable="false" backup.enable="true" backup.auto="false" backup.type="chassis" alarmlamp.enable="false" debounce="10" clear-debounce="5" alarmtext="" traptext="" severity="5">
+
+	<trap sql.disable="true" debounce="10" clear-debounce="5" severity="*">
+		<severity equal="2"/>
+        <severity equal="5"/>
+	</trap>
+	<trap trap.disable="true" backup.enable="true" alarmlamp.enable="true" debounce="10" clear-debounce="5" severity="*">
+		<severity equal="4"/>
+	</trap>
+	<trap trap.disable="true" backup.enable="true" alarmlamp.enable="true" debounce="20" severity="*">
+		<severity equal="3"/>
+	</trap>	
+	
+</traps>
+

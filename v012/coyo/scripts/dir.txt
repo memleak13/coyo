@@ -1,0 +1,17 @@
+ Datentr„ger in Laufwerk D: ist Data
+ Volumeseriennummer: B0D4-6D0A
+
+ Verzeichnis von D:\EMS_Eclipse_Workspace\Teletrend\coyonet\gui
+
+13.08.2013  16:21    <DIR>          .
+13.08.2013  16:21    <DIR>          ..
+08.08.2013  16:33    <DIR>          addons
+08.08.2013  16:52             2.550 conf.xml
+08.08.2013  15:50    <DIR>          images
+13.08.2013  15:44             1.327 init.xml
+08.08.2013  16:07    <DIR>          maps
+08.08.2013  15:51    <DIR>          plugins
+08.08.2013  15:50    <DIR>          scripts
+10.01.2013  10:15               472 sqlprops.xml
+               3 Datei(en),          4.349 Bytes
+               7 Verzeichnis(se), 62.804.029.440 Bytes frei

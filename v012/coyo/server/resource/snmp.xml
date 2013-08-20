@@ -1,0 +1,54 @@
+<snmp>
+    <!-- Teleste -->
+    <mib>
+        <oid id="1.3.6.1.4.1.3715.3.3.4.1.5" name="rAmpRC1PortMode" />
+        <oid id="1.3.6.1.4.1.3715.3.3.4.1.6" name="rAmpRC2PortMode" />
+        <oid id="1.3.6.1.4.1.3715.3.3.4.1.7" name="rAmpRA1PortMode" />
+        <oid id="1.3.6.1.4.1.3715.3.3.4.1.8" name="rAmpRA2PortMode" />
+        <oid id="1.3.6.1.4.1.3715.3.3.4.1.9" name="rAmpRA3PortMode" />
+        <enum value="1" name="0dB (1)"/>
+        <enum value="2" name="6dB (2)"/>
+        <enum value="3" name="40dB (3)"/>
+        <enum value="4" name="disabled (4)"/>        
+    </mib>
+    <!-- WISI -->
+    <mib>
+        <oid id="1.3.6.1.4.1.7465.20.2.1.7.2.1.17" name="rvrActualSwitch1Position" />
+        <oid id="1.3.6.1.4.1.7465.20.2.1.7.2.1.19" name="rvrActualSwitch2Position" />
+        <oid id="1.3.6.1.4.1.7465.20.2.1.7.2.1.21" name="rvrActualSwitch3Position" />
+        <oid id="1.3.6.1.4.1.7465.20.2.1.7.2.1.27" name="rvrActualSwitch4Position" />
+        <oid id="1.3.6.1.4.1.7465.20.2.1.7.2.1.29" name="rvrActualSwitch5Position" />
+        <enum value="0" name="0dB (0)"/>
+        <enum value="1" name="8dB (1)"/>
+        <enum value="2" name="45dB (2)"/>
+    </mib>
+    <!-- Kathrein -->
+    <mib>
+        <oid id="1.3.6.1.4.1.6437.1.1.16.3.1.1.7" name="tvr12ConfigurationICS1Actual" />
+        <oid id="1.3.6.1.4.1.6437.1.1.16.3.1.1.8" name="tvr12ConfigurationICS2Actual" />
+        <oid id="1.3.6.1.4.1.6437.1.1.16.3.1.1.9" name="tvr12ConfigurationICS3Actual" />
+        <oid id="1.3.6.1.4.1.6437.1.1.16.3.1.1.10" name="tvr12ConfigurationICS4Actual" />
+        <oid id="1.3.6.1.4.1.6437.1.1.16.3.1.1.11" name="tvr12ConfigurationICS5Actual" />
+        
+        <oid id="1.3.6.1.4.1.6437.1.1.16.3.1.1.2" name="tvr12ConfigurationICS1Nominal" />
+        <oid id="1.3.6.1.4.1.6437.1.1.16.3.1.1.3" name="tvr12ConfigurationICS2Nominal" />
+        <oid id="1.3.6.1.4.1.6437.1.1.16.3.1.1.4" name="tvr12ConfigurationICS3Nominal" />
+        <oid id="1.3.6.1.4.1.6437.1.1.16.3.1.1.5" name="tvr12ConfigurationICS4Nominal" />
+        <oid id="1.3.6.1.4.1.6437.1.1.16.3.1.1.6" name="tvr12ConfigurationICS5Nominal" />
+        
+        
+        
+        <enum value="1" name="connected (1)"/>
+        <enum value="2" name="attenuated (2)"/>
+        <enum value="3" name="disconnected (3)"/>
+    </mib>   
+    <!-- BKTel -->
+    <mib>
+        <oid id="1.3.6.1.4.1.7501.1.2.108.3.1.1.11" name="orx2ConfigIngressMode_Chn1" />
+        <oid id="1.3.6.1.4.1.7501.1.2.108.3.1.1.19" name="orx2ConfigIngressMode_Chn2" />
+        <enum value="1" name="0dB (1)"/>
+        <enum value="2" name="6dB (2)"/>
+        <enum value="3" name="60dB (3)"/>
+    </mib>     
+
+</snmp>

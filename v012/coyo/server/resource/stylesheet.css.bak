@@ -1,0 +1,93 @@
+h1 {
+    color:#FFFFFF;
+    
+
+}
+
+.userinfo {
+	font-size: 8pt;
+}
+
+.htd  { 
+    background:url(/resource/bg_header.png);
+    background-color: #cccccc;
+    margin-top:0em;
+    margin-bottom:0em;
+    
+    }
+input[type=text] { 
+    width: 300px;
+ }
+input[type=button] { 
+    min-width: 70px;
+    
+   width:expression
+		(document.body.clientWidth 
+		< 500? "500px": "auto")
+    
+ } 
+ 
+select { 
+    width: 300px;
+ }
+
+body {
+	color: #000000;
+	background: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11pt;
+}
+
+ul {
+    list-style-image:url(/resource/lay_flyout_list_bullet.png)
+}
+
+
+li a {
+    color:#222222;
+    text-decoration:none;
+    font-size: 14pt;
+}
+
+ a:hover {
+	color: #222222;
+	background-color: #cccccc;
+}
+
+table {
+	margin: 3px 2px;
+	border: 1px solid #003366;
+}
+
+th {
+	color: #ffffff;
+    background: #576166;
+	padding: 5px;
+}
+
+td {
+	background: #cccccc;
+	padding: 5px;
+}
+
+.ajaxHidden {
+	padding: 4px;
+	color: white;
+	background: white;
+	border: solid 1px white;
+	font-size: large;
+	text-align: center;
+}
+
+.ajaxError {
+	padding: 4px;
+	color: #cc0033;
+	background: #ffffcc;
+	border: solid 1px #cc0033;
+	font-size: large;
+	text-align: center;
+}
+
+#ajaxCreateSpinner, #ajaxUpdateSpinner, #ajaxDeleteSpinner {
+	padding-left: 30px;
+}

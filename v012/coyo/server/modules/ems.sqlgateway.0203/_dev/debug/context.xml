@@ -1,0 +1,15 @@
+<context  
+	max.packet.size="100" 
+	dropmode.time="30" 
+	dropmode="0" 
+	api="2" 
+	pwd="euromedia" 
+	user="coyonet" 
+	read.timeout="1.0" 
+	url="http://127.0.0.1:8082/sqlmessage" 
+    change="0"
+    connect.timeout="3" 
+   >
+    
+	<queue />
+</context>

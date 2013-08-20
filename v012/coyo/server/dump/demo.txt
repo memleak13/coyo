@@ -1,0 +1,108 @@
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 1. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 2. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">====================================</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 1. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 2. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">====================================</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 1. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 2. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">====================================</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 1. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 2. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">====================================</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 1. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 2. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">====================================</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 1. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 2. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">====================================</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 1. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 2. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">====================================</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 1. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 2. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">====================================</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 1. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 2. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">====================================</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 1. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 2. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">====================================</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 1. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 2. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">====================================</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 1. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">command_demo_1, 2. Eintrag testtext</writetofile>
+</dump>
+<dump file="dump/demo.txt">
+<writetofile file="dump/demo.txt">====================================</writetofile>
+</dump>

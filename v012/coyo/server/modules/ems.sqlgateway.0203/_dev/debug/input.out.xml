@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug xmlns:cn="http://euromedia-service.de/coyoNET/" xmlns:gw="http://euromedia-service.de/coyoNET/sqlgateway/">timer send_message</debug>
+<debug xmlns:cn="http://euromedia-service.de/coyoNET/" xmlns:gw="http://euromedia-service.de/coyoNET/sqlgateway/">dump entfernen</debug>
+<dump xmlns:cn="http://euromedia-service.de/coyoNET/" xmlns:gw="http://euromedia-service.de/coyoNET/sqlgateway/" file="dump/sqlgateway.txt">
+	<http-request read.timeout="1.0" connect.timeout="3" method="POST" url="http://127.0.0.1:8082/sqlmessage" id="send.sql.message" api="2">
+		<auth password="euromedia" user="coyonet" type="basic" />
+		<content>
+			<sqlmessages xmlns="http://euromedia-service.de/coyoNET/"></sqlmessages>
+		</content>
+	</http-request>
+</dump>

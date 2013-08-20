@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Teletrend AG
+    Alte Steinhauserstrasse 3
+    6330 Cham
+-->
+<!--
+    History:
+
+-->
+<conf>
+
+<!-- main menu -->
+    <menu special="mainmenu">
+        <menu label="File" >
+            <item sys="other" label="Exit" action="exit" />      
+        </menu>
+    </menu>
+
+<!-- tray menu
+    <menu special="traymenu">
+        <item label="Show" action="show" />
+        <item label="Exit" action="exit" />
+    </menu>
+-->
+ 
+ <!-- tree menu  
+    <menu special="treemenu">
+        <item label="Expand all" action="expand" />
+        <item label="Collapse all" action="collapse" />
+        <separator />
+        <item label="Open Map Window" action="map" />
+    </menu>
+-->
+
+    <!--Client Plugins -->
+    <client-plugin name="Base" /> 
+    <client-plugin name="Signal" />
+    <client-plugin name="Path2"  />
+    
+    <!--Event Listener     -->
+    <event-listener id="msgeventhandler" path="addon/msgeventhandler.jar" />
+
+    <!-- Maps -->
+    <map name="cham" ></map>
+    <map name="cupertino"></map>
+    
+</conf>

@@ -1,0 +1,3737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	Command list:
+	
+	
+	setMode
+	
+	setCross
+	
+	ncompass-profile-service-activate
+	
+	setTwoGf200Input
+	
+	setOutput
+	
+	evertz.videomix.select.input
+	
+	SigGen-Crosspoints
+	
+	
+	
+
+ -->
+
+<client-commands>
+
+		 <client-cmd type="measure:dcm-main.eth3=ird5|239.193.101.105:5000:11110" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="11110" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird5|239.193.101.105:5000:28006" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="28006" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird5|239.193.101.105:5000:28007" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="28007" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird5|239.193.101.105:5000:28008" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="28008" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird5|239.193.101.105:5000:28011" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="28011" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird5|239.193.101.105:5000:28012" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="28012" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird5|239.193.101.105:5000:28013" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="28013" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird5|239.193.101.105:5000:28014" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="28014" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird5|239.193.101.105:5000:28016" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="28016" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird5|239.193.101.105:5000:28017" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="28017" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird6|239.193.101.105:5000:11110" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="11110" />
+			 
+		</client-cmd>    
+		
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird6|239.193.101.105:5000:28006" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="28006" />
+			 
+		</client-cmd>    
+		
+
+
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird6|239.193.101.105:5000:28007" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-s.vmVlan.107"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="28007" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird6|239.193.101.105:5000:28008" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-s.vmVlan.107"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="28008" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird6|239.193.101.105:5000:28011" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-s.vmVlan.107"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="28011" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird6|239.193.101.105:5000:28012" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-s.vmVlan.107"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="28012" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird6|239.193.101.105:5000:28013" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-s.vmVlan.107"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="28013" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird6|239.193.101.105:5000:28014" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-s.vmVlan.107"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="28014" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird6|239.193.101.105:5000:28016" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-s.vmVlan.107"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="28016" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-main.eth3=ird6|239.193.101.105:5000:28017" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-s.vmVlan.107"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="28017" />
+			 
+		</client-cmd>    		
+		
+		
+	<client-cmd type="measure:dcm-bu.eth3=ird5|239.193.101.105:5000:11110" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- copy VLAN id   -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.108"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="11110" />
+		</client-cmd>   
+	
+	
+		<client-cmd type="measure:dcm-bu.eth3=ird5|239.193.101.105:5000:28006" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- copy VLAN id   -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.108"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="28006" />
+		</client-cmd>   
+		
+		
+		
+		 <client-cmd type="measure:dcm-bu.eth3=ird5|239.193.101.105:5000:28007" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="28007" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-bu.eth3=ird5|239.193.101.105:5000:28008" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="28008" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-bu.eth3=ird5|239.193.101.105:5000:28011" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="28011" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-bu.eth3=ird5|239.193.101.105:5000:28012" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="28012" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-bu.eth3=ird5|239.193.101.105:5000:28013" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="28013" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-bu.eth3=ird5|239.193.101.105:5000:28014" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="28014" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-bu.eth3=ird5|239.193.101.105:5000:28016" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="28016" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-bu.eth3=ird5|239.193.101.105:5000:28017" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.107"  engine="eth-switch-p" slot="5" port="24"  />
+			<ird.ip engine="ird5" multicast="239.193.101.105:5000" service="28017" />
+			 
+		</client-cmd>    		
+		
+		
+		<client-cmd type="measure:dcm-bu.eth3=ird6|239.193.101.105:5000:11110" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- copy VLAN id   -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.108"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="11110" />
+		</client-cmd>   
+		
+		
+		<client-cmd type="measure:dcm-bu.eth3=ird6|239.193.101.105:5000:28006" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- copy VLAN id   -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-p.vmVlan.108"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="28006" />
+		</client-cmd>   
+		
+
+		
+		 <client-cmd type="measure:dcm-bu.eth3=ird6|239.193.101.105:5000:28007" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-s.vmVlan.107"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="28007" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-bu.eth3=ird6|239.193.101.105:5000:28008" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-s.vmVlan.107"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="28008" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-bu.eth3=ird6|239.193.101.105:5000:28011" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-s.vmVlan.107"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="28011" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-bu.eth3=ird6|239.193.101.105:5000:28012" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-s.vmVlan.107"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="28012" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-bu.eth3=ird6|239.193.101.105:5000:28013" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-s.vmVlan.107"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="28013" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-bu.eth3=ird6|239.193.101.105:5000:28014" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-s.vmVlan.107"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="28014" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-bu.eth3=ird6|239.193.101.105:5000:28016" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-s.vmVlan.107"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="28016" />
+			 
+		</client-cmd>    
+		
+		 <client-cmd type="measure:dcm-bu.eth3=ird6|239.193.101.105:5000:28017" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan-copy source.mib.name="eth-switch-s.vmVlan.107"  engine="eth-switch-s" slot="5" port="24"  />
+			<ird.ip engine="ird6" multicast="239.193.101.105:5000" service="28017" />
+			 
+		</client-cmd>    		
+
+			<client-cmd type="measure.dcm-main.11110.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-main -->
+         	<setCross output="28" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11110" />
+         	
+    	</client-cmd>
+
+			<client-cmd type="measure.dcm-main.28006.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-main -->
+         	<setCross output="28" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28006" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-main.28007.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-main -->
+         	<setCross output="28" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28007" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-main.28008.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-main -->
+         	<setCross output="28" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28008" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-main.28011.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-main -->
+         	<setCross output="28" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28011" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-main.28012.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-main -->
+         	<setCross output="28" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28012" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-main.28013.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-main -->
+         	<setCross output="28" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28013" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-main.28014.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-main -->
+         	<setCross output="28" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28014" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.dcm-main.28016.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-main -->
+         	<setCross output="28" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28016" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.dcm-main.28017.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-main -->
+         	<setCross output="28" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28017" />
+         	
+    	</client-cmd>
+    	
+
+
+			<client-cmd type="measure.dcm-main.11110.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-main -->
+         	<setCross output="29" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11110" />
+         	
+    	</client-cmd>
+
+			<client-cmd type="measure.dcm-main.28006.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-main -->
+         	<setCross output="29" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28006" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-main.28007.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-main -->
+         	<setCross output="29" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28007" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-main.28008.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-main -->
+         	<setCross output="29" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28008" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-main.28011.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-main -->
+         	<setCross output="29" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28011" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-main.28012.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-main -->
+         	<setCross output="29" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28012" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-main.28013.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-main -->
+         	<setCross output="29" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28013" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-main.28014.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-main -->
+         	<setCross output="29" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28014" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.dcm-main.28016.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-main -->
+         	<setCross output="29" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28016" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.dcm-main.28017.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-main -->
+         	<setCross output="80" input="77" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-main -->
+         	<setCross output="29" input="77" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28017" />
+         	
+    	</client-cmd>
+    	
+--------------
+
+	<client-cmd type="measure.dcm-bu.11110.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-bu -->
+         	<setCross output="28" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11110" />
+         	
+    	</client-cmd>
+
+			<client-cmd type="measure.dcm-bu.28006.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-bu -->
+         	<setCross output="28" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28006" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-bu.28007.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-bu -->
+         	<setCross output="28" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28007" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-bu.28008.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-bu -->
+         	<setCross output="28" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28008" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-bu.28011.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-bu -->
+         	<setCross output="28" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28011" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-bu.28012.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-bu -->
+         	<setCross output="28" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28012" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-bu.28013.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-bu -->
+         	<setCross output="28" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28013" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-bu.28014.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-bu -->
+         	<setCross output="28" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28014" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.dcm-bu.28016.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-bu -->
+         	<setCross output="28" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28016" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.dcm-bu.28017.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to dcm-bu -->
+         	<setCross output="28" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28017" />
+         	
+    	</client-cmd>
+    	
+
+
+			<client-cmd type="measure.dcm-bu.11110.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-bu -->
+         	<setCross output="29" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11110" />
+         	
+    	</client-cmd>
+
+			<client-cmd type="measure.dcm-bu.28006.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-bu -->
+         	<setCross output="29" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28006" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-bu.28007.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-bu -->
+         	<setCross output="29" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28007" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-bu.28008.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-bu -->
+         	<setCross output="29" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28008" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-bu.28011.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-bu -->
+         	<setCross output="29" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28011" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-bu.28012.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-bu -->
+         	<setCross output="29" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28012" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-bu.28013.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-bu -->
+         	<setCross output="29" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28013" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.dcm-bu.28014.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-bu -->
+         	<setCross output="29" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28014" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.dcm-bu.28016.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-bu -->
+         	<setCross output="29" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28016" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.dcm-bu.28017.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to dcm-bu -->
+         	<setCross output="80" input="78" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to dcm-bu -->
+         	<setCross output="29" input="78" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28017" />
+         	
+    	</client-cmd>
+    	
+
+
+
+
+
+
+
+ 		<client-cmd type="measure.mux1.514.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="53" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 1 -->
+         	<setCross output="28" input="53" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="514" />
+         	
+    	</client-cmd>
+    	
+    	<client-cmd type="measure.mux1.515.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="53" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 1 -->
+         	<setCross output="28" input="53" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="515" />
+         	
+    	</client-cmd>
+    	
+    	<client-cmd type="measure.mux1.516.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="53" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 1 -->
+         	<setCross output="28" input="53" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="516" />
+         	
+    	</client-cmd>
+    	
+    	<client-cmd type="measure.mux1.517.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="53" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 1 -->
+         	<setCross output="28" input="53" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="517" />
+         	
+    	</client-cmd>
+    	
+    	<client-cmd type="measure.mux1.28006.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="49" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 1 -->
+         	<setCross output="28" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28006" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux1.28007.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="49" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 1 -->
+         	<setCross output="28" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28007" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux1.28008.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="49" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 1 -->
+         	<setCross output="28" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28008" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux1.28011.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="49" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 1 -->
+         	<setCross output="28" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28011" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux1.28012.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="49" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 1 -->
+         	<setCross output="28" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28012" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux1.28013.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="49" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 1 -->
+         	<setCross output="28" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28013" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux1.28014.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="49" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 1 -->
+         	<setCross output="28" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28014" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux1.28016.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="49" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 1 -->
+         	<setCross output="28" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28016" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux1.28017.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="49" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 1 -->
+         	<setCross output="28" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28017" />
+         	
+    	</client-cmd>
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+
+ 		<client-cmd type="measure.mux1.514.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="53" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 1 -->
+         	<setCross output="29" input="53" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="514" />
+         	
+    	</client-cmd>
+    	
+    	<client-cmd type="measure.mux1.515.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="53" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 1 -->
+         	<setCross output="29" input="53" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="515" />
+         	
+    	</client-cmd>
+    	
+    	<client-cmd type="measure.mux1.516.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="53" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 1 -->
+         	<setCross output="29" input="53" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="516" />
+         	
+    	</client-cmd>
+    	
+    	<client-cmd type="measure.mux1.517.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="53" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 1 -->
+         	<setCross output="29" input="53" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="517" />
+         	
+    	</client-cmd>
+    	
+    	<client-cmd type="measure.mux1.28006.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="49" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 1 -->
+         	<setCross output="29" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28006" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux1.28007.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="49" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 1 -->
+         	<setCross output="29" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28007" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux1.28008.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="49" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 1 -->
+         	<setCross output="29" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28008" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux1.28011.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="49" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 1 -->
+         	<setCross output="29" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28011" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux1.28012.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="49" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 1 -->
+         	<setCross output="29" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28012" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux1.28013.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="49" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 1 -->
+         	<setCross output="29" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28013" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux1.28014.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="49" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 1 -->
+         	<setCross output="29" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28014" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux1.28016.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="49" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 1 -->
+         	<setCross output="29" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28016" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux1.28017.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="49" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 1 -->
+         	<setCross output="29" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28017" />
+         	
+    	</client-cmd>
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+ 		<client-cmd type="measure.mux2.514.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="54" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 2 -->
+         	<setCross output="28" input="54" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="514" />
+         	
+    	</client-cmd>
+    	
+    	<client-cmd type="measure.mux2.515.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="54" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 2 -->
+         	<setCross output="28" input="54" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="515" />
+         	
+    	</client-cmd>
+    	
+    	<client-cmd type="measure.mux2.516.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="54" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 2 -->
+         	<setCross output="28" input="54" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="516" />
+         	
+    	</client-cmd>
+    	
+    	<client-cmd type="measure.mux2.517.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="54" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 2 -->
+         	<setCross output="28" input="54" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="517" />
+         	
+    	</client-cmd>
+    	
+    	<client-cmd type="measure.mux2.28006.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="50" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 2 -->
+         	<setCross output="28" input="50" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28006" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux2.28007.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="50" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 2 -->
+         	<setCross output="28" input="50" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28007" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux2.28008.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="50" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 2 -->
+         	<setCross output="28" input="50" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28008" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux2.28011.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="50" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 2 -->
+         	<setCross output="28" input="50" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28011" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux2.28012.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="50" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 2 -->
+         	<setCross output="28" input="50" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28012" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux2.28013.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="50" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 2 -->
+         	<setCross output="28" input="50" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28013" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux2.28014.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="50" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 2 -->
+         	<setCross output="28" input="50" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28014" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux2.28016.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="50" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 2 -->
+         	<setCross output="28" input="50" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28016" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux2.28017.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="50" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 2 -->
+         	<setCross output="28" input="50" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28017" />
+         	
+    	</client-cmd>
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+
+ 		<client-cmd type="measure.mux2.514.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="54" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 2 -->
+         	<setCross output="29" input="54" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="514" />
+         	
+    	</client-cmd>
+    	
+    	<client-cmd type="measure.mux2.515.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="54" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 2 -->
+         	<setCross output="29" input="54" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="515" />
+         	
+    	</client-cmd>
+    	
+    	<client-cmd type="measure.mux2.516.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="54" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 2 -->
+         	<setCross output="29" input="54" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="516" />
+         	
+    	</client-cmd>
+    	
+    	<client-cmd type="measure.mux2.517.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="54" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 2 -->
+         	<setCross output="29" input="54" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="517" />
+         	
+    	</client-cmd>
+    	
+    	<client-cmd type="measure.mux2.28006.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="50" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 2 -->
+         	<setCross output="29" input="50" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28006" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux2.28007.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="50" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 2 -->
+         	<setCross output="29" input="50" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28007" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux2.28008.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="50" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 2 -->
+         	<setCross output="29" input="50" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28008" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux2.28011.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="50" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 2 -->
+         	<setCross output="29" input="50" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28011" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux2.28012.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="50" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 2 -->
+         	<setCross output="29" input="50" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28012" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux2.28013.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="50" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 2 -->
+         	<setCross output="29" input="50" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28013" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.mux2.28014.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="50" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 2 -->
+         	<setCross output="29" input="50" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28014" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux2.28016.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="50" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 2 -->
+         	<setCross output="29" input="50" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28016" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux2.28017.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 2 -->
+         	<setCross output="80" input="50" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 2 -->
+         	<setCross output="29" input="50" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28017" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux3.11110.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 3 -->
+         	<setCross output="80" input="57" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 3 -->
+         	<setCross output="28" input="57" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11110" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux3.11130.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 3 -->
+         	<setCross output="80" input="57" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 3 -->
+         	<setCross output="28" input="57" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11130" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux3.11140.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 3 -->
+         	<setCross output="80" input="57" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 3 -->
+         	<setCross output="28" input="57" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11140" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux3.11150.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 3 -->
+         	<setCross output="80" input="61" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 3 -->
+         	<setCross output="28" input="61" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11150" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux3.11160.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 3 -->
+         	<setCross output="80" input="61" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 3 -->
+         	<setCross output="28" input="61" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11160" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux3.11170.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 3 -->
+         	<setCross output="80" input="61" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 3 -->
+         	<setCross output="28" input="61" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11170" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux3.11110.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 3 -->
+         	<setCross output="80" input="57" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 3 -->
+         	<setCross output="29" input="57" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11110" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux3.11130.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 3 -->
+         	<setCross output="80" input="57" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 3 -->
+         	<setCross output="29" input="57" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11130" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux3.11140.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 3 -->
+         	<setCross output="80" input="57" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 3 -->
+         	<setCross output="29" input="57" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11140" />
+         	
+    	</client-cmd>
+    	
+    	<client-cmd type="measure.mux3.11150.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 3 -->
+         	<setCross output="80" input="61" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 3 -->
+         	<setCross output="29" input="61" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11150" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux3.11160.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 3 -->
+         	<setCross output="80" input="61" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 3 -->
+         	<setCross output="29" input="61" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11160" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux3.11170.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 3 -->
+         	<setCross output="80" input="61" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 3 -->
+         	<setCross output="29" input="61" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11170" />
+         	
+    	</client-cmd>
+    	
+    	
+    	
+    	
+    	
+    	
+    	  <client-cmd type="measure.mux4.11110.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 4 -->
+         	<setCross output="80" input="58" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 4 -->
+         	<setCross output="28" input="58" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11110" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux4.11130.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 4 -->
+         	<setCross output="80" input="58" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 4 -->
+         	<setCross output="28" input="58" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11130" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux4.11140.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 4 -->
+         	<setCross output="80" input="58" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 4 -->
+         	<setCross output="28" input="58" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11140" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux4.11150.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 4 -->
+         	<setCross output="80" input="62" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 4 -->
+         	<setCross output="28" input="62" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11150" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux4.11160.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 4 -->
+         	<setCross output="80" input="62" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 4 -->
+         	<setCross output="28" input="62" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11160" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux4.11170.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 4 -->
+         	<setCross output="80" input="62" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 4 -->
+         	<setCross output="28" input="62" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11170" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux4.11110.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 4 -->
+         	<setCross output="80" input="58" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 4 -->
+         	<setCross output="29" input="58" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11110" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux4.11130.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 4 -->
+         	<setCross output="80" input="58" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 4 -->
+         	<setCross output="29" input="58" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11130" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux4.11140.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 4 -->
+         	<setCross output="80" input="58" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 4 -->
+         	<setCross output="29" input="58" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11140" />
+         	
+    	</client-cmd>
+    	
+    	<client-cmd type="measure.mux4.11150.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 4 -->
+         	<setCross output="80" input="62" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 4 -->
+         	<setCross output="29" input="62" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11150" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux4.11160.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 4 -->
+         	<setCross output="80" input="62" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 4 -->
+         	<setCross output="29" input="62" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11160" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.mux4.11170.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 4 -->
+         	<setCross output="80" input="62" level="1" router="asi-router" />
+         	<!-- ASI ird6 to MUX 4 -->
+         	<setCross output="29" input="62" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11170" />
+         	
+    	</client-cmd>
+    	
+    	
+    	
+    	
+    	
+	    <client-cmd type="measure.mux1.ird5.ip" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-p" slot="5" port="24" vlan="983" />
+			<ird.ip engine="ird5" multicast="239.193.101.102:5000" service="28006" />
+			 
+			
+    	</client-cmd>    	
+    	
+    	<client-cmd type="measure.mux1.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to MUX 1 -->
+         	<setCross output="80" input="25" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to MUX 1 -->
+         	<setCross output="29" input="49" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28006" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.mux1.ird6.ip" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-p" slot="5" port="24" vlan="983" />
+			<ird.ip engine="ird6" multicast="239.193.101.102:5000" service="28006" />
+			 
+			
+    	</client-cmd>    
+
+
+
+
+
+
+
+	    <client-cmd type="measure.encoder1.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 1 -->
+         	<setCross output="80" input="25" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 1 -->
+         	<setCross output="28" input="25" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28006" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder1.ird5.ip" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-p" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird5" multicast="239.193.101.1:5000" service="28006" />
+			 
+			
+    	</client-cmd>    	
+    	
+    	<client-cmd type="measure.encoder1.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 1 -->
+         	<setCross output="80" input="25" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 1 -->
+         	<setCross output="29" input="25" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28006" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder1.ird6.ip" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-s" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird6" multicast="239.193.101.1:5000" service="28006" />
+			 
+			
+    	</client-cmd>    
+    	
+    	<client-cmd type="measure.encoder2.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 2 -->
+         	<setCross output="80" input="26" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 2 -->
+         	<setCross output="28" input="26" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28007" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder2.ird5.ip" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-p" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird5" multicast="239.193.101.2:5000" service="28007" />
+			 
+			
+    	</client-cmd>    	
+    	
+    		<client-cmd type="measure.encoder2.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 2 -->
+         	<setCross output="80" input="26" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 2 -->
+         	<setCross output="29" input="26" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28007" />
+         	
+    	</client-cmd>
+    	
+	    	<client-cmd type="measure.encoder2.ird6.ip" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-s" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird6" multicast="239.193.101.2:5000" service="28007" />
+			 
+			
+    	</client-cmd>   
+
+
+
+
+
+    <client-cmd type="measure.encoder3.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 3 -->
+         	<setCross output="80" input="27" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 3 -->
+         	<setCross output="28" input="27" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28008" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder3.ird5.ip" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-p" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird5" multicast="239.193.101.3:5000" service="28008" />
+			 
+			
+    	</client-cmd>    	
+    	
+    	<client-cmd type="measure.encoder3.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 3 -->
+         	<setCross output="80" input="27" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 3 -->
+         	<setCross output="29" input="27" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28008" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder3.ird6.ip" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-s" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird6" multicast="239.193.101.3:5000" service="28008" />
+			 
+			
+    	</client-cmd>    
+    	
+    	<client-cmd type="measure.encoder4.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 4 -->
+         	<setCross output="80" input="28" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 4 -->
+         	<setCross output="28" input="28" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28011" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder4.ird5.ip" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-p" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird5" multicast="239.193.101.4:5000" service="28011" />
+			 
+			
+    	</client-cmd>    	
+    	
+    		<client-cmd type="measure.encoder4.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 4 -->
+         	<setCross output="80" input="28" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 4 -->
+         	<setCross output="29" input="28" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28011" />
+         	
+    	</client-cmd>
+    	
+	    	<client-cmd type="measure.encoder4.ird6.ip" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-s" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird6" multicast="239.193.101.4:5000" service="28011" />
+			 
+			
+    	</client-cmd>   
+    	
+    	
+    	
+    	
+
+    <client-cmd type="measure.encoder5.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 5 -->
+         	<setCross output="80" input="29" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 5 -->
+         	<setCross output="28" input="29" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28014" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder5.ird5.ip" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-p" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird5" multicast="239.193.101.5:5000" service="28014" />
+			 
+			
+    	</client-cmd>    	
+    	
+    	<client-cmd type="measure.encoder5.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 5 -->
+         	<setCross output="80" input="29" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 5 -->
+         	<setCross output="29" input="29" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28014" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder5.ird6.ip" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-s" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird6" multicast="239.193.101.5:5000" service="28014" />
+			 
+			
+    	</client-cmd>    
+    	
+    	<client-cmd type="measure.encoder6.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 6 -->
+         	<setCross output="80" input="30" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 6 -->
+         	<setCross output="28" input="30" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28016" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder6.ird5.ip" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-p" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird5" multicast="239.193.101.6:5000" service="28016" />
+			 
+			
+    	</client-cmd>    	
+    	
+    		<client-cmd type="measure.encoder6.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 6 -->
+         	<setCross output="80" input="30" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 6 -->
+         	<setCross output="29" input="30" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28016" />
+         	
+    	</client-cmd>
+    	
+	    	<client-cmd type="measure.encoder6.ird6.ip" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-s" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird6" multicast="239.193.101.6:5000" service="28016" />
+			 
+			
+    	</client-cmd>   
+    	
+    	
+    	
+  
+  
+  
+
+
+
+	    <client-cmd type="measure.encoder11.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 11 -->
+         	<setCross output="80" input="33" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 11 -->
+         	<setCross output="28" input="33" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="514" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder11.ird5.ip" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-p" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird5" multicast="239.193.101.11:5000" service="514" />
+			 
+			
+    	</client-cmd>    	
+    	
+    	<client-cmd type="measure.encoder11.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 11 -->
+         	<setCross output="80" input="33" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 11 -->
+         	<setCross output="29" input="33" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="514" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder11.ird6.ip" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-s" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird6" multicast="239.193.101.11:5000" service="514" />
+			 
+			
+    	</client-cmd>    
+    	
+    	<client-cmd type="measure.encoder12.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 12 -->
+         	<setCross output="80" input="34" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 12 -->
+         	<setCross output="28" input="34" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="515" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder12.ird5.ip" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-p" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird5" multicast="239.193.101.12:5000" service="515" />
+			 
+			
+    	</client-cmd>    	
+    	
+    		<client-cmd type="measure.encoder12.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 12 -->
+         	<setCross output="80" input="34" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 12 -->
+         	<setCross output="29" input="34" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="515" />
+         	
+    	</client-cmd>
+    	
+	    	<client-cmd type="measure.encoder12.ird6.ip" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-s" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird6" multicast="239.193.101.12:5000" service="515" />
+			 
+			
+    	</client-cmd>   
+
+
+
+
+
+    <client-cmd type="measure.encoder13.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 13 -->
+         	<setCross output="80" input="35" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 13 -->
+         	<setCross output="28" input="35" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="517" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder13.ird5.ip" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-p" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird5" multicast="239.193.101.13:5000" service="517" />
+			 
+			
+    	</client-cmd>    	
+    	
+    	<client-cmd type="measure.encoder13.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 13 -->
+         	<setCross output="80" input="35" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 13 -->
+         	<setCross output="29" input="35" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="517" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder13.ird6.ip" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-s" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird6" multicast="239.193.101.13:5000" service="517" />
+			 
+			
+    	</client-cmd>    
+    	
+    	<client-cmd type="measure.encoder14.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 14 -->
+         	<setCross output="80" input="36" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 14 -->
+         	<setCross output="28" input="36" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="516" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder14.ird5.ip" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-p" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird5" multicast="239.193.101.14:5000" service="516" />
+			 
+			
+    	</client-cmd>    	
+    	
+    		<client-cmd type="measure.encoder14.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 4 -->
+         	<setCross output="80" input="36" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 4 -->
+         	<setCross output="29" input="36" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="516" />
+         	
+    	</client-cmd>
+    	
+	    	<client-cmd type="measure.encoder14.ird6.ip" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-s" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird6" multicast="239.193.101.14:5000" service="516" />
+			 
+			
+    	</client-cmd>   
+    	
+    	
+    	
+  
+  
+  
+  
+  
+  
+  
+
+	    <client-cmd type="measure.encoder21.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 21 -->
+         	<setCross output="80" input="40" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 21 -->
+         	<setCross output="28" input="40" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11110" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder21.ird5.ip" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-p" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird5" multicast="239.193.101.21:5000" service="11110" />
+			 
+			
+    	</client-cmd>    	
+    	
+    	<client-cmd type="measure.encoder21.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 21 -->
+         	<setCross output="80" input="40" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 21 -->
+         	<setCross output="29" input="40" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11110" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder21.ird6.ip" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-s" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird6" multicast="239.193.101.21:5000" service="11110" />
+			 
+			
+    	</client-cmd>    
+    	
+    	<client-cmd type="measure.encoder22.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 22 -->
+         	<setCross output="80" input="41" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 22 -->
+         	<setCross output="28" input="41" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11150" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder22.ird5.ip" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-p" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird5" multicast="239.193.101.22:5000" service="11150" />
+			 
+			
+    	</client-cmd>    	
+    	
+    		<client-cmd type="measure.encoder22.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 22 -->
+         	<setCross output="80" input="41" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 22 -->
+         	<setCross output="29" input="41" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11150" />
+         	
+    	</client-cmd>
+    	
+	    	<client-cmd type="measure.encoder22.ird6.ip" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-s" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird6" multicast="239.193.101.22:5000" service="11150" />
+			 
+			
+    	</client-cmd>   
+
+
+
+
+
+    <client-cmd type="measure.encoder23.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 23 -->
+         	<setCross output="80" input="42" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 23 -->
+         	<setCross output="28" input="42" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11160" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder23.ird5.ip" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-p" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird5" multicast="239.193.101.23:5000" service="11160" />
+			 
+			
+    	</client-cmd>    	
+    	
+    	<client-cmd type="measure.encoder23.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 23 -->
+         	<setCross output="80" input="42" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 23 -->
+         	<setCross output="29" input="42" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11160" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder23.ird6.ip" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-s" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird6" multicast="239.193.101.23:5000" service="11160" />
+			 
+			
+    	</client-cmd>    
+    	
+    	<client-cmd type="measure.encoder24.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 24 -->
+         	<setCross output="80" input="43" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 24 -->
+         	<setCross output="28" input="43" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11170" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder24.ird5.ip" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-p" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird5" multicast="239.193.101.24:5000" service="11170" />
+			 
+			
+    	</client-cmd>    	
+    	
+    		<client-cmd type="measure.encoder24.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 4 -->
+         	<setCross output="80" input="43" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 4 -->
+         	<setCross output="29" input="43" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11170" />
+         	
+    	</client-cmd>
+    	
+	    	<client-cmd type="measure.encoder24.ird6.ip" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-s" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird6" multicast="239.193.101.24:5000" service="11170" />
+			 
+			
+    	</client-cmd>   
+    	
+    	
+    	
+    	
+
+    <client-cmd type="measure.encoder25.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 25 -->
+         	<setCross output="80" input="44" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 25 -->
+         	<setCross output="28" input="44" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11130" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder25.ird5.ip" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-p" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird5" multicast="239.193.101.25:5000" service="11130" />
+			 
+			
+    	</client-cmd>    	
+    	
+    	<client-cmd type="measure.encoder25.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 25 -->
+         	<setCross output="80" input="44" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 25 -->
+         	<setCross output="29" input="44" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11130" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder25.ird6.ip" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-s" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird6" multicast="239.193.101.25:5000" service="11130" />
+			 
+			
+    	</client-cmd>    
+    	
+    	<client-cmd type="measure.encoder26.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 26 -->
+         	<setCross output="80" input="45" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 26 -->
+         	<setCross output="28" input="45" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11140" />
+         	
+    	</client-cmd>
+    	
+	    <client-cmd type="measure.encoder26.ird5.ip" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-p" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird5" multicast="239.193.101.26:5000" service="11140" />
+			 
+			
+    	</client-cmd>    	
+    	
+    		<client-cmd type="measure.encoder26.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to ENC 6 -->
+         	<setCross output="80" input="45" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to ENC 6 -->
+         	<setCross output="29" input="45" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11140" />
+         	
+    	</client-cmd>
+    	
+	    	<client-cmd type="measure.encoder26.ird6.ip" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- Set CISCO catalyst ethernet switch VLAN -->
+			<catalyst-vlan engine="eth-switch-s" slot="5" port="24" vlan="982" />
+			<ird.ip engine="ird6" multicast="239.193.101.26:5000" service="11140" />
+			 
+			
+    	</client-cmd>   
+    	  	
+    	  	
+    	  	<client-cmd type="measure.tvips3a.28006.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3A -->
+         	<setCross output="80" input="51" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3A -->
+         	<setCross output="28" input="51" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28006" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3a.28007.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3A -->
+         	<setCross output="80" input="51" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3A -->
+         	<setCross output="28" input="51" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28007" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3a.28008.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3A -->
+         	<setCross output="80" input="51" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3A -->
+         	<setCross output="28" input="51" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28008" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3a.28011.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3A -->
+         	<setCross output="80" input="51" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3A -->
+         	<setCross output="28" input="51" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28011" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3a.28012.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3A -->
+         	<setCross output="80" input="51" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3A -->
+         	<setCross output="28" input="51" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28012" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3a.28013.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3A -->
+         	<setCross output="80" input="51" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3A -->
+         	<setCross output="28" input="51" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28013" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3a.28014.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3A -->
+         	<setCross output="80" input="51" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3A -->
+         	<setCross output="28" input="51" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28014" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips3a.28016.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3A -->
+         	<setCross output="80" input="51" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3A -->
+         	<setCross output="28" input="51" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28016" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips3a.28017.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3A -->
+         	<setCross output="80" input="51" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3A -->
+         	<setCross output="28" input="51" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28017" />
+         	
+    	</client-cmd>
+    	
+    		  	
+    	  	<client-cmd type="measure.tvips3a.28006.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3A -->
+         	<setCross output="80" input="51" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3A -->
+         	<setCross output="29" input="51" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28006" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3a.28007.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3A -->
+         	<setCross output="80" input="51" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3A -->
+         	<setCross output="29" input="51" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28007" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3a.28008.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3A -->
+         	<setCross output="80" input="51" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3A -->
+         	<setCross output="29" input="51" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28008" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3a.28011.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3A -->
+         	<setCross output="80" input="51" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3A -->
+         	<setCross output="29" input="51" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28011" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3a.28012.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3A -->
+         	<setCross output="80" input="51" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3A -->
+         	<setCross output="29" input="51" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28012" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3a.28013.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3A -->
+         	<setCross output="80" input="51" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3A -->
+         	<setCross output="29" input="51" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28013" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3a.28014.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3A -->
+         	<setCross output="80" input="51" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3A -->
+         	<setCross output="29" input="51" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28014" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips3a.28016.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3A -->
+         	<setCross output="80" input="51" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3A -->
+         	<setCross output="29" input="51" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28016" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips3a.28017.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3A -->
+         	<setCross output="80" input="51" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3A -->
+         	<setCross output="29" input="51" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28017" />
+         	
+    	</client-cmd>
+    		  	
+    	  	<client-cmd type="measure.tvips1b.28006.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1B -->
+         	<setCross output="80" input="52" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1B -->
+         	<setCross output="28" input="52" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28006" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips1b.28007.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1B -->
+         	<setCross output="80" input="52" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1B -->
+         	<setCross output="28" input="52" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28007" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips1b.28008.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1B -->
+         	<setCross output="80" input="52" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1B -->
+         	<setCross output="28" input="52" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28008" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips1b.28011.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1B -->
+         	<setCross output="80" input="52" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1B -->
+         	<setCross output="28" input="52" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28011" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips1b.28012.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1B -->
+         	<setCross output="80" input="52" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1B -->
+         	<setCross output="28" input="52" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28012" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips1b.28013.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1B -->
+         	<setCross output="80" input="52" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1B -->
+         	<setCross output="28" input="52" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28013" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips1b.28014.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1B -->
+         	<setCross output="80" input="52" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1B -->
+         	<setCross output="28" input="52" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28014" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips1b.28016.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1B -->
+         	<setCross output="80" input="52" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1B -->
+         	<setCross output="28" input="52" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28016" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips1b.28017.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1B -->
+         	<setCross output="80" input="52" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1B -->
+         	<setCross output="28" input="52" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28017" />
+         	
+    	</client-cmd>
+    	
+    	
+    		<client-cmd type="measure.tvips1b.28006.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1B -->
+         	<setCross output="80" input="52" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1B -->
+         	<setCross output="29" input="52" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28006" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips1b.28007.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1B -->
+         	<setCross output="80" input="52" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1B -->
+         	<setCross output="29" input="52" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28007" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips1b.28008.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1B -->
+         	<setCross output="80" input="52" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1B -->
+         	<setCross output="29" input="52" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28008" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips1b.28011.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1B -->
+         	<setCross output="80" input="52" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1B -->
+         	<setCross output="29" input="52" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28011" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips1b.28012.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1B -->
+         	<setCross output="80" input="52" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1B -->
+         	<setCross output="29" input="52" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28012" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips1b.28013.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1B -->
+         	<setCross output="80" input="52" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1B -->
+         	<setCross output="29" input="52" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28013" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips1b.28014.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1B -->
+         	<setCross output="80" input="52" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1B -->
+         	<setCross output="29" input="52" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28014" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips1b.28016.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1B -->
+         	<setCross output="80" input="52" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1B -->
+         	<setCross output="29" input="52" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28016" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips1b.28017.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1B -->
+         	<setCross output="80" input="52" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1B -->
+         	<setCross output="29" input="52" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28017" />
+         	
+    	</client-cmd>
+    	
+    	
+    	
+    	    	
+    	  	<client-cmd type="measure.tvips1a.514.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1A -->
+         	<setCross output="80" input="55" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1A -->
+         	<setCross output="28" input="55" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="514" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips1a.515.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1A -->
+         	<setCross output="80" input="55" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1A -->
+         	<setCross output="28" input="55" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="515" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips1a.516.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1A -->
+         	<setCross output="80" input="55" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1A -->
+         	<setCross output="28" input="55" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="516" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips1a.517.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1A -->
+         	<setCross output="80" input="55" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 1A -->
+         	<setCross output="28" input="55" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="517" />
+         	
+    	</client-cmd>
+    	
+    	
+    	
+    	  	<client-cmd type="measure.tvips1a.514.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1A -->
+         	<setCross output="80" input="55" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 1A -->
+         	<setCross output="29" input="55" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="514" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips1a.515.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1A -->
+         	<setCross output="80" input="55" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 1A -->
+         	<setCross output="29" input="55" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="515" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips1a.516.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1A -->
+         	<setCross output="80" input="55" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 1A -->
+         	<setCross output="29" input="55" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="516" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips1a.517.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 1A -->
+         	<setCross output="80" input="55" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 1A -->
+         	<setCross output="29" input="55" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="517" />
+         	
+    	</client-cmd>
+    	
+    	
+    	
+    		<client-cmd type="measure.tvips2a.514.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2A -->
+         	<setCross output="80" input="56" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2A -->
+         	<setCross output="28" input="56" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="514" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips2a.515.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2A -->
+         	<setCross output="80" input="56" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2A -->
+         	<setCross output="28" input="56" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="515" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips2a.516.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2A -->
+         	<setCross output="80" input="56" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2A -->
+         	<setCross output="28" input="56" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="516" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips2a.517.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2A -->
+         	<setCross output="80" input="56" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2A -->
+         	<setCross output="28" input="56" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="517" />
+         	
+    	</client-cmd>
+    	
+    	
+    	
+    	  	<client-cmd type="measure.tvips2a.514.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2A -->
+         	<setCross output="80" input="56" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 2A -->
+         	<setCross output="29" input="56" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="514" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips2a.515.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2A -->
+         	<setCross output="80" input="56" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 2A -->
+         	<setCross output="29" input="56" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="515" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips2a.516.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2A -->
+         	<setCross output="80" input="56" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 2A -->
+         	<setCross output="29" input="56" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="516" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips2a.517.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2A -->
+         	<setCross output="80" input="56" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 2A -->
+         	<setCross output="29" input="56" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="517" />
+         	
+    	</client-cmd>
+
+
+
+    	
+    		<client-cmd type="measure.tvips4a.11110.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 4A -->
+         	<setCross output="80" input="59" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 4A -->
+         	<setCross output="28" input="59" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11110" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips4a.11130.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 4A -->
+         	<setCross output="80" input="59" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 4A -->
+         	<setCross output="28" input="59" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11130" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips4a.11140.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 4A -->
+         	<setCross output="80" input="59" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 4A -->
+         	<setCross output="28" input="59" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11140" />
+         	
+    	</client-cmd>
+
+
+
+	  	<client-cmd type="measure.tvips4a.11110.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 4A -->
+         	<setCross output="80" input="59" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 4A -->
+         	<setCross output="29" input="59" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11110" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips4a.11130.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 4A -->
+         	<setCross output="80" input="59" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 4A -->
+         	<setCross output="29" input="59" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11130" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips4a.11140.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 4A -->
+         	<setCross output="80" input="59" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 4A -->
+         	<setCross output="29" input="59" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11140" />
+         	
+    	</client-cmd>
+
+
+
+
+    	
+    		<client-cmd type="measure.tvips4b.11150.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 4B -->
+         	<setCross output="80" input="63" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 4B -->
+         	<setCross output="28" input="63" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11150" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips4b.11160.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 4B -->
+         	<setCross output="80" input="63" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 4B -->
+         	<setCross output="28" input="63" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11160" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips4b.11170.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 4B -->
+         	<setCross output="80" input="63" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 4B -->
+         	<setCross output="28" input="63" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11170" />
+         	
+    	</client-cmd>
+
+
+
+	  	<client-cmd type="measure.tvips4b.11150.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 4B -->
+         	<setCross output="80" input="63" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 4B -->
+         	<setCross output="29" input="63" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11150" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips4b.11160.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 4B -->
+         	<setCross output="80" input="63" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 4B -->
+         	<setCross output="29" input="63" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11160" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips4b.11170.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 4B -->
+         	<setCross output="80" input="63" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 4B -->
+         	<setCross output="29" input="63" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11170" />
+         	
+    	</client-cmd>
+
+
+
+	
+    		<client-cmd type="measure.tvips5a.11110.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 5A -->
+         	<setCross output="80" input="60" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 5A -->
+         	<setCross output="28" input="60" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11110" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips5a.11130.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 5A -->
+         	<setCross output="80" input="60" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 5A -->
+         	<setCross output="28" input="60" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11130" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips5a.11140.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 5A -->
+         	<setCross output="80" input="60" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 5A -->
+         	<setCross output="28" input="60" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11140" />
+         	
+    	</client-cmd>
+
+
+
+	  	<client-cmd type="measure.tvips5a.11110.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 5A -->
+         	<setCross output="80" input="60" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 5A -->
+         	<setCross output="29" input="60" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11110" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips5a.11130.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 5A -->
+         	<setCross output="80" input="60" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 5A -->
+         	<setCross output="29" input="60" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11130" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips5a.11140.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 5A -->
+         	<setCross output="80" input="60" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 5A -->
+         	<setCross output="29" input="60" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11140" />
+         	
+    	</client-cmd>
+
+
+
+
+    	
+    		<client-cmd type="measure.tvips5b.11150.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 5B -->
+         	<setCross output="80" input="64" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 5B -->
+         	<setCross output="28" input="64" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11150" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips5b.11160.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 5B -->
+         	<setCross output="80" input="64" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 5B -->
+         	<setCross output="28" input="64" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11160" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips5b.11170.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 5B -->
+         	<setCross output="80" input="64" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 5B -->
+         	<setCross output="28" input="64" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="11170" />
+         	
+    	</client-cmd>
+
+
+
+	  	<client-cmd type="measure.tvips5b.11150.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 5B -->
+         	<setCross output="80" input="64" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 5B -->
+         	<setCross output="29" input="64" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11150" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips5b.11160.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 5B -->
+         	<setCross output="80" input="64" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 5B -->
+         	<setCross output="29" input="64" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11160" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips5b.11170.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 5B -->
+         	<setCross output="80" input="64" level="1" router="asi-router" />
+         	<!-- ASI IRD6 to TVIPS 5B -->
+         	<setCross output="29" input="64" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="11170" />
+         	
+    	</client-cmd>
+
+
+  	
+    	  	<client-cmd type="measure.tvips2b.28006.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2B -->
+         	<setCross output="80" input="65" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2B -->
+         	<setCross output="28" input="65" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28006" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips2b.28007.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2B -->
+         	<setCross output="80" input="65" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2B -->
+         	<setCross output="28" input="65" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28007" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips2b.28008.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2B -->
+         	<setCross output="80" input="65" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2B -->
+         	<setCross output="28" input="65" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28008" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips2b.28011.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2B -->
+         	<setCross output="80" input="65" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2B -->
+         	<setCross output="28" input="65" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28011" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips2b.28012.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2B -->
+         	<setCross output="80" input="65" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2B -->
+         	<setCross output="28" input="65" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28012" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips2b.28013.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2B -->
+         	<setCross output="80" input="65" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2B -->
+         	<setCross output="28" input="65" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28013" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips2b.28014.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2B -->
+         	<setCross output="80" input="65" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2B -->
+         	<setCross output="28" input="65" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28014" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips2b.28016.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2B -->
+         	<setCross output="80" input="65" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2B -->
+         	<setCross output="28" input="65" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28016" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips2b.28017.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2B -->
+         	<setCross output="80" input="65" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2B -->
+         	<setCross output="28" input="65" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28017" />
+         	
+    	</client-cmd>
+    	
+    		  	
+    	  	<client-cmd type="measure.tvips2b.28006.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2B -->
+         	<setCross output="80" input="65" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2B -->
+         	<setCross output="29" input="65" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28006" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips2b.28007.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2B -->
+         	<setCross output="80" input="65" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2B -->
+         	<setCross output="29" input="65" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28007" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips2b.28008.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2B -->
+         	<setCross output="80" input="65" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2B -->
+         	<setCross output="29" input="65" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28008" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips2b.28011.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2B -->
+         	<setCross output="80" input="65" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2B -->
+         	<setCross output="29" input="65" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28011" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips2b.28012.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2B -->
+         	<setCross output="80" input="65" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2B -->
+         	<setCross output="29" input="65" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28012" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips2b.28013.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2B -->
+         	<setCross output="80" input="65" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2B -->
+         	<setCross output="29" input="65" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28013" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips2b.28014.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2B -->
+         	<setCross output="80" input="65" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2B -->
+         	<setCross output="29" input="65" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28014" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips2b.28016.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2B -->
+         	<setCross output="80" input="65" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2B -->
+         	<setCross output="29" input="65" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28016" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips2b.28017.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 2B -->
+         	<setCross output="80" input="65" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 2B -->
+         	<setCross output="29" input="65" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28017" />
+         	
+    	</client-cmd>
+
+-------
+
+
+    	  	<client-cmd type="measure.tvips3b.28006.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3B -->
+         	<setCross output="80" input="66" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3B -->
+         	<setCross output="28" input="66" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28006" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3b.28007.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3B -->
+         	<setCross output="80" input="66" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3B -->
+         	<setCross output="28" input="66" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28007" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3b.28008.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3B -->
+         	<setCross output="80" input="66" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3B -->
+         	<setCross output="28" input="66" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28008" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3b.28011.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3B -->
+         	<setCross output="80" input="66" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3B -->
+         	<setCross output="28" input="66" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28011" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3b.28012.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3B -->
+         	<setCross output="80" input="66" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3B -->
+         	<setCross output="28" input="66" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28012" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3b.28013.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3B -->
+         	<setCross output="80" input="66" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3B -->
+         	<setCross output="28" input="66" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28013" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3b.28014.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3B -->
+         	<setCross output="80" input="66" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3B -->
+         	<setCross output="28" input="66" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28014" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips3b.28016.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3B -->
+         	<setCross output="80" input="66" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3B -->
+         	<setCross output="28" input="66" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28016" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips3b.28017.ird5.asi" >
+	    	<!-- SDI primary router, rasterizer to ird5-->
+         	<setCross output="76" input="15" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3B -->
+         	<setCross output="80" input="66" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3B -->
+         	<setCross output="28" input="66" level="1" router="asi-router" />
+         	<ird.asi engine="ird5" service="28017" />
+         	
+    	</client-cmd>
+    	
+    		  	
+    	  	<client-cmd type="measure.tvips3b.28006.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3B -->
+         	<setCross output="80" input="66" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3B -->
+         	<setCross output="29" input="66" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28006" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3b.28007.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3B -->
+         	<setCross output="80" input="66" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3B -->
+         	<setCross output="29" input="66" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28007" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3b.28008.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3B -->
+         	<setCross output="80" input="66" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3B -->
+         	<setCross output="29" input="66" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28008" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3b.28011.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3B -->
+         	<setCross output="80" input="66" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3B -->
+         	<setCross output="29" input="66" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28011" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3b.28012.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3B -->
+         	<setCross output="80" input="66" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3B -->
+         	<setCross output="29" input="66" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28012" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3b.28013.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3B -->
+         	<setCross output="80" input="66" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3B -->
+         	<setCross output="29" input="66" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28013" />
+         	
+    	</client-cmd>
+    	
+    	  	<client-cmd type="measure.tvips3b.28014.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3B -->
+         	<setCross output="80" input="66" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3B -->
+         	<setCross output="29" input="66" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28014" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips3b.28016.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3B -->
+         	<setCross output="80" input="66" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3B -->
+         	<setCross output="29" input="66" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28016" />
+         	
+    	</client-cmd>
+    	
+    		<client-cmd type="measure.tvips3b.28017.ird6.asi" >
+	    	<!-- SDI primary router, rasterizer to ird6-->
+         	<setCross output="76" input="16" level="1" router="sdi-router-p" />
+	    	<!-- ASI DEK-TEC to TVIPS 3B -->
+         	<setCross output="80" input="66" level="1" router="asi-router" />
+         	<!-- ASI IRD5 to TVIPS 3B -->
+         	<setCross output="29" input="66" level="1" router="asi-router" />
+         	<ird.asi engine="ird6" service="28017" />
+         	
+    	</client-cmd>
+
+
+
+
+</client-commands>

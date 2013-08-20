@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<client-commands>
+    <client-cmd type="forcemaster.1" >
+                <clustermsg id="1" message="forcemaster" />
+    </client-cmd>
+    <client-cmd type="forcemaster.2" >
+                <clustermsg id="2" message="forcemaster" />
+    </client-cmd>
+    <client-cmd type="lockslave.1" >
+                <clustermsg id="1" message="lockslave" />
+    </client-cmd>
+    <client-cmd type="lockslave.2" >
+                <clustermsg id="2" message="lockslave" />
+    </client-cmd>
+    <client-cmd type="unlockslave.1" >
+                <clustermsg id="1" message="unlockslave" />
+    </client-cmd>
+    <client-cmd type="unlockslave.2" >
+                <clustermsg id="2" message="unlockslave" />
+    </client-cmd>
+    <client-cmd type="filepollstart.1" >
+                <clustermsg id="1" message="filepollstart" />
+    </client-cmd>
+    <client-cmd type="filepollstart.2" >
+                <clustermsg id="2" message="filepollstart" />
+    </client-cmd>
+    <client-cmd type="filepollstop.1" >
+                <clustermsg id="1" message="filepollstop" />
+    </client-cmd>
+    <client-cmd type="filepollstop.2" >
+                <clustermsg id="2" message="filepollstop" />
+    </client-cmd>
+</client-commands>
+	
+					<!--<xsl:when test="local-name(.)='clustermsg'">
+						<msg>
+							<ems:clustermsg xmlns:ems="http://euromedia-service.de/coyoNET/" id="{@id}" message="{@message}" />						
+						</msg>
+					</xsl:when>-->

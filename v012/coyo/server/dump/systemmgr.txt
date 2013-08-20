@@ -1,0 +1,540 @@
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<prtConsoleDisplayBufferText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>
+<dump file="dump/systemmgr.txt">
+<snmp-response error-index="0" error-status="0" error-status-text="Success" id="poll">
+<DisplayText ascvalue="Wenig Tinte" index="1.1" oid="1.3.6.1.2.1.43.16.5.1.2.1.1" strcharset="UTF-8" strvalue="Wenig Tinte" syntax="OCTET STRING" value="57:65:6e:69:67:20:54:69:6e:74:65"/>
+</snmp-response>
+</dump>

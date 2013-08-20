@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<conf user="coyonet" 
+	               pwd="euromedia" 
+	               connect.timeout="3"
+	               read.timeout="5"
+	               max.packet.size="100"
+	         /> 

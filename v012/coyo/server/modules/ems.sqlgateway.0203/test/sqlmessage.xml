@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqlmessages xmlns="http://euromedia-service.de/coyoNET/sqlgateway/">
+	<sqlmessage  server-id="1" 
+	             engine="test" 
+	             engine-type="test.type" 
+                 alarm-engine="test_alarm"
+	             alarm-id="1000" 
+	             severity="3" 
+	             behaviour="3" 
+	             pending="1" 
+	             text="test text" 
+	             subject="test subject" />
+</sqlmessages>			                             

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<labeling_config>
+    <distribution-router
+        id="sdi-router-p"
+        cntCrosspoints="144"
+        level="1"
+    >
+        <input id="1" pdk-src-port="1" default-name="SL SD::ZDF SD" />
+        <input id="2" pdk-src-port="2" default-name="SL SD::3sat SD" />
+        <input id="3" pdk-src-port="3" default-name="SL SD::KiKA SD" />
+        <input id="4" pdk-src-port="4" default-name="SL SD::INFO SD" />
+        <input id="5" pdk-src-port="5" default-name="SL SD::NEO SD" />
+        <input id="6" pdk-src-port="6" default-name="SL SD::KULT SD" />
+        <input id="7" pdk-src-port="7" default-name="SL SD::NEKI SD" />
+        <input id="8" pdk-src-port="8" default-name="SL HD::ZDF HD" />
+        <input id="9" pdk-src-port="9" default-name="SL HD::3sat HD" />
+        <input id="10" pdk-src-port="10" default-name="SL HD::KiKA HD" />
+        <input id="11" pdk-src-port="11" default-name="SL HD::INFO HD" />
+        <input id="12" pdk-src-port="12" default-name="SL HD::NEO HD" />
+        <input id="13" pdk-src-port="13" default-name="SL HD::KULT HD" />
+        <input id="14" pdk-src-port="14" default-name="MESSEN::3Sat PVW" />
+        <input id="15" pdk-src-port="15" default-name="MESS IRD::IRD5" />
+        <input id="16" pdk-src-port="16" default-name="MESS IRD::IRD6" />
+        <input id="17" pdk-src-port="17" default-name="SBKS SD::ZDF " />
+        <input id="18" pdk-src-port="18" default-name="KKS SD::ZDF " />
+        <input id="19" pdk-src-port="19" default-name="KIKA SD::KIKA SL2" />
+        <input id="20" pdk-src-port="20" default-name="SBKS SD::INFO " />
+        <input id="21" pdk-src-port="21" default-name="SBKS SD::3Sat" />
+        <input id="22" pdk-src-port="22" default-name="SBKS SD::KULTUR" />
+        <input id="23" pdk-src-port="23" default-name="SBKS HD::ZDF " />
+        <input id="24" pdk-src-port="24" default-name="KKS HD::ZDF " />
+        <input id="25" pdk-src-port="25" default-name="KIKA HD::KIKA SL2" />
+        <input id="26" pdk-src-port="26" default-name="SBKS HD::INFO " />
+        <input id="27" pdk-src-port="27" default-name="SBKS HD::3Sat" />
+        <input id="28" pdk-src-port="28" default-name="SBKS HD::KULTUR" />
+        <input id="29" pdk-src-port="29" default-name="SAWaltSD::3SAT CF" />
+        <input id="30" pdk-src-port="30" default-name="nicht vergeben" />
+        <input id="31" pdk-src-port="31" default-name="nicht vergeben" />
+        <input id="32" pdk-src-port="32" default-name="SET  TOP::BOX1 HD " />
+        <input id="33" pdk-src-port="33" default-name="SET  TOP::BOX2 HD " />
+        <input id="34" pdk-src-port="34" default-name="SET  TOP::BOX3 HD " />
+        <input id="35" pdk-src-port="35" default-name="SET  TOP::BOX4 HD " />
+        <input id="36" pdk-src-port="36" default-name="SET  TOP::BOX5 HD " />
+        <input id="37" pdk-src-port="37" default-name="SET  TOP::BOX6 HD " />
+        <input id="38" pdk-src-port="38" default-name="SET  TOP::BOX7 HD " />
+        <input id="39" pdk-src-port="39" default-name="SET  TOP::BOX8 HD " />
+        <input id="40" pdk-src-port="40" default-name="SET  TOP::BOX9 HD " />
+        <input id="41" pdk-src-port="41" default-name="SET  TOP::BOX10 HD " />
+        <input id="42" pdk-src-port="42" default-name="UEZ ::DVB 1" />
+        <input id="43" pdk-src-port="43" default-name="UEZ ::DVB 2" />
+        <input id="44" pdk-src-port="44" default-name="UEZ ::DVB 3" />
+        <input id="45" pdk-src-port="45" default-name="UEZ ::DVB 4" />
+        <input id="46" pdk-src-port="46" default-name="UEZ ::DVB 5" />
+        <input id="47" pdk-src-port="47" default-name="UPC::UPC 1" />
+        <input id="48" pdk-src-port="48" default-name="UPC::UPC 2" />
+        <input id="49" pdk-src-port="49" default-name="UPC::UPC 3" />
+        <input id="50" pdk-src-port="50" default-name="DNC::DNC 4" />
+        <input id="51" pdk-src-port="51" default-name="SI IRD::IRD1 NIT" />
+        <input id="52" pdk-src-port="52" default-name="SI IRD::IRD2 EIT" />
+        <input id="53" pdk-src-port="53" default-name="SI IRD::IRD3ARD1" />
+        <input id="54" pdk-src-port="54" default-name="SI IRD::IRD4ARD2" />
+        <input id="55" pdk-src-port="55" default-name="IRD::ZDF S" />
+        <input id="56" pdk-src-port="56" default-name="IRD::3SAT S" />
+        <input id="57" pdk-src-port="57" default-name="IRD::INFO S" />
+        <input id="58" pdk-src-port="58" default-name="IRD::KULT S" />
+        <input id="59" pdk-src-port="59" default-name="IRD::NEO S" />
+        <input id="60" pdk-src-port="60" default-name="IRD::KIKA S" />
+        <input id="61" pdk-src-port="61" default-name="IRD::ZDF HD " />
+        <input id="62" pdk-src-port="62" default-name="IRD::3SAT HD " />
+        <input id="63" pdk-src-port="63" default-name="IRD::INFO HD" />
+        <input id="64" pdk-src-port="64" default-name="IRD::KULT HD " />
+        <input id="65" pdk-src-port="65" default-name="IRD::NEO HD " />
+        <input id="66" pdk-src-port="66" default-name="IRD::KIKA HD " />
+        <input id="67" pdk-src-port="67" default-name="IRD::ZDF T" />
+        <input id="68" pdk-src-port="68" default-name="IRD::3SAT T" />
+        <input id="69" pdk-src-port="69" default-name="IRD::INFO T" />
+        <input id="70" pdk-src-port="70" default-name="IRD::NEO KIKA" />
+        <input id="71" pdk-src-port="71" default-name="IRD::DLF " />
+        <input id="72" pdk-src-port="72" default-name="IRD::DLR " />
+        <input id="73" pdk-src-port="73" default-name="IRD::Dok Deb" />
+        <input id="74" pdk-src-port="74" default-name="FREI SAW::FREI SD" />
+        <input id="75" pdk-src-port="75" default-name="TAKT::BLACK" />
+        <input id="76" pdk-src-port="76" default-name="TAKT::TEST" />
+        <input id="77" pdk-src-port="77" default-name="SBKS SD::SAWHT" />
+        <input id="78" pdk-src-port="78" default-name="SBKS HD::SAWHT" />
+        <input id="79" pdk-src-port="79" default-name="KKS SD::ZDFSAM" />
+        <input id="80" pdk-src-port="80" default-name="KKS HD::ZDFSAM" />
+        <input id="81" pdk-src-port="81" default-name="KKS SD::3Sat " />
+        <input id="82" pdk-src-port="82" default-name="KKS HD::3Sat " />
+        <input id="83" pdk-src-port="83" default-name="KKS SD::INFOSAM" />
+        <input id="84" pdk-src-port="84" default-name="KKS HD::INFOSAM" />
+        <input id="85" pdk-src-port="85" default-name="KKS SD::KULTSAM" />
+        <input id="86" pdk-src-port="86" default-name="KKS HD::KULTSAM" />
+        <input id="87" pdk-src-port="87" default-name="KKS SD::3Sat SAM" />
+        <input id="88" pdk-src-port="88" default-name="KKS HD::3Sat SAM" />
+        <input id="89" pdk-src-port="89" default-name="SBKS SD::SHT SAM " />
+        <input id="90" pdk-src-port="90" default-name="SBKS HD::SHT SAM " />
+        <input id="91" pdk-src-port="91" default-name="BME ::BME1 OUT" />
+        <input id="92" pdk-src-port="92" default-name="BME ::BME2 OUT" />
+        <input id="93" pdk-src-port="93" default-name="FREI SAW::FREI HD" />
+        <input id="94" pdk-src-port="94" default-name="TIELINE::SAW TIE1" />
+        <input id="95" pdk-src-port="95" default-name="TIELINE::SAW TIE2" />
+        <input id="96" pdk-src-port="96" default-name="TIELINE::SAW TIE3" />
+        <input id="97" pdk-src-port="97" default-name="TIELINE::SAW TIE4" />
+        <input id="98" pdk-src-port="98" default-name="TIELINE::SAW TIE5" />
+        <input id="99" pdk-src-port="99" default-name="TIELINE::SAW TIE6" />
+        <input id="100" pdk-src-port="100" default-name="SAWaltSD::3SAT SD" />
+        <input id="101" pdk-src-port="101" default-name="SAWaltSD::KULT SD" />
+        <input id="102" pdk-src-port="102" default-name="SAWaltSD::NEO SD" />
+        <input id="103" pdk-src-port="103" default-name="SAWaltSD::INFO SD" />
+        <input id="104" pdk-src-port="104" default-name="SAWaltSD::3SAT HSD" />
+        <input id="105" pdk-src-port="105" default-name="SAWaltSD::DIGI SD" />
+        <input id="106" pdk-src-port="106" default-name="STOERUNG::HVPL3Sat" />
+        <input id="107" pdk-src-port="107" default-name="STOERUNG::ANIM" />
+        <input id="108" pdk-src-port="108" default-name="STOERUNG::IMAG STOR 2" />
+        <input id="109" pdk-src-port="109" default-name="STOERUNG::IMAG STOR 1" />
+        <input id="110" pdk-src-port="110" default-name="SAWaltHD::NEO HD " />
+        <input id="111" pdk-src-port="111" default-name="SAWaltHD::KULT HD " />
+        <input id="112" pdk-src-port="112" default-name="SAWaltHD::INFO HD" />
+        <input id="113" pdk-src-port="113" default-name="SAWaltHD::3SAT HD" />
+        <input id="114" pdk-src-port="114" default-name="SAWaltHD::DIGI HD" />
+        <input id="115" pdk-src-port="115" default-name="SAWaltHD::3SAT HHD" />
+        <input id="116" pdk-src-port="116" default-name="SAWaltSD::NEO CF" />
+        <input id="117" pdk-src-port="117" default-name="SAWaltSD::KULT CF" />
+        <input id="118" pdk-src-port="118" default-name="SAWaltSD::INFO CF" />
+        <input id="119" pdk-src-port="119" default-name="SBKS SD::ZDFSAM" />
+        <input id="120" pdk-src-port="120" default-name="SBKS HD::ZDFSAM" />
+        <input id="121" pdk-src-port="121" default-name="KKS SD::INFO " />
+        <input id="122" pdk-src-port="122" default-name="KKS HD::INFO " />
+        <input id="123" pdk-src-port="123" default-name="SBKS SD::INFOSAM" />
+        <input id="124" pdk-src-port="124" default-name="SBKS HD::INFOSAM" />
+        <input id="125" pdk-src-port="125" default-name="SBKS SD::KULTSAM" />
+        <input id="126" pdk-src-port="126" default-name="SBKS HD::KULTSAM" />
+        <input id="127" pdk-src-port="127" default-name="SBKS SD::3Sat SAM" />
+        <input id="128" pdk-src-port="128" default-name="SBKS HD::3Sat SAM" />
+        <input id="129" pdk-src-port="129" default-name="KKS HD::ZDF CF" />
+        <input id="130" pdk-src-port="130" default-name="KKS SD::ZDF CF " />
+        <input id="131" pdk-src-port="131" default-name="KKS SD::KULT " />
+        <input id="132" pdk-src-port="132" default-name="KKS HD::KULT " />
+        <input id="133" pdk-src-port="133" default-name="KKS HD::3Sat CF" />
+        <input id="134" pdk-src-port="134" default-name="KKS HD::INFO CF" />
+        <input id="135" pdk-src-port="135" default-name="KKS HD::KULT CF" />
+        <input id="136" pdk-src-port="136" default-name="SBKS HD::ZDF CF" />
+        <input id="137" pdk-src-port="137" default-name="SBKS SD::ZDF CF " />
+        <input id="138" pdk-src-port="138" default-name="KIKA SD::KIKA SL1" />
+        <input id="139" pdk-src-port="139" default-name="KIKA HD::KIKA SL1" />
+        <input id="140" pdk-src-port="140" default-name="SBKS HD::3Sat  CF" />
+        <input id="141" pdk-src-port="141" default-name="SBKS HD::INFO CF" />
+        <input id="142" pdk-src-port="142" default-name="SBKS HD::KULT CF" />
+        <input id="143" pdk-src-port="143" default-name="SBKS SD::SHT CF" />
+        <input id="144" pdk-src-port="144" default-name="SBKS HD::SHT CF" />
+    </distribution-router>
+    <distribution-router
+        id="sdi-router-s"
+        cntCrosspoints="176"
+        level="2"
+    >
+        <input id="1" pdk-src-port="1" default-name="SL SD::ZDF SD" />
+        <input id="2" pdk-src-port="2" default-name="SL SD::3sat SD" />
+        <input id="3" pdk-src-port="3" default-name="SL SD::KiKA SD" />
+        <input id="4" pdk-src-port="4" default-name="SL SD::INFO SD" />
+        <input id="5" pdk-src-port="5" default-name="SL SD::NEO SD" />
+        <input id="6" pdk-src-port="6" default-name="SL SD::KULT SD" />
+        <input id="7" pdk-src-port="7" default-name="SL SD::NEKI SD" />
+        <input id="8" pdk-src-port="8" default-name="SL HD::ZDF HD" />
+        <input id="9" pdk-src-port="9" default-name="SL HD::3sat HD" />
+        <input id="10" pdk-src-port="10" default-name="SL HD::KiKA HD" />
+        <input id="11" pdk-src-port="11" default-name="SL HD::INFO HD" />
+        <input id="12" pdk-src-port="12" default-name="SL HD::NEO HD" />
+        <input id="13" pdk-src-port="13" default-name="SL HD::KULT HD" />
+        <input id="14" pdk-src-port="14" default-name="MESSEN::3Sat PVW" />
+        <input id="15" pdk-src-port="15" default-name="IRD::IRD5 SD " />
+        <input id="16" pdk-src-port="16" default-name="IRD::IRD6 SD " />
+        <input id="17" pdk-src-port="17" default-name="SBKS SD::ZDF " />
+        <input id="18" pdk-src-port="18" default-name="KKS SD::ZDF " />
+        <input id="19" pdk-src-port="19" default-name="KIKA SD::KIKA SL2" />
+        <input id="20" pdk-src-port="20" default-name="SBKS SD::INFO " />
+        <input id="21" pdk-src-port="21" default-name="SBKS SD::3Sat" />
+        <input id="22" pdk-src-port="22" default-name="SBKS SD::KULTUR" />
+        <input id="23" pdk-src-port="23" default-name="SBKS HD::ZDF " />
+        <input id="24" pdk-src-port="24" default-name="KKS HD::ZDF " />
+        <input id="25" pdk-src-port="25" default-name="KIKA HD::KIKA SL2" />
+        <input id="26" pdk-src-port="26" default-name="SBKS HD::INFO " />
+        <input id="27" pdk-src-port="27" default-name="SBKS HD::3Sat" />
+        <input id="28" pdk-src-port="28" default-name="SBKS HD::KULT" />
+        <input id="29" pdk-src-port="29" default-name="ALL HD::3SAT CF" />
+        <input id="30" pdk-src-port="30" default-name="MESSEN::DEMA S" />
+        <input id="31" pdk-src-port="31" default-name="MESSEN::DEMA T" />
+        <input id="32" pdk-src-port="32" default-name="STB::BOX1 HD " />
+        <input id="33" pdk-src-port="33" default-name="STB::BOX2 HD " />
+        <input id="34" pdk-src-port="34" default-name="STB::BOX3 HD " />
+        <input id="35" pdk-src-port="35" default-name="STB::BOX4 HD " />
+        <input id="36" pdk-src-port="36" default-name="STB::BOX5 HD " />
+        <input id="37" pdk-src-port="37" default-name="STB::BOX6 HD " />
+        <input id="38" pdk-src-port="38" default-name="STB::BOX7 HD " />
+        <input id="39" pdk-src-port="39" default-name="STB::BOX8 HD " />
+        <input id="40" pdk-src-port="40" default-name="STB::BOX9 HD " />
+        <input id="41" pdk-src-port="41" default-name="STB::BOX10 HD " />
+        <input id="42" pdk-src-port="42" default-name="UEZ ::UEZ 1 " />
+        <input id="43" pdk-src-port="43" default-name="UEZ ::UEZ 2" />
+        <input id="44" pdk-src-port="44" default-name="UEZ ::UEZ 3 " />
+        <input id="45" pdk-src-port="45" default-name="UEZ ::UEZ 4 " />
+        <input id="46" pdk-src-port="46" default-name="UEZ ::UEZ 5 " />
+        <input id="47" pdk-src-port="47" default-name="UPC::UPC 1" />
+        <input id="48" pdk-src-port="48" default-name="UPC::UPC 2" />
+        <input id="49" pdk-src-port="49" default-name="UPC::UPC 3" />
+        <input id="50" pdk-src-port="50" default-name="DNC::DNC 4" />
+        <input id="51" pdk-src-port="51" default-name="IRD::IRD1 NIT" />
+        <input id="52" pdk-src-port="52" default-name="IRD::IRD2 EIT" />
+        <input id="53" pdk-src-port="53" default-name="IRD::IRD3ARD1" />
+        <input id="54" pdk-src-port="54" default-name="IRD::IRD4ARD2" />
+        <input id="55" pdk-src-port="55" default-name="IRD::ZDF S" />
+        <input id="56" pdk-src-port="56" default-name="IRD::3SAT S" />
+        <input id="57" pdk-src-port="57" default-name="IRD::INFO S" />
+        <input id="58" pdk-src-port="58" default-name="IRD::KULT S" />
+        <input id="59" pdk-src-port="59" default-name="IRD::NEO S" />
+        <input id="60" pdk-src-port="60" default-name="IRD::KIKA S" />
+        <input id="61" pdk-src-port="61" default-name="IRD::ZDF HD " />
+        <input id="62" pdk-src-port="62" default-name="IRD::3SAT HD " />
+        <input id="63" pdk-src-port="63" default-name="IRD::INFO HD" />
+        <input id="64" pdk-src-port="64" default-name="IRD::KULT HD " />
+        <input id="65" pdk-src-port="65" default-name="IRD::NEO HD " />
+        <input id="66" pdk-src-port="66" default-name="IRD::KIKA HD " />
+        <input id="67" pdk-src-port="67" default-name="IRD::ZDF T" />
+        <input id="68" pdk-src-port="68" default-name="IRD::3SAT T" />
+        <input id="69" pdk-src-port="69" default-name="IRD::INFO T" />
+        <input id="70" pdk-src-port="70" default-name="IRD::NEO KIKA" />
+        <input id="71" pdk-src-port="71" default-name="IRD::DLF " />
+        <input id="72" pdk-src-port="72" default-name="IRD::DLR " />
+        <input id="73" pdk-src-port="73" default-name="IRD::Dok Deb" />
+        <input id="74" pdk-src-port="74" default-name="FREI SAW::FREI SD" />
+        <input id="75" pdk-src-port="75" default-name="TAKT::BLACK" />
+        <input id="76" pdk-src-port="76" default-name="TAKT::TEST" />
+        <input id="77" pdk-src-port="77" default-name="SBKS SD::SAWHT" />
+        <input id="78" pdk-src-port="78" default-name="SBKS HD::SAWHT" />
+        <input id="79" pdk-src-port="79" default-name="KKS SD::ZDFSAM" />
+        <input id="80" pdk-src-port="80" default-name="KKS HD::ZDFSAM" />
+        <input id="81" pdk-src-port="81" default-name="KKS SD::3Sat " />
+        <input id="82" pdk-src-port="82" default-name="KKS HD::3Sat " />
+        <input id="83" pdk-src-port="83" default-name="KKS SD::INFOSAM" />
+        <input id="84" pdk-src-port="84" default-name="KKS HD::INFOSAM" />
+        <input id="85" pdk-src-port="85" default-name="KKS SD::KULTSAM" />
+        <input id="86" pdk-src-port="86" default-name="KKS HD::KULTSAM" />
+        <input id="87" pdk-src-port="87" default-name="KKS SD::3Sat SAM" />
+        <input id="88" pdk-src-port="88" default-name="KKS HD::3Sat SAM" />
+        <input id="89" pdk-src-port="89" default-name="SBKS SD::SHT SAM " />
+        <input id="90" pdk-src-port="90" default-name="SBKS HD::SHT SAM " />
+        <input id="91" pdk-src-port="91" default-name="BME ::BME1 OUT" />
+        <input id="92" pdk-src-port="92" default-name="BME ::BME2 OUT" />
+        <input id="93" pdk-src-port="93" default-name="FREI SAW::FREI HD" />
+        <input id="94" pdk-src-port="94" default-name="TIELINE::SAW TIE1" />
+        <input id="95" pdk-src-port="95" default-name="TIELINE::SAW TIE2" />
+        <input id="96" pdk-src-port="96" default-name="TIELINE::SAW TIE3" />
+        <input id="97" pdk-src-port="97" default-name="TIELINE::SAW TIE4" />
+        <input id="98" pdk-src-port="98" default-name="TIELINE::SAW TIE5" />
+        <input id="99" pdk-src-port="99" default-name="TIELINE::SAW TIE6" />
+        <input id="100" pdk-src-port="100" default-name="ALL HD::3SAT SD" />
+        <input id="101" pdk-src-port="101" default-name="ALL HD::KULT SD" />
+        <input id="102" pdk-src-port="102" default-name="ALL HD::NEO SD" />
+        <input id="103" pdk-src-port="103" default-name="ALL HD::INFO SD" />
+        <input id="104" pdk-src-port="104" default-name="ALL HD::3SAT HSD" />
+        <input id="105" pdk-src-port="105" default-name="ALL HD::DIGI SD" />
+        <input id="106" pdk-src-port="106" default-name="HAV-PL::HAV-PL" />
+        <input id="107" pdk-src-port="107" default-name="TAFEL::ANIM2" />
+        <input id="108" pdk-src-port="108" default-name="TAFEL::IMAG STOR 2" />
+        <input id="109" pdk-src-port="109" default-name="TAFEL::IMAG STOR 1" />
+        <input id="110" pdk-src-port="110" default-name="ALL HD::NEO HD " />
+        <input id="111" pdk-src-port="111" default-name="ALL HD::KULT HD " />
+        <input id="112" pdk-src-port="112" default-name="ALL HD::INFO HD" />
+        <input id="113" pdk-src-port="113" default-name="ALL HD::3SAT HD" />
+        <input id="114" pdk-src-port="114" default-name="ALL HD::DIGI HD" />
+        <input id="115" pdk-src-port="115" default-name="ALL HD::3SAT HHD" />
+        <input id="116" pdk-src-port="116" default-name="ALL HD::NEO CF" />
+        <input id="117" pdk-src-port="117" default-name="ALL HD::KULT CF" />
+        <input id="118" pdk-src-port="118" default-name="ALL HD::INFO CF" />
+        <input id="119" pdk-src-port="119" default-name="SBKS SD::ZDFSAM" />
+        <input id="120" pdk-src-port="120" default-name="SBKS HD::ZDFSAM" />
+        <input id="121" pdk-src-port="121" default-name="KKS SD::INFO " />
+        <input id="122" pdk-src-port="122" default-name="KKS HD::INFO " />
+        <input id="123" pdk-src-port="123" default-name="SBKS SD::INFOSAM" />
+        <input id="124" pdk-src-port="124" default-name="SBKS HD::INFOSAM" />
+        <input id="125" pdk-src-port="125" default-name="SBKS SD::KULTSAM" />
+        <input id="126" pdk-src-port="126" default-name="SBKS HD::KULTSAM" />
+        <input id="127" pdk-src-port="127" default-name="SBKS SD::3Sat SAM" />
+        <input id="128" pdk-src-port="128" default-name="SBKS HD::3Sat SAM" />
+        <input id="129" pdk-src-port="129" default-name="KKS HD::ZDF CF" />
+        <input id="130" pdk-src-port="130" default-name="KKS SD::ZDF CF " />
+        <input id="131" pdk-src-port="131" default-name="KKS SD::KULT " />
+        <input id="132" pdk-src-port="132" default-name="KKS HD::KULT " />
+        <input id="133" pdk-src-port="133" default-name="KKS HD::3Sat CF" />
+        <input id="134" pdk-src-port="134" default-name="KKS HD::INFO CF" />
+        <input id="135" pdk-src-port="135" default-name="KKS HD::KULT CF" />
+        <input id="136" pdk-src-port="136" default-name="SBKS HD::ZDF CF" />
+        <input id="137" pdk-src-port="137" default-name="SBKS SD::ZDF CF " />
+        <input id="138" pdk-src-port="138" default-name="KIKA SD::KIKA SL1" />
+        <input id="139" pdk-src-port="139" default-name="KIKA HD::KIKA SL1" />
+        <input id="140" pdk-src-port="140" default-name="SBKS HD::3Sat  CF" />
+        <input id="141" pdk-src-port="141" default-name="SBKS HD::INFO CF" />
+        <input id="142" pdk-src-port="142" default-name="SBKS HD::KULT CF" />
+        <input id="143" pdk-src-port="143" default-name="SBKS SD::SHT CF" />
+        <input id="144" pdk-src-port="144" default-name="SBKS HD::SHT CF" />
+        <input id="145" pdk-src-port="145" default-name="STB::BOX4 HD " />
+        <input id="146" pdk-src-port="146" default-name="STB::BOX5 HD " />
+        <input id="147" pdk-src-port="147" default-name="STB::BOX6 HD " />
+        <input id="148" pdk-src-port="148" default-name="STB::BOX7 HD " />
+        <input id="149" pdk-src-port="149" default-name="STB::BOX8 HD " />
+        <input id="150" pdk-src-port="150" default-name="STB::BOX9 HD " />
+        <input id="151" pdk-src-port="151" default-name="STB::BOX10 HD " />
+        <input id="152" pdk-src-port="152" default-name="UEZ ::UEZ 1 " />
+        <input id="153" pdk-src-port="153" default-name="UEZ ::UEZ 2" />
+        <input id="154" pdk-src-port="154" default-name="UEZ ::UEZ 3 " />
+        <input id="155" pdk-src-port="155" default-name="UEZ ::UEZ 4 " />
+        <input id="156" pdk-src-port="156" default-name="UEZ ::UEZ 5 " />
+        <input id="157" pdk-src-port="157" default-name="UPC::UPC 1" />
+        <input id="158" pdk-src-port="158" default-name="SBKS SD::SAWHT" />
+        <input id="159" pdk-src-port="159" default-name="SBKS HD::SAWHT" />
+        <input id="160" pdk-src-port="160" default-name="KKS SD::ZDFSAM" />
+        <input id="161" pdk-src-port="161" default-name="UPC::UPC 2" />
+        <input id="162" pdk-src-port="162" default-name="UPC::UPC 3" />
+        <input id="163" pdk-src-port="163" default-name="DNC::DNC 4" />
+        <input id="164" pdk-src-port="164" default-name="IRD::IRD1 NIT" />
+        <input id="165" pdk-src-port="165" default-name="IRD::IRD2 EIT" />
+        <input id="166" pdk-src-port="166" default-name="IRD::IRD3ARD1" />
+        <input id="167" pdk-src-port="167" default-name="IRD::IRD4ARD2" />
+        <input id="168" pdk-src-port="168" default-name="IRD::ZDF S" />
+        <input id="169" pdk-src-port="169" default-name="IRD::3SAT S" />
+        <input id="170" pdk-src-port="170" default-name="IRD::INFO S" />
+        <input id="171" pdk-src-port="171" default-name="IRD::KULT S" />
+        <input id="172" pdk-src-port="172" default-name="IRD::NEO KIKA" />
+        <input id="173" pdk-src-port="173" default-name="IRD::DLF " />
+        <input id="174" pdk-src-port="174" default-name="IRD::DLR " />
+        <input id="175" pdk-src-port="175" default-name="IRD::Dok Deb" />
+        <input id="176" pdk-src-port="176" default-name="FREI SAW::FREI SD" />
+    </distribution-router>
+    <distribution-router
+        id="asi-router"
+        cntCrosspoints="96"
+        level="1"
+    >
+        <input id="1" pdk-src-port="1" default-name="SIGENERA::SIMS 1 (DVB-S)" />
+        <input id="2" pdk-src-port="2" default-name="SIGENERA::SIMS 2 (DVB-S-B)" />
+        <input id="3" pdk-src-port="3" default-name="SIGENERA::SIMS 3(DVB-T)" />
+        <input id="4" pdk-src-port="4" default-name="SIGENERA::SIMS 4(DVB-T-B)" />
+        <input id="5" pdk-src-port="5" default-name="SIGENERA::SIMS 5(DVB-C)" />
+        <input id="6" pdk-src-port="6" default-name="SIGENERA::SIMS 6(DVB-C-B)" />
+        <input id="7" pdk-src-port="7" default-name="SIGENERA::SIMS 7(DVB-S2-1)" />
+        <input id="8" pdk-src-port="8" default-name="SIGENERA::SIMS 8(DVB-S2-1B)" />
+        <input id="9" pdk-src-port="9" default-name="SIGENERA::SIMS 9(DVB-S2-2)" />
+        <input id="10" pdk-src-port="10" default-name="SIGENERA::SIMS 10(DVB-S2-2B)" />
+        <input id="11" pdk-src-port="11" default-name="SIGENERA::SIMS 11 (DVB-C2-1)" />
+        <input id="12" pdk-src-port="12" default-name="SIGENERA::SIMS 12 (DVB-C2-1B)" />
+        <input id="13" pdk-src-port="13" default-name="SIGENERA::SIMS 13 (DVB-C2-2)" />
+        <input id="14" pdk-src-port="14" default-name="SIGENERA::SIMS 14 (DVB-C2-2B)" />
+        <input id="15" pdk-src-port="15" default-name="SIGENERA::HbbTV 1" />
+        <input id="16" pdk-src-port="16" default-name="SIGENERA::HbbTV 2" />
+        <input id="17" pdk-src-port="17" default-name="RADIO::Radios" />
+        <input id="18" pdk-src-port="18" default-name="RADIO::Radios Backup" />
+        <input id="19" pdk-src-port="19" default-name="IRD::IRD1 (NIT)" />
+        <input id="20" pdk-src-port="20" default-name="IRD::IRD2 (EIT)" />
+        <input id="21" pdk-src-port="21" default-name="IRD::IRD3 (ARD)" />
+        <input id="22" pdk-src-port="22" default-name="IRD::IRD4 (ARD)" />
+        <input id="23" pdk-src-port="23" default-name="IRD::Mess-IRD5 (RX1290 aus HD-Showcase)" />
+        <input id="24" pdk-src-port="24" default-name="IRD::Mess-IRD6 (RX1290 aus HD-Showcase)" />
+        <input id="25" pdk-src-port="25" default-name="ENC S::ENC1" />
+        <input id="26" pdk-src-port="26" default-name="ENC S::ENC2" />
+        <input id="27" pdk-src-port="27" default-name="ENC S::ENC3" />
+        <input id="28" pdk-src-port="28" default-name="ENC S::ENC4" />
+        <input id="29" pdk-src-port="29" default-name="ENC S::ENC5" />
+        <input id="30" pdk-src-port="30" default-name="ENC S::ENC6" />
+        <input id="31" pdk-src-port="31" default-name="ENC S::ENC7" />
+        <input id="32" pdk-src-port="32" default-name="ENC S::ENC8" />
+        <input id="33" pdk-src-port="33" default-name="ENC T::ENC11" />
+        <input id="34" pdk-src-port="34" default-name="ENC T::ENC12" />
+        <input id="35" pdk-src-port="35" default-name="ENC T::ENC13" />
+        <input id="36" pdk-src-port="36" default-name="ENC T::ENC14" />
+        <input id="37" pdk-src-port="37" default-name="ENC T::VH ENC 15" />
+        <input id="38" pdk-src-port="38" default-name="ENC T::ENC16" />
+        <input id="39" pdk-src-port="39" default-name="ENC T::ENC17" />
+        <input id="40" pdk-src-port="40" default-name="ENC HD::ENC21" />
+        <input id="41" pdk-src-port="41" default-name="ENC HD::ENC22" />
+        <input id="42" pdk-src-port="42" default-name="ENC HD::ENC23" />
+        <input id="43" pdk-src-port="43" default-name="ENC HD::ENC24" />
+        <input id="44" pdk-src-port="44" default-name="ENC HD::ENC25" />
+        <input id="45" pdk-src-port="45" default-name="ENC HD::ENC26" />
+        <input id="46" pdk-src-port="46" default-name="ENC HD::ENC27 " />
+        <input id="47" pdk-src-port="47" default-name="::ENC28 TEST SD" />
+        <input id="48" pdk-src-port="48" default-name="::ENC 29 TEST HD" />
+        <input id="49" pdk-src-port="49" default-name="MUX SD::MUX 1 S Main" />
+        <input id="50" pdk-src-port="50" default-name="MUX SD::MUX 2 S Backup" />
+        <input id="51" pdk-src-port="51" default-name="TVIP::MUX 1/2 S T-VIP" />
+        <input id="52" pdk-src-port="52" default-name="TVIP::MUX 1/2 S T-VIP Backup" />
+        <input id="53" pdk-src-port="53" default-name="MUX SD::MUX 1 T Main" />
+        <input id="54" pdk-src-port="54" default-name="MUX SD::MUX 2 T Backup" />
+        <input id="55" pdk-src-port="55" default-name="TVIP::MUX 1/2 T T-VIP" />
+        <input id="56" pdk-src-port="56" default-name="TVIP::MUX 1/2 T T-VIP Backup" />
+        <input id="57" pdk-src-port="57" default-name="MUX HD::MUX 3 HD1 Main" />
+        <input id="58" pdk-src-port="58" default-name="MUX HD::MUX 4 HD1 Backup" />
+        <input id="59" pdk-src-port="59" default-name="TVIP::MUX 3/4 HD1 T-VIP" />
+        <input id="60" pdk-src-port="60" default-name="TVIP::MUX 3/4  HD1 T-VIP Backup" />
+        <input id="61" pdk-src-port="61" default-name="MUX HD::MUX 3 HD2 Main" />
+        <input id="62" pdk-src-port="62" default-name="MUX HD::MUX 4 HD2 Backup" />
+        <input id="63" pdk-src-port="63" default-name="TVIP::MUX 3/4 HD2 T-VIP" />
+        <input id="64" pdk-src-port="64" default-name="TVIP::MUX 3/4 HD2 T-VIP Backup" />
+        <input id="65" pdk-src-port="65" default-name="TVIP::MUX 1/2  C T-VIP" />
+        <input id="66" pdk-src-port="66" default-name="TVIP::MUX 1/2 C T-VIP Backup" />
+        <input id="67" pdk-src-port="67" default-name="TESTMUX::Testmux ASI OUT1" />
+        <input id="68" pdk-src-port="68" default-name="TESTMUX::Testmux ASI OUT2" />
+        <input id="69" pdk-src-port="69" default-name="TESTMUX::Testmux ASI OUT3" />
+        <input id="70" pdk-src-port="70" default-name="TESTMUX::Testmux ASI OUT4" />
+        <input id="71" pdk-src-port="71" default-name="SIGENERA::FAB1 (DVB-S)" />
+        <input id="72" pdk-src-port="72" default-name="SIGENERA::FAB2 (DVB-HD1)" />
+        <input id="73" pdk-src-port="73" default-name="SIGENERA::FAB3 (DVB-HD2)" />
+        <input id="74" pdk-src-port="74" default-name="SIGENERA::FAB4 (Backup)" />
+        <input id="75" pdk-src-port="75" default-name="SIGENERA::SIMS-Test" />
+        <input id="76" pdk-src-port="76" default-name="SIGENERA::SIMS-Streaming" />
+        <input id="77" pdk-src-port="77" default-name="DCM::MUX5" />
+        <input id="78" pdk-src-port="78" default-name="DCM::MUX6" />
+        <input id="79" pdk-src-port="79" default-name="RES::RES" />
+        <input id="80" pdk-src-port="80" default-name="VH::VH Havarie Player Shelter" />
+        <input id="81" pdk-src-port="81" default-name="VH::VH SZ2 Havarie MUX" />
+        <input id="82" pdk-src-port="82" default-name="MUX::MUX8 ( TestMUX )" />
+        <input id="83" pdk-src-port="83" default-name="nicht vergeben" />
+        <input id="84" pdk-src-port="84" default-name="nicht vergeben" />
+        <input id="85" pdk-src-port="85" default-name="nicht vergeben" />
+        <input id="86" pdk-src-port="86" default-name="nicht vergeben" />
+        <input id="87" pdk-src-port="87" default-name="nicht vergeben" />
+        <input id="88" pdk-src-port="88" default-name="nicht vergeben" />
+        <input id="89" pdk-src-port="89" default-name="nicht vergeben" />
+        <input id="90" pdk-src-port="90" default-name="nicht vergeben" />
+        <input id="91" pdk-src-port="91" default-name="nicht vergeben" />
+        <input id="92" pdk-src-port="92" default-name="nicht vergeben" />
+        <input id="93" pdk-src-port="93" default-name="nicht vergeben" />
+        <input id="94" pdk-src-port="94" default-name="nicht vergeben" />
+        <input id="95" pdk-src-port="95" default-name="nicht vergeben" />
+        <input id="96" pdk-src-port="96" default-name="nicht vergeben" />
+    </distribution-router>
+</labeling_config>
