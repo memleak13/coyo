@@ -102,7 +102,6 @@
 	<xsl:template name="masterPresets" >
 		<xsl:param name="cmdID" />
 		<xsl:param name="preset"/>
-		
 		<xsl:for-each select="$preset">
 			<xsl:choose>
 				<xsl:when test="local-name(.)='writetofile'">
@@ -120,9 +119,7 @@
 						</content>
 					</http-request>	
 				</xsl:when>				
-								
-
-				
+											
 				<xsl:otherwise>
 					<debug>cluster.role[<xsl:value-of select="$context/@cluster.role"/>], could not execute client command [<xsl:value-of select="$cmdID"/>]</debug>
 				</xsl:otherwise>

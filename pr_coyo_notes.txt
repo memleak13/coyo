@@ -1,0 +1,173 @@
+pr_coyo_notes
+=============
+
+Issues & next steps:
+--------------------
+1. The script connects to the hec over ssh. It is possible to run commands 
+like "ls" of "ifconfig", however it does not run the vig-client for some
+reason?
+
+
+Questions:
+----------
+Why is the exact same init.xml used twice, once in /opt/coyonet/server, once in
+/opt/coyonet/client ?
+
+Where is <xsl:template name="masterPresets" > defined, which xml document?
+
+
+To start server: 
+----------------
+When loading new config into server, the server needs to be restarted.
+Right now I do this by killing and restarting the process vamp.jar
+
+/usr/bin/java -Xmx2048m -jar vamp.jar
+
+Other deamons that need to be running:
+
+/usr/bin/java -Ddaemon.pidfile=/var/run/coyonet/sqlgateway.pid -jar sqlgateway.jar
+/usr/bin/java -Ddaemon.pidfile=/var/run/coyonet/webconfig.pid -jar webconfig.jar
+
+
+Important Files:
+----------------
+
+All these files together do two things:
+1. By rightclicking the element one can send a server command.
+2. It polls a device using snmp and a timer.
+
+---
+/opt/coyonet/gui/init.xml
+/opt/coyonet/gui/conf.xm
+/opt/coyonet/gui/maps/teletrend_test.xml
+/opt/coyonet/server/init.xml
+/opt/coyonet/server/modules/teletrend.demo.0201/main.xsl
+/opt/coyonet/server/modules/teletrend.client-presets.0101/main.xsl
+/opt/coyonet/server/modules/teletrend.client-presets.0101/commands_demo.xml
+/opt/coyonet/server/modules/teletrend.client-presets.0101/commands_demo.xml
+/opt/coyonet/scripts/connect_hec_6db.py
+---
+
+/opt/coyonet/client/start_client.sh : starts the client
+
+/opt/coyonet/gui/init.xml :
+starts the engines. The exact same file is found in /opt/coyonet/server and both
+of them are needed. In our case both:
+
+script="modules/teletrend.demo.0201/main.xsl
+script="modules/teletrend.client-presets.0101/main.xsl
+
+are needed so the server can run commands. Need to investigate this procedure
+in more detail
+
+/opt/coyonet/gui/conf.xml
+Here the main menu, event colors and the tree menu are configured.
+Also the map which needs to be displayed is configured. 
+
+/opt/coyonet/gui/maps/teletrend_test.xml
+contains the map elements incl. their menues.
+
+/opt/coyonet/server/init.xml
+starts engines, see above.
+
+/opt/coyonet/server/modules/teletrend.demo.0201/main.xsl
+/opt/coyonet/server/modules/teletrend.client-presets.0101
+Both of these files are needed so the server can run commands!
+It seems demo is used mainly for snmp polling, preset to run commands
+
+/opt/coyonet/server/modules/teletrend.client-presets.0101/commands_demo.xml
+contains the commands to run a script and write to a file
+
+/opt/coyonet/scripts/connect_hec_6db.py
+contains the script which connects over ssh to the hec controller, runs the
+vig-client to set the vig to -6db
+
+
+Important variables:
+--------------------
+
+<subscribe>
+	<mib name="sys.client.msg"/>
+	<mib name="sys.client.conf"/>
+
+Both these variables store where the messages are sent to and also where the 
+conf file can be found (I think). I guess this is why the demo main.xsl is
+needed to run server commands as these variales are not set in the preset 
+main.xsl. 
+
+Todo: copy this section into 
+/opt/coyonet/server/modules/teletrend.client-presets.0101/main.xsl
+and disable demo engine. See if the program can run server commands.
+
+
+Prodedure in which order I think files are run:
+-----------------------------------------------
+
+server/init.xml ->
+modules/teletrend.demo.0201/main.xsl ->
+modules/teletrend.client-presets.0101/main.xsl ->
+commands_demo.xml
+
+client/init.xml ->
+client/teletrend_test.xml -> right click -> send command ->
+modules/teletrend.client-presets.0101/main.xsl
+	<xsl:template name="masterPresets" > 
+		<xsl:when test="local-name(.)='startscript'"> -> 
+commands_demo.xml
+	<startscript>/opt/coyonet/scripts/connect_hec_6db.py</startscript> ->
+connect_hec_6db.py
+
+
+vig
+---
+
+Command needed to set the vig to -6 db:
+
+[vig@vig ~]$ vig-client --interface udp --mac_dst FF:FF:FF --ncp read mac_addr --ack 1 --verbose
+send size 19 data := 00 00 00 00 00 00 00 00 FF FF FF AA 88 04 01 00 00 41 99 
+recv size 23 data := 00 00 00 00 00 00 00 00 FF FF FF AA 88 08 01 00 00 41 00 0F F9 1C 7F 
+
+TX: 0F:F9:1C
+RX: 0F:FD:A5
+
+vig-client --interface udp --mac_dst 0F:F9:1C --ncp write ing1 -6db --ack 1 -–verbose
+
+vig-client --interface udp --mac_src 0F:F9:1C --mac_dst 0F:FD:A5 --ncp write ing1 -6db --ack 1 -–verbose
+
+vig-client --interface udp --ip 192.168.0.1 --mac_src 0F:F7:F2 --mac_dst 00:03:03 --ncp write ing1 0db --ack 1 --verbose
+
+
+ssh script
+----------
+
+#!/usr/bin/python
+
+#Strange this does not work with the vig client ... 
+#then command works if i connect to hec over ssh and run the same command
+#using ifconfig it works too...
+
+#strange ... 
+
+import paramiko
+
+def run():
+	username = 'vig'
+	password = 'vig'
+	port = '22'
+	ip = '192.168.1.1'
+	#command = 'vig-client --interface udp --mac_src 0F:F9:1C --mac_dst 0F:FD:A5 --ncp write ing1 -6db --ack 1 --verbose\n'
+	command = 'ifconfig'
+	#fh = open('/opt/coyonet/server/dump/connect_hec.log', 'a') 
+	fh = open('./log', 'a')
+	fh.write('test\n')
+	ssh = paramiko.SSHClient()
+	ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+	ssh.connect(ip, username=username, password=password)
+	stdin, stdout, stderr = ssh.exec_command('command')
+	for line in stdout:
+		fh.write(line)
+	ssh.close()
+	fh.close()
+
+if __name__ == "__main__":
+    run()

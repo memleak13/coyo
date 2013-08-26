@@ -47,6 +47,7 @@
         	<mib name="sys.client.msg"/>
         	<mib name="sys.client.conf"/>
         	
+          <!--loads the conf/scriptstate variable in init.xml -->
         	<mib name="{$conf/@scriptstate}" />
         	
         </subscribe>

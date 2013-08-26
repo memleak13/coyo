@@ -16,7 +16,7 @@
 		input.state="systemmgr.state"
 		input.ipaddress="device_1.ipaddress"
 	>
-		
+		<!--
 		<access deny="operator" />
 		
 		
@@ -29,16 +29,15 @@
 			action="ping"
 			arg.cmd="{$ipaddress}" />
 		<menu-separator />
+	-->
 		<menu-item
 			label="Server Command"
 			action="de.euromedia_service.coyonet.sendcmd"
 			arg.id="command_demo_1"
-			arg.question="Do you really want to execute demo 1 ?" >
-			
-				<access deny="operator" />
-				
-			</menu-item>
-			
+			arg.question="Do you really want to execute demo 1 ?" >				
+		</menu-item>
+
+	<!--		
 		<menu-separator />
 		<menu-item
 			label="Client Command"
@@ -69,5 +68,6 @@
 			label="All Alarms"
 			action="de.euromedia_service.coyonet.openmsgviewer"
 			arg.msgEngine="device_1" />
+	-->
 	</element>
 </map>

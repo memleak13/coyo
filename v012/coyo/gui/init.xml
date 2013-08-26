@@ -17,9 +17,11 @@
 <!-- 		</conf> -->
 <!-- 	</engine-start> -->
 
+
 	<engine-start id="systemmgr" script="modules/teletrend.demo.0201/main.xsl" delay="0" >
 		<conf />
 	</engine-start>
+
 
 <!-- 	<engine-start -->
 <!-- 		id="systemmgr_alarm" -->
@@ -37,6 +39,7 @@
 	<engine-start id="client-preset-handler" script="modules/teletrend.client-presets.0101/main.xsl" >
 		<conf />
 	</engine-start>
+
 
 </init>
 

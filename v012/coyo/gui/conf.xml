@@ -32,6 +32,7 @@
     <menu special="mainmenu">
 		<menu label="File" >
 			<item sys="other" label="Exit" action="exit" />
+    <!--
 			<item label="google.com" action="de.euromedia_service.coyonet.browse" arg.cmd="http://google.de" >
 				<access allow="english" />
 			</item>
@@ -50,16 +51,19 @@
                                               arg.msgPending="1" />
 		</menu>
         <menu label="Help">  
-            <item sys="other" label="Info" action="about" />  
+            <item sys="other" label="Info" action="about" />
+    -->  
         </menu>
 	</menu>
 	
-    <!-- tray menu -->
+    <!-- tray menu 
     <menu special="traymenu">
 		<item label="Show" action="show" />
 		<item label="Exit" action="exit" />
 	</menu>
+    -->
 	
+    <!-- treemenu -->
 	<menu special="treemenu">
         <item label="Expand all" action="expand" />
         <item label="Collapse all" action="collapse" />
@@ -80,8 +84,10 @@
 	
 	<!-- Maps -->
 	<map name="teletrend_test" >
+    <!--
 		<access allow="admin" />
 		<access deny="user" />
+    -->
 	</map>
 
     

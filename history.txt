@@ -1,0 +1,444 @@
+[root@localhost server]# history
+    1  ifconfig
+    2  cd Downloads/
+    3  ls
+    4  chmod +x *.sh
+    5  ./yuminstall.sh 
+    6  cd coyoNET-Installation.tar 
+    7  cd coyoNET-Installation
+    8  ls
+    9  ./install.sh 
+   10  ls
+   11  cd ..
+   12  ls
+   13  rm -Rf *
+   14  ls
+   15  clear
+   16  reboot
+   17  service cnserver start
+   18  cd /opt/coyonet/client/
+   19  ls
+   20  ./start_client.sh 
+   21  mcedit start_client.
+   22  mcedit start_client.sh 
+   23  service cnsqlgw restart
+   24  ls#
+   25  ls
+   26  vamplog
+   27  sqllog
+   28  cd /etc/
+   29  ls yum*
+   30  rm -Rf yum.repos.d/
+   31  mv yum.repos.bak/ yum.repos.d
+   32  ls yum*
+   33  clear
+   34  yum clean all
+   35  yum upgrade
+   36  yum clean all
+   37  cd /opt/coyonet/server/webconfig/scripts/
+   38  ls
+   39  cd /opt/coyonet/
+   40  ls
+   41  mkdir backup
+   42  ls
+   43  cd backup
+   44  ls
+   45  yum upgrade
+   46  yum clean all
+   47  yum upgrade
+   48  yum clean all
+   49  yum upgrade
+   50  yum clean all
+   51  yum upgrade
+   52  yum clean all
+   53  yum upgrade
+   54  yum clean all
+   55  yum list kernel*
+   56  yum upgrade
+   57  yum list kernel*
+   58  yum remove kernel.2.6.32-358.el6.*
+   59  yum remove kernel.2.6.32-358.*
+   60  yum remove kernel.*
+   61  yum remove kernel-devel.*
+   62  yum remove kernel-devel-2.6.32-358.11.1.*
+   63  yum upgrade
+   64  yum clean all
+   65  yum upgrade
+   66  yum clean all
+   67  yum upgrade
+   68  yum clean all
+   69  ls
+   70  cd /
+   71  ls
+   72  cd /opt
+   73  ls
+   74  cd coyonet/
+   75  ls
+   76  cd server
+   77  ls
+   78  more vamp.properties 
+   79   ls
+   80  mor conf.local/
+   81  ls
+   82  more conf.local/
+   83  cd conf.local
+   84  ls
+   85  cd ..
+   86  cd conf
+   87  ls
+   88  more servers.xml 
+   89  exit
+   90  ls
+   91  exit
+   92  cd /
+   93  ls
+   94  cd /etc
+   95  ls
+   96  ssh localhost
+   97  exit
+   98  ls
+   99  cd /
+  100  ls
+  101  cd var
+  102  ls
+  103  cd opt
+  104  ls
+  105  cd ..
+  106  ls
+  107  cd ..
+  108  ls
+  109  cd opt
+  110  ls
+  111  cd coyonet/
+  112  ls
+  113  cd client/
+  114  ls
+  115  more startlog.txt 
+  116  exit
+  117  ifconfig
+  118  ls
+  119  cd /
+  120  ls
+  121  cd /opt
+  122  ls
+  123  cd coyonet/
+  124  ls
+  125  cd server/
+  126  ls
+  127  ls -al
+  128  poweroff
+  129  ls
+  130  cd /opt/
+  131  ls
+  132  cd coyonet/
+  133  ls
+  134  cd server/
+  135  ls
+  136  cd dump/
+  137  ls
+  138  mkdir orig
+  139  cp -r * ./orig
+  140  ls
+  141  rm demo.txt 
+  142  rm systemmgr.txt 
+  143  ls
+  144  ls orig
+  145  ls
+  146  ls orig
+  147  ls
+  148  touch dump.txt
+  149  ls
+  150  ls -al orig
+  151  touch demo.txt
+  152  chmod 777 demo.txt 
+  153  ls
+  154  more dump.txt 
+  155  ls
+  156  cd demo.txt 
+  157  more dump.txt 
+  158  ls
+  159  more dump.txt 
+  160  ls
+  161  more demo.txt 
+  162  ls demo.txt 
+  163  more demo.txt 
+  164  rm demo.txt 
+  165  rm dump.txt 
+  166  ls
+  167  rm dump.txt 
+  168  ls
+  169  touch demo.txt
+  170  cd /opt
+  171  ls
+  172  cd coyonet/
+  173  ls
+  174  cd server/
+  175  ls
+  176  cd dump/
+  177  ls
+  178  more demo.txt 
+  179  ls
+  180  mroe systemmgr.txt 
+  181  ls
+  182  more demo.txt 
+  183  rm demo.txt 
+  184  ls
+  185  more demo.txt 
+  186  ls
+  187  pwd
+  188  cd ..
+  189  ls
+  190  exit
+  191  cd /opt
+  192  ls
+  193  cd /opt
+  194  ls
+  195  cd coyonet
+  196  ls
+  197  cd server
+  198  ls
+  199  cd dump/
+  200  ls
+  201  more demo.txt 
+  202  cd /opt
+  203  ls
+  204  cd coyonet/
+  205  ls
+  206  cd server
+  207  ls
+  208  cd dump
+  209  ls
+  210  more demo.txt 
+  211  ls
+  212  more demo.txt 
+  213  rm demo.txt 
+  214  ls
+  215  more demo.txt 
+  216  ifconfig
+  217  pwd
+  218  ls
+  219  more demo.txt 
+  220  rm demo.txt 
+  221  more demo.txt 
+  222  rm demo.txt 
+  223  more demo.txt 
+  224  rm demo.txt 
+  225  ls
+  226  cd ..
+  227  ls
+  228  cd log
+  229  ls
+  230  more 20130820.log
+  231  tail -f 20130820.log
+  232  tail -f 20130820.log | grep Engine
+  233  more 20130820.log | grep Engine
+  234  python
+  235  ls
+  236  cd ..
+  237  ls
+  238  cd ..
+  239  ls
+  240  cd scripts
+  241  ls
+  242  vim run_script.py
+  243  ls
+  244  cd ..
+  245  ls
+  246  cd server/
+  247  ls
+  248  cd modules/
+  249  ls
+  250  cd ..
+  251  ls
+  252  cd scripts
+  253  pwd
+  254  cd ..
+  255  ls
+  256  cd server/
+  257  ls
+  258  cd dump
+  259  pwd
+  260  ls
+  261  cd ..
+  262  ls
+  263  cd ..
+  264  ls
+  265  cd scripts/
+  266  ls
+  267  ls -al
+  268  chmod +x run_system_command.py 
+  269  ls
+  270  ls -al
+  271  ls
+  272  more run_system_command.py 
+  273  ./run_system_command.py 
+  274  more /opt/coyonet/server/dump/run_system_command.log
+  275  ./run_system_command.py 
+  276  more /opt/coyonet/server/dump/run_system_command.log
+  277  ./run_system_command.py 
+  278  more /opt/coyonet/server/dump/run_system_command.log
+  279  ./run_system_command.py 
+  280  more /opt/coyonet/server/dump/run_system_command.log
+  281  rm /opt/coyonet/server/dump/run_system_command.log
+  282  ./run_system_command.py 
+  283  more /opt/coyonet/server/dump/run_system_command.log
+  284  rm /opt/coyonet/server/dump/run_system_command.log
+  285  ls
+  286  pwd
+  287  ls
+  288  cd ..
+  289  ls
+  290  cd server/
+  291  ls
+  292  cd modules/
+  293  ls
+  294  cd teletrend.client-presets.0101/
+  295  ls
+  296  more commands
+  297  more commands_demo.xml 
+  298  more /opt/coyonet/server/dump/run_system_command.log
+  299  /opt/coyonet/scripts/run_system_command.py
+  300  more /opt/coyonet/server/dump/run_system_command.log
+  301  rm /opt/coyonet/server/dump/run_system_command.log
+  302  more /opt/coyonet/server/dump/run_system_command.log
+  303  ls
+  304  vim main.xsl 
+  305  cd ..
+  306  ls
+  307  cd ..
+  308  ls
+  309  cd dump
+  310  ls
+  311  more demo.txt 
+  312   rm demo.txt 
+  313  rm demo.txt 
+  314  ls
+  315  more demo.txt 
+  316  cd ..
+  317  ls
+  318  cd moduls
+  319  cd modules/
+  320  ls
+  321  cd teletrend.client-presets.0101/
+  322  ls
+  323  more main.xsl 
+  324     ls
+  325  more /opt/coyonet/server/dump/demo.txt 
+  326  rm /opt/coyonet/server/dump/demo.txt 
+  327  more /opt/coyonet/server/dump/demo.txt 
+  328  ls
+  329  cd ..
+  330  ls
+  331  cd ..
+  332  ls
+  333  more int
+  334  more init.xml 
+  335  ls
+  336  reboot
+  337  ls
+  338  cd /opt/coyonet/server/log/
+  339  ls
+  340  tail -f 20130820.log
+  341  ls
+  342  cd /opt/coyonet/
+  343  ls
+  344  cd server/
+  345  ls
+  346  cd log
+  347  tail -f 20130820.log
+  348  reboot
+  349  ls
+  350  cd /opt7
+  351  cd /opt
+  352  ls
+  353  cd coyonet/
+  354  ls
+  355  cd server
+  356  ls
+  357  cd dump/
+  358  ls
+  359  rm demo.txt 
+  360  ls
+  361  ls /etc/init.d/
+  362  top
+  363  ls
+  364  cd ..
+  365  cd dum
+  366  cd dump/
+  367  ls
+  368  more demo.txt 
+  369    
+  370  rm demo.txt 
+  371  reboot
+  372  ls
+  373  cd /opt/
+  374  ls
+  375  cd coyonet/
+  376  ls
+  377  cd server/
+  378  ls
+  379  cd log
+  380  ls
+  381  tail -f 20130820.log
+  382  date
+  383  tail -f 20130820.log
+  384  cd /opt
+  385  ls
+  386  cd coyonet/
+  387  ls
+  388  cd server/
+  389  ls
+  390  cd dump/
+  391  ls
+  392  more run_system_command.log 
+  393  rm run_system_command.log 
+  394  more demo.txt 
+  395  rm demo.txt 
+  396  ls
+  397  more run_system_command.log 
+  398  ls
+  399  cd ..
+  400  ls
+  401  vim vamp.properties 
+  402  find / -name vamp
+  403  find / -name *vamp*
+  404  find / -name vamp
+  405  ps -ax
+  406  ps -ax | grep vamp
+  407  ls /etc/init.d
+  408  vamp
+  409  ps -ax
+  410  ps -ax | i java
+  411  ps -ax | grep java
+  412  ls
+  413  more exception.log 
+  414  ps -ax | grep java
+  415  kill 2009
+  416  ps -ax | grep java
+  417  /usr/bin/java -Xmx2048m -jar vamp.jar
+  418   cd log
+  419  ls
+  420  cd ..
+  421  ls
+  422  cd dump/
+  423  ls
+  424  rm demo.txt 
+  425  rm run_system_command.log 
+  426  ls
+  427  more run_system_command.log 
+  428  rm run_system_command.log demo.txt 
+  429  ls
+  430  rm -f run_system_command.log demo.txt 
+  431  ls
+  432  more run_system_command.log 
+  433  rm -f run_system_command.log demo.txt 
+  434  ls
+  435  more run_system_command.log 
+  436  ls
+  437  rm -f run_system_command.log demo.txt 
+  438  ls
+  439  cd ..
+  440  ls
+  441  vim vamp.properties 
+  442  history
+[root@localhost server]#    
